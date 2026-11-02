@@ -1,0 +1,17 @@
+{
+  "name": "stefancordery",
+  "owner": {
+    "name": "Stefan Cordery",
+    "url": "https://www.linkedin.com/in/stefancordery/"
+  },
+  "description": "Stefan Cordery's skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "stefancordery-skills",
+      "source": "./",
+      "description": "Skills for Claude, each built so you can check its work. First: find-events, a shortlist of events worth attending, every one checked against the organiser's own page.",
+      "category": "productivity",
+      "keywords": ["skills", "events", "conferences", "meetups", "research"]
+    }
+  ]
+}

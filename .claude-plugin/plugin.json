@@ -1,0 +1,13 @@
+{
+  "name": "stefancordery-skills",
+  "version": "0.1.0",
+  "description": "Stefan Cordery's skills for Claude, each built so you can check its work. First: find-events, a shortlist of events worth attending, every one checked against the organiser's own page.",
+  "author": {
+    "name": "Stefan Cordery",
+    "url": "https://www.linkedin.com/in/stefancordery/"
+  },
+  "homepage": "https://github.com/scordsy/skills",
+  "repository": "https://github.com/scordsy/skills",
+  "license": "MIT",
+  "keywords": ["skills", "events", "conferences", "meetups", "research"]
+}

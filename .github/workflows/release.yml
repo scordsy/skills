@@ -1,0 +1,37 @@
+name: Release
+
+# Pushing a tag such as v0.1.0 publishes a GitHub release with each skill zipped for Claude.ai.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.14"
+      - name: The tag must match the plugin version
+        run: |
+          version="v$(python3 -c 'import json; print(json.load(open(".claude-plugin/plugin.json"))["version"])')"
+          if [ "$GITHUB_REF_NAME" != "$version" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match plugin.json version $version. Installed copies only update when the version changes."
+            exit 1
+          fi
+      - run: python3 scripts/check_repo.py
+      - run: python3 -m unittest discover -s tests
+      - name: Zip every skill
+        run: |
+          for skill in skills/*/; do
+            python3 scripts/package_skill.py "$(basename "$skill")"
+          done
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/*.zip --title "$GITHUB_REF_NAME" --generate-notes

@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-11-02",
+  "context": {
+    "category": "vendor",
+    "window": "1 December 2026 to 31 December 2027",
+    "who": "Operations, finance and technology decision-makers at mid-sized companies in the UK and Europe"
+  },
+  "records": {
+    "1": {"name": "Infosecurity Europe 2027", "planted": null, "verdicts": ["confirmed"]},
+    "2": {
+      "name": "BAU 2027",
+      "planted": "date-wrong",
+      "verdicts": ["confirmed"],
+      "truth": "11 to 15 January 2027. 13 to 17 January was the 2025 edition (ground truth, case a)"
+    },
+    "3": {"name": "Accountex London 2027", "planted": null, "verdicts": ["confirmed"]},
+    "4": {
+      "name": "CeBIT 2027",
+      "planted": "dead-not-caught",
+      "verdicts": ["dead"],
+      "truth": "Last staged in 2018; cebit.de redirects to hannovermesse.de (ground truth, case c)"
+    },
+    "5": {"name": "Legal Geek Conference 2027", "planted": null, "verdicts": ["confirmed"]},
+    "6": {
+      "name": "transport logistic 2027",
+      "planted": "price-wrong",
+      "verdicts": ["confirmed"],
+      "truth": "The organiser publishes 2027 prices: day ticket EUR 35, permanent ticket EUR 79. USD 75 is a listing site's figure (ground truth, case b)"
+    },
+    "7": {"name": "HANNOVER MESSE 2027", "planted": null, "verdicts": ["confirmed"]},
+    "8": {
+      "name": "Retail Technology Show 2027",
+      "planted": "gate-missed",
+      "verdicts": ["confirmed"],
+      "truth": "Technology solution providers must buy a pass; free entry is for retailers, brands and hospitality only (ground truth, case d)"
+    },
+    "9": {"name": "Multimodal 2027", "planted": null, "verdicts": ["confirmed"]},
+    "10": {
+      "name": "INCYBER Forum Europe 2027",
+      "planted": "name-wrong",
+      "verdicts": ["confirmed"],
+      "truth": "Renamed from FIC to INCYBER Forum in 2024 (ground truth, case e)"
+    }
+  }
+}
