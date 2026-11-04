@@ -1,0 +1,196 @@
+## A11 | Interact
+- Website given: interactsoftware.com
+- Website: https://www.interactsoftware.com/ loads; this company; AI intranet and employee experience platform for enterprises
+- Registered: UK, Companies House, 03275461 (Odyssey Interactive Limited, the entity named in the site's privacy notice), active since 1996
+- Owner: Hasgrove Limited (05247414) since 2016, owned since 18 December 2025 by Maia Bidco Limited; top of the chain is Maia Topco Limited, controlled by Michael Phillips (Luxembourg address) since 28 October 2025. Castik Capital, a private equity firm, announced it was buying a majority stake on 28 November 2025
+- Size: 127 staff (Odyssey Interactive Limited, accounts to 31 December 2025); the buyer, Castik, gives 250 employees for the whole business
+- Fit: sells an intranet and employee experience platform to enterprises worldwide, bought by internal comms, HR and IT; not small businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size, wrong-fit
+- Reason: Bought by private equity (Castik Capital) in December 2025; the business has 250 staff by its owner's count (127 in the UK company); sells to enterprises, not small businesses.
+- Evidence:
+  - E1 | website | https://www.interactsoftware.com/our-story/ | "Still headquartered in Manchester"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/03275461 | "Company status Active"
+  - E3 | owner | https://www.interactsoftware.com/terms/privacy-policy/ | "Odyssey Interactive Ltd."
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/03275461/persons-with-significant-control | "Hasgrove Limited"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/05247414/persons-with-significant-control | "Maia Bidco Limited"
+  - E6 | owner | https://find-and-update.company-information.service.gov.uk/company/05247414/persons-with-significant-control | "Notified on 18 December 2025"
+  - E7 | owner | https://www.castik.com/portfolio/interact-software | "agreement to acquire a majority stake in Interact Software"
+  - E8 | size | https://find-and-update.company-information.service.gov.uk/company/03275461/filing-history/MzU0MjQwODU2MWFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed by the company during the year was"
+  - E9 | size | https://www.castik.com/portfolio/interact-software | "With around 250 employees"
+  - E10 | fit | https://www.interactsoftware.com/ | "modern intranet for enterprises"
+
+## A12 | CyberSmart
+- Website given: cybersmart.co.uk
+- Website: https://cybersmart.co.uk loads; this company; Cyber Essentials certification and cyber security software for small and medium-sized businesses
+- Registered: UK, Companies House, 10088945 (CyberSmart Ltd), active since 2016
+- Owner: independent; no person or company has held more than 25% since 16 March 2023 (founder Jamie Akhtar ceased to be a controller on 30 December 2022); no trading company or private equity owner on the register
+- Size: 60 staff (CyberSmart Ltd, accounts to 31 December 2025)
+- Fit: sells cyber security software and certification to UK small and medium-sized businesses; a UK B2B software company selling to small businesses, as in the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software for small businesses, 60 staff, independent and trading; fits the profile.
+- Evidence:
+  - E1 | website | https://cybersmart.co.uk/ | "Cyber Essentials and Cyber Security for SMEs"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/10088945 | "Company status Active"
+  - E3 | trading | https://cybersmart.co.uk/about-us/ | "Registered Company Number: 10088945"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/10088945/persons-with-significant-control | "no registrable person or registrable relevant legal entity"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/10088945/filing-history/MzUzMzgwNjIxMWFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the year was 60"
+  - E6 | fit | https://cybersmart.co.uk/ | "Simple, affordable security and certification for small teams."
+
+## A13 | Goodlord
+- Website given: goodlord.co
+- Website: https://www.goodlord.com/ loads after a redirect from goodlord.co to the same company's .com domain; lettings software, tenant referencing and insurance for letting agents
+- Registered: UK, Companies House, 08933499 (Oh Goodlord Ltd, the entity named on the site), active since 2014
+- Owner: independent; no person or company has held more than 25% since 15 October 2020; no trading company or private equity owner on the register
+- Size: 318 staff in the group, 277 in Oh Goodlord Ltd (group accounts to 31 August 2025)
+- Fit: sells lettings software and services to UK letting agents, landlords and tenants; UK software for small businesses, but well above the staff range
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 318 staff in the group (accounts to August 2025), above the 50 to 200 range.
+- Evidence:
+  - E1 | website | https://www.goodlord.com/ | "Letting Agent Software"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08933499 | "Company status Active"
+  - E3 | trading | https://www.goodlord.com/privacy-policy | "Oh Goodlord Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/08933499/persons-with-significant-control | "no registrable person or registrable relevant legal entity"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/08933499/filing-history/MzUyMjE3MTc2OGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors, during the year was as follows"
+  - E6 | fit | https://www.goodlord.com/about | "building better experiences for agents, landlords, and tenants alike"
+
+## A14 | Engager
+- Website given: engager.app
+- Website: https://engager.app loads; this company, branded "Engager.app by TaxCalc"; practice management software for accountants and bookkeepers
+- Registered: UK, Companies House, 11652499 (Client Engager Online Limited, the entity named in the site's terms and privacy notice), active since 2018
+- Owner: Malbec Bidco Limited since 11 June 2025 (founder Andrew Wainwright ceased then); above it Malbec Midco Limited and Malbec Topco Limited, which reports no registrable controller. TaxCalc's own site says TaxCalc acquired Engager in 2025
+- Size: 3 staff (Client Engager Online Limited, micro accounts to 31 March 2025)
+- Fit: sells practice management software to UK accountancy firms, which are small businesses; the product fits, the company does not
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Taken over in June 2025 (now TaxCalc's); the company had 3 staff in its last accounts.
+- Evidence:
+  - E1 | website | https://engager.app/ | "built by accountants"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/11652499 | "Company status Active"
+  - E3 | trading | https://engager.app/privacy-notice/ | "Client Engager Online Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/11652499/persons-with-significant-control | "Malbec Bidco Limited"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/11652499/persons-with-significant-control | "Notified on 11 June 2025"
+  - E6 | owner | https://www.taxcalc.com/about | "TaxCalc acquired Engager"
+  - E7 | size | https://find-and-update.company-information.service.gov.uk/company/11652499/filing-history/MzQ5NjAyMzMwNmFkaXF6a2N4/document?format=pdf&download=0 | "Average number of employees, including directors, during the year was: 3"
+  - E8 | fit | https://engager.app/ | "Trusted by over 2,000 UK firms"
+
+## A15 | Apron
+- Website given: getapron.com
+- Website: https://getapron.com loads; this company; business payments, bills, payroll and expenses platform for business owners, finance teams and accountants
+- Registered: UK, Companies House, 13779960 (Apron Payments Ltd, named on the site; previously Hello Cash Ltd until February 2023), active since 2021
+- Owner: independent; founder Bogdan Uzbekov holds 25 to 50% since 3 December 2021 and is named in the accounts as the ultimate controlling party
+- Size: 68 staff (Apron Payments Ltd, accounts to 31 December 2025)
+- Fit: sells a payments and finance software platform to UK small businesses and their accountants; fits the profile (note it is also an FCA-regulated e-money institution)
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B finance software for small businesses, 68 staff, founder-controlled and trading; fits the profile.
+- Evidence:
+  - E1 | website | https://getapron.com/ | "Business payments, done properly"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/13779960 | "Company status Active"
+  - E3 | trading | https://getapron.com/about | "Apron Payments Ltd"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/13779960/persons-with-significant-control | "Bogdan Uzbekov"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/13779960/filing-history/MzUzNjk5ODYzOGFkaXF6a2N4/document?format=pdf&download=0 | "The Company is controlled by B Uzbekov"
+  - E6 | size | https://find-and-update.company-information.service.gov.uk/company/13779960/filing-history/MzUzNjk5ODYzOGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors, during the year was as follows"
+  - E7 | fit | https://getapron.com/ | "Apron for business owners"
+
+## A16 | Mention Me
+- Website given: mention-me.com
+- Website: https://www.mention-me.com/ loads; this company; referral marketing platform for consumer brands
+- Registered: UK, Companies House, 08382730 (Mention Me Limited), active since 2013
+- Owner: independent; no person or company has held more than 25% since 5 October 2022 (Eight Roads Ventures Europe III held 25 to 50% from December 2021 to October 2022)
+- Size: 84 staff (group accounts to 31 December 2025)
+- Fit: sells referral and advocacy software to direct-to-consumer brands; this is what the user sells
+- Conflicts: competitor (a referral and advocacy platform, which the profile says to drop)
+- Verdict: drop
+- Problems: competitor
+- Reason: A referral marketing platform, a direct competitor under the profile's rules.
+- Evidence:
+  - E1 | website | https://www.mention-me.com/ | "Referral Marketing Platform"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08382730 | "Company status Active"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/08382730/persons-with-significant-control | "no registrable person or registrable relevant legal entity"
+  - E4 | size | https://find-and-update.company-information.service.gov.uk/company/08382730/filing-history/MzUzNzk4MDYyN2FkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed during the year was"
+  - E5 | conflict | https://www.mention-me.com/ | "referral marketing for DTC brands"
+
+## A17 | Fiken
+- Website given: fiken.no
+- Website: https://fiken.no loads; this company; accounting software for small Norwegian businesses, in Norwegian
+- Registered: Norway, Bronnoysund register, 913312465 (Fiken AS, Oslo), active since 2014: not bankrupt and not being wound up
+- Owner: unverified; Norway does not publish owners, and the register shows Fiken AS is not the parent of a group
+- Size: 81 staff (Bronnoysund register lookup data.brreg.no/enhetsregisteret/api/enheter/913312465, figure registered 12 October 2026)
+- Fit: sells accounting software to sole traders and small companies in Norway; right kind of product, wrong country
+- Conflicts: none
+- Verdict: drop
+- Problems: not-in-country
+- Reason: Registered and based in Oslo, Norway; the profile is UK only.
+- Evidence:
+  - E1 | website | https://fiken.no/ | "Et superenkelt regnskapsprogram"
+  - E2 | trading | https://fiken.no/personvern | "Organisasjonsnummer: 913 312 465"
+  - E3 | trading | https://fiken.no/personvern | "Adresse: Karl Johans gate 41A"
+  - E4 | fit | https://fiken.no/ | "Alt du trenger for å drive din egen bedrift"
+
+## A18 | Commusoft
+- Website given: commusoft.com
+- Website: https://www.commusoft.com/en-us/ loads (the US version; the UK version is /en-gb/); this company; field service management software for trades businesses
+- Registered: UK, Companies House, 11611736 (Commusoft Limited, named on the site), active since 2018
+- Owner: independent; founder and chief executive Jason Morjaria holds 75% or more since 9 October 2018
+- Size: 79 staff (Commusoft Limited, accounts to 31 December 2024; the 2025 accounts are not due until 31 December 2026). The company also has teams in the US and India, which may sit in other entities
+- Fit: sells job management software to small trades businesses (plumbing, heating, electrical) with 6 or more staff, headquartered in London; fits the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: London-based software for small trades businesses, 79 staff, founder-owned and trading; fits the profile.
+- Evidence:
+  - E1 | website | https://www.commusoft.com/en-gb/ | "Field Service Management Software"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/11611736 | "Company status Active"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/11611736/persons-with-significant-control | "Jason Morjaria"
+  - E4 | size | https://find-and-update.company-information.service.gov.uk/company/11611736/filing-history/MzQ4MzI1MDc0NGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the year was 79"
+  - E5 | fit | https://www.commusoft.com/en-gb/ | "specifically designed for businesses with 6 or more staff"
+  - E6 | fit | https://www.commusoft.com/en-gb/company/meet-the-team/ | "based in London, UK"
+
+## A19 | Titania
+- Website given: titaniasecurity.com
+- Website: titaniasecurity.com does not load (the domain does not resolve). The company's site is https://www.titania.com/, whose privacy notice names Titania Limited at the registered address below; network security and configuration auditing software (Nipper)
+- Registered: UK, Companies House, 06870498 (Titania Ltd), active since 2009
+- Owner: Titania Group Limited (09803514) since 30 May 2017, held by Nicola Michelle Whiting and Amy Rose Whiting, 25 to 50% each, since 2016; independent, no outside owner
+- Size: 47 staff (Titania Ltd, accounts to 30 April 2025; 51 the year before)
+- Fit: sells network security software to large enterprises, service providers and governments; not small businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website, wrong-size, wrong-fit
+- Reason: The given address is dead (real site titania.com); 47 staff; sells to large enterprises and governments, not small businesses.
+- Evidence:
+  - E1 | website | https://www.titania.com/ | "Proactive network security solutions"
+  - E2 | website | https://www.titania.com/legal/privacy-notice | "Titania Limited, 167-169 Great Portland Street"
+  - E3 | trading | https://find-and-update.company-information.service.gov.uk/company/06870498 | "Company status Active"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/06870498/persons-with-significant-control | "Titania Group Limited"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/09803514/persons-with-significant-control | "Nicola Michelle Whiting"
+  - E6 | size | https://find-and-update.company-information.service.gov.uk/company/06870498/filing-history/MzQ5Njg2MTQ1NWFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including Directors, during the year was 47"
+  - E7 | fit | https://www.titania.com/ | "the networks of the largest enterprises, service providers, and government organizations"
+
+## A20 | Crunch
+- Website given: crunch.co.uk
+- Website: https://www.crunch.co.uk/ loads; this company; online accountancy services and accounting software for sole traders and small limited companies
+- Registered: UK, Companies House, 06014477 (E-Crunch Ltd, named in the site's privacy policy; previously Accounts4You (UK) Ltd), active since 2006
+- Owner: DNS Associates Ltd (07047431), an accountancy firm, holds 25 to 50% since 8 August 2024; DNS Associates is owned by Sthir Limited, controlled by Sumit Agarwal. Co-founder Darren Fell also holds 25 to 50%
+- Size: 92 staff (E-Crunch Ltd, accounts to 31 March 2025)
+- Fit: sells accountancy and accounting software to UK sole traders and small companies
+- Conflicts: existing customer (Crunch is named in the profile)
+- Verdict: drop
+- Problems: customer, bought
+- Reason: Already a customer; also part-owned (25 to 50%) since August 2024 by DNS Associates, an accountancy firm.
+- Evidence:
+  - E1 | website | https://www.crunch.co.uk/ | "Online Accountants"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/06014477 | "Company status Active"
+  - E3 | trading | https://www.crunch.co.uk/privacy-policy | "E-Crunch Limited (Company Registration No. 06014477)"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/06014477/persons-with-significant-control | "Dns Associates Ltd"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/06014477/persons-with-significant-control | "Notified on 8 August 2024"
+  - E6 | owner | https://find-and-update.company-information.service.gov.uk/company/07047431 | "69201 - Accounting and auditing activities"
+  - E7 | size | https://find-and-update.company-information.service.gov.uk/company/06014477/filing-history/MzQ5MjYyNTUyNGFkaXF6a2N4/document?format=pdf&download=0 | "The average number of persons employed by the company during the year, including the directors, amounted to"
+  - E8 | conflict | https://www.crunch.co.uk/ | "Sole Trader Limited Company E-commerce Seller"

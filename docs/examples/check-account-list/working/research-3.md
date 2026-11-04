@@ -1,0 +1,198 @@
+## A21 | Feefo
+- Website given: feefo.com
+- Website: https://business.feefo.com/ loads; Feefo's own business site; customer ratings and reviews platform
+- Registered: UK, Companies House, 07191962 (Feefo Holdings Limited, the contracting company named in Feefo's terms), active since 2010
+- Owner: Mercatans Capital Limited, since 15 November 2018; at the top, Vespa B GP LLP (Vespa Capital, private equity), since 24 September 2018
+- Size: over 150 employees (Feefo's own about page, 2026)
+- Fit: sells a ratings and reviews platform to retail, travel, finance and B2B brands
+- Conflicts: competitor, a review and ratings platform
+- Verdict: drop
+- Problems: competitor
+- Reason: Feefo is a ratings and reviews platform, which the profile lists as a competitor to drop.
+- Evidence:
+  - E1 | website | https://business.feefo.com/why-feefo/about | "Feefo is a ratings and reviews platform"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/07191962 | "Company status Active"
+  - E3 | trading | https://business.feefo.com/terms-and-conditions | "Your agreement is with Feefo Holdings Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/07191962/persons-with-significant-control | "Mercatans Capital Limited"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/11584232/persons-with-significant-control | "Vespa B Gp Llp"
+  - E6 | owner | https://business.feefo.com/why-feefo/about | "Vespa Capital acquired Feefo"
+  - E7 | size | https://business.feefo.com/why-feefo/about | "Feefo currently has over 150 employees"
+  - E8 | conflict | https://business.feefo.com/why-feefo/about | "Feefo is a ratings and reviews platform"
+
+## A22 | Reviews.io
+- Website given: reviews.io
+- Website: https://www.reviews.io/ loads; this company; review collection and display for online shops
+- Registered: UK, Companies House, 14241120, Clearer.io UK Ltd (named REVIEWS.IO LTD from July 2022 to April 2025), active
+- Owner: AppHub UK Holdings Ltd, since 30 September 2022; at the top, AppHub JV Holdings GP, LLC (United States), per the 2025 accounts
+- Size: 47 employees (Clearer.io UK Ltd only, accounts to 31 December 2025); the AppHub group figure was not checked
+- Fit: sells review collection, product reviews and review widgets to ecommerce brands
+- Conflicts: competitor, named in the profile
+- Verdict: drop
+- Problems: competitor, bought
+- Reason: Named competitor in the profile, and owned by the US group AppHub (trading as Clearer) since September 2022.
+- Evidence:
+  - E1 | website | https://www.reviews.io/ | "Monitor and manage feedback across various review platforms"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/14241120 | "Company status Active"
+  - E3 | trading | https://find-and-update.company-information.service.gov.uk/company/14241120 | "REVIEWS.IO LTD"
+  - E4 | owner | https://www.reviews.io/legal/termsconditions | "Welcome to REVIEWS.io owned by AppHub, LLC"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/14241120/persons-with-significant-control | "Apphub Uk Holdings Ltd"
+  - E6 | owner | https://find-and-update.company-information.service.gov.uk/company/14241120/filing-history/MzU0ODQ2ODEwMmFkaXF6a2N4/document?format=xhtml&download=1 | "The ultimate parent company and controlling party is AppHub JV Holdings GP, LLC"
+  - E7 | size | https://find-and-update.company-information.service.gov.uk/company/14241120/filing-history/MzU0ODQ2ODEwMmFkaXF6a2N4/document?format=xhtml&download=1 | "The average number of employees during the year was"
+  - E8 | conflict | https://www.reviews.io/ | "Monitor and manage feedback across various review platforms"
+
+## A23 | Mention Me
+- Website given: mention-me.com
+- Website: https://www.mention-me.com/ loads; this company; referral marketing platform
+- Registered: UK, Companies House, 08382730, active since 2013
+- Owner: independent; no person or company holds over 25% (statement on the register since 5 October 2022); venture-backed by Octopus Ventures and Eight Roads, per its own about page
+- Size: 84 staff including directors (group, accounts to 31 December 2025, scanned PDF)
+- Fit: sells referral and advocacy software to direct-to-consumer and ecommerce brands
+- Conflicts: competitor, a referral and advocacy platform
+- Verdict: drop
+- Problems: competitor
+- Reason: A referral marketing platform, which the profile lists as a competitor to drop.
+- Evidence:
+  - E1 | website | https://www.mention-me.com/ | "Everything you need to run the best referral programme in your category"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08382730 | "Company status Active"
+  - E3 | trading | https://www.mention-me.com/ | "Mention Me Ltd. UK #08382730"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/08382730/persons-with-significant-control | "The company knows or has reasonable cause to believe that there is no registrable person"
+  - E5 | owner | https://www.mention-me.com/about-us | "backed by Octopus Ventures and Eight Roads"
+  - E6 | size | https://find-and-update.company-information.service.gov.uk/company/08382730/filing-history/MzUzNzk4MDYyN2FkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed during the year was"
+  - E7 | conflict | https://www.mention-me.com/ | "EMEA Referral Software"
+
+## A24 | Ometria
+- Website given: ometria.com
+- Website: https://ometria.com loads; this company; customer data and marketing platform for retail brands
+- Registered: UK, Companies House, 08372083, active since 2013
+- Owner: independent; no person with significant control on the register since Ivan Mazour ceased in July 2017; Ometria Ltd is the parent of its own group (Ometria Inc, Ometria GmbH)
+- Size: 110 staff including directors (group, accounts to 31 December 2025)
+- Fit: sells a customer data and marketing platform to retail brands' CRM teams, such as Hotel Chocolat and Interflora, not to small businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-fit
+- Reason: Right size and UK, but it sells to large retail brands' CRM teams, not to small and medium-sized businesses as the profile wants.
+- Evidence:
+  - E1 | website | https://ometria.com | "the CDXP tailor-made for retail brands"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08372083 | "Company status Active"
+  - E3 | trading | https://ometria.com/terms-of-service-v7-1 | "a company incorporated and registered in England and Wales under company number 08372083"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/08372083/persons-with-significant-control | "Mr Ivan Mazour Ceased"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/08372083/filing-history/MzU0NjI5NjQ2M2FkaXF6a2N4/document?format=xhtml&download=1 | "The group consists of Ometria Ltd and its subsidiaries"
+  - E6 | size | https://find-and-update.company-information.service.gov.uk/company/08372083/filing-history/MzU0NjI5NjQ2M2FkaXF6a2N4/document?format=xhtml&download=1 | "The average monthly number of persons (including directors) employed by the group and company during the year was"
+  - E7 | fit | https://ometria.com | "engine powering industry-leading retail brands"
+
+## A25 | Force24
+- Website given: force24.co.uk
+- Website: https://force24.co.uk loads; this company; marketing automation platform, plus SoAmpli, its employee social advocacy product
+- Registered: UK, Companies House, 07448931 (Force 24 Ltd), active since 2010
+- Owner: British Smaller Companies VCT plc and British Smaller Companies VCT2 plc, each over 25% and up to 50%, since 16 October 2023 (venture capital trusts, investors); before that no holder over 25% from November 2020
+- Size: 58 staff including directors (accounts to 31 December 2025, scanned PDF)
+- Fit: sells marketing automation to B2B and B2C marketing teams, from Leeds
+- Conflicts: competitor, through SoAmpli, an employee advocacy platform Force24 owns and sells to marketing teams
+- Verdict: drop
+- Problems: competitor
+- Reason: Owns and sells SoAmpli, an employee advocacy platform, and the profile drops any advocacy platform; otherwise UK, 58 staff. Also check whether the two VCTs together hold a majority since October 2023.
+- Evidence:
+  - E1 | website | https://force24.co.uk | "Force24 is the performance-first marketing automation platform"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/07448931 | "Company status Active"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/07448931/persons-with-significant-control | "British Smaller Companies Vct Plc"
+  - E4 | size | https://find-and-update.company-information.service.gov.uk/company/07448931/filing-history/MzUzMDMzMDM5NmFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed by the company during the year was"
+  - E5 | fit | https://force24.co.uk/privacy-policy/ | "a UK-based market leader in the provision of automated marketing for the B2B and B2C markets"
+  - E6 | conflict | https://force24.co.uk/privacy-policy/ | "SoAmpli, the latter is a trading name exclusively owned by Force24 Ltd"
+  - E7 | conflict | https://force24.co.uk | "Turn your team into advocates and thought leaders"
+  - E8 | conflict | https://www.soampli.com/ | "SoAmpli empowers your whole organisation to quickly and simply share approved social media content"
+
+## A26 | Pure360
+- Website given: pure360.com
+- Website: redirects to https://spotler.com/en-gb (Spotler, another company), which turns away automated readers (403); Pure360 now trades as Spotler, marketing automation and email marketing
+- Registered: UK, Companies House, 04266410 (Purepromoter Ltd, the company that traded as Pure360), active
+- Owner: Spotler Holdings Limited, since 1 August 2024 (before that Purepromoter Holdings Limited); Spotler Holdings is owned by Spotler B.V. (Netherlands); the ultimate parent named in the accounts is VNL B.V.
+- Size: 1 person, a director (Purepromoter Ltd, accounts to 31 December 2025); 9 the year before; staff now sit elsewhere in the Spotler group, whose figure was not checked
+- Fit: email marketing and marketing automation, now sold under the Spotler name to B2B and B2C marketers
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-website
+- Reason: Pure360 is now part of the Dutch Spotler group (Spotler Holdings owner since August 2024) and its website redirects to Spotler.
+- Evidence:
+  - E1 | website | https://spotler.com/en-gb/pure360-is-now-spotler | "The company Pure360 is now part of Spotler"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/04266410 | "Company status Active"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/04266410/persons-with-significant-control | "Spotler Holdings Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/04266410/filing-history/MzUyODAzMDIxNmFkaXF6a2N4/document?format=xhtml&download=1 | "The ultimate parent company is VNL B.V., incorporated in Belgium"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/05978343/persons-with-significant-control | "Spotler B.V."
+  - E6 | size | https://find-and-update.company-information.service.gov.uk/company/04266410/filing-history/MzUyODAzMDIxNmFkaXF6a2N4/document?format=xhtml&download=1 | "The company had no contracted employees for the year"
+  - E7 | fit | https://spotler.com/en-gb/pure360-is-now-spotler | "The company Pure360 is now part of Spotler"
+
+## A27 | Capsule CRM
+- Website given: capsulecrm.com
+- Website: https://capsulecrm.com loads; this company (Capsule is a service of Zestia Ltd); CRM software for small businesses
+- Registered: UK, Companies House, 06418281 (Zestia Limited), active since 2007
+- Owner: Bidco Koru Limited, since 13 July 2020, owned by Topco Koru Limited; at the top, the founders Phillip Haines and Duncan Stockdill (each over 25% of votes) and Newlands Capital 1 LLP (investor), since July 2020
+- Size: 35 staff excluding directors (Zestia Limited, accounts to 31 December 2025); 37 the year before
+- Fit: sells simple CRM software to small businesses, startups and freelancers; a good match for the profile's buyer
+- Conflicts: same company as A29 (Zestia)
+- Verdict: drop
+- Problems: wrong-size
+- Reason: Good fit and UK-owned by its founders, but 35 staff (excluding directors) in 2025, below the 50 to 200 range.
+- Evidence:
+  - E1 | website | https://capsulecrm.com | "Capsule is a service of Zestia Ltd, registered in England with No 06418281"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/06418281 | "Company status Active"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/06418281/persons-with-significant-control | "Bidco Koru Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/12717398/persons-with-significant-control | "Newlands Capital 1 Llp"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/06418281/filing-history/MzU0MTIwNTM4NWFkaXF6a2N4/document?format=xhtml&download=1 | "Average number of persons employed by the company excluding Directors"
+  - E6 | fit | https://capsulecrm.com | "Small businesses, startups, freelancers"
+
+## A28 | SmartSurvey
+- Website given: smartsurvey.co.uk
+- Website: https://www.smartsurvey.co.uk/ loads; this company; online survey and feedback software
+- Registered: UK, Companies House, 04885155 (SmartSurvey Ltd, formerly Smartline International Limited until April 2016), active since 2003
+- Owner: independent; no person or company holds over 25% (statement on the register since 22 August 2016)
+- Size: 49 staff including directors (accounts to 31 March 2025); 50 the year before
+- Fit: sells survey software to everyone from the self-employed to the public sector and multinationals; not focused on small businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 49 staff in the latest accounts, one below the 50 floor (50 the year before); UK and independent, so worth a look if the floor is soft.
+- Evidence:
+  - E1 | website | https://www.smartsurvey.co.uk/company/about-us | "SmartSurvey is a UK-based provider of digital survey solutions"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/04885155 | "Company status Active"
+  - E3 | trading | https://www.smartsurvey.co.uk/policy/terms-of-use | "SmartSurvey Ltd (Company number 04885155)"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/04885155/persons-with-significant-control | "The company knows or has reasonable cause to believe that there is no registrable person"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/04885155/filing-history/MzQ5NDQ4ODEwM2FkaXF6a2N4/document?format=xhtml&download=1 | "The average number of persons employed by the company (including directors under service contract) during the year, was"
+  - E6 | fit | https://www.smartsurvey.co.uk/company/about-us | "work in the public sector, or manage projects for a multinational corporation"
+
+## A29 | Zestia
+- Website given: zestia.com
+- Website: https://zestia.com loads; Zestia's own site, the makers of Capsule CRM (A27)
+- Registered: UK, Companies House, 06418281 (Zestia Limited), active since 2007
+- Owner: Bidco Koru Limited, since 13 July 2020; at the top, the founders and Newlands Capital 1 LLP (see A27)
+- Size: 35 staff excluding directors (accounts to 31 December 2025)
+- Fit: sells Capsule, CRM software for small businesses
+- Conflicts: duplicate of A27 (Capsule CRM), same company number 06418281
+- Verdict: drop
+- Problems: duplicate, wrong-size
+- Reason: Same company as A27 Capsule CRM (company number 06418281), and 35 staff, below the range.
+- Evidence:
+  - E1 | website | https://zestia.com | "Makers of Capsule"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/06418281 | "Company status Active"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/06418281/persons-with-significant-control | "Bidco Koru Limited"
+  - E4 | size | https://find-and-update.company-information.service.gov.uk/company/06418281/filing-history/MzU0MTIwNTM4NWFkaXF6a2N4/document?format=xhtml&download=1 | "Average number of persons employed by the company excluding Directors"
+  - E5 | conflict | https://zestia.com | "Company Number 06418281"
+
+## A30 | Gleanin
+- Website given: gleanin.com
+- Website: https://gleanin.com loads; this company; word-of-mouth and community marketing tools for event organisers
+- Registered: UK, Companies House, 07629794 (Level 29 Ltd, the company number on Gleanin's own site, same Great Portland Street address), active since 2011
+- Owner: independent; Paul James Birch holds over 25% and up to 50% of shares, since 6 April 2016
+- Size: 13 staff including directors (accounts to 31 December 2025, original filing; an amended version was filed on 12 August 2026)
+- Fit: sells word-of-mouth campaign tools to event organisers, pitched at the biggest event brands, not to software companies or small businesses
+- Conflicts: competitor, a word-of-mouth and advocacy platform
+- Verdict: drop
+- Problems: competitor, wrong-size, wrong-fit
+- Reason: A word-of-mouth advocacy tool for events, so a competitor; 13 staff; sells to large event brands.
+- Evidence:
+  - E1 | website | https://gleanin.com | "Powerful word-of-mouth tools to help you cut through a noisy digital world"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/07629794 | "Company status Active"
+  - E3 | trading | https://gleanin.com/about-us | "Company Number: 07629794"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/07629794/persons-with-significant-control | "Mr Paul James Birch Active"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/07629794/filing-history/MzUzNTE3NDI2MWFkaXF6a2N4/document?format=xhtml&download=1 | "The average number of persons employed by the company (including directors) during the year, was"
+  - E6 | fit | https://gleanin.com | "The marketing secret behind the world's biggest event brands"
+  - E7 | conflict | https://gleanin.com | "We believe word-of-mouth is the most powerful marketing channel"

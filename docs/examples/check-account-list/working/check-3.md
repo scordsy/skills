@@ -1,0 +1,70 @@
+## A23 | Mention Me
+- Website given: mention-me.com
+- Website: https://www.mention-me.com/ loads; this company; referral marketing and customer advocacy platform
+- Registered: UK, Companies House, 08382730 (Mention Me Limited), active since 31 January 2013, London
+- Owner: independent; the register has carried a statement since 5 October 2022 that there is no registrable person; Eight Roads Ventures Europe III LP (Bermuda, a venture fund) held more than 25% but not more than 50% from 17 December 2021 to 5 October 2022, and the accounts to 31 December 2025 still name it as "immediate and ultimate parent undertaking" while saying there is no one controlling party; investors (Eight Roads, Octopus Ventures), not a trading company
+- Size: 84 including 6 directors (group and company, accounts to 31 December 2025, scanned PDF); 90 the year before
+- Fit: sells referral and advocacy software to consumer brands (fashion, beauty, food, travel), naming large ones such as Charlotte Tilbury and SodaStream; its own buyers are large consumer brands, not small businesses, so it is not the profile's buyer
+- Conflicts: competitor, a referral and advocacy platform
+- Verdict: drop
+- Problems: competitor, wrong-fit
+- Reason: A referral and customer advocacy platform, so a direct competitor; it also sells to large consumer brands rather than small businesses.
+- Check notes: agreed on competitor; added wrong-fit (its customers are large consumer brands, not small businesses) and added that the 2025 accounts name Eight Roads as parent, an investor, so not bought.
+- Evidence:
+  - C1 | website | https://www.mention-me.com/ | "The Referral Marketing Platform Brands Trust"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08382730 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08382730/persons-with-significant-control | "there is no registrable person or registrable relevant legal entity in relation to the company"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08382730/persons-with-significant-control | "Eight Roads Ventures Europe Iii Lp"
+  - C5 | owner | https://www.mention-me.com/about-us | "backed by Octopus Ventures and Eight Roads"
+  - C6 | owner | https://find-and-update.company-information.service.gov.uk/company/08382730/filing-history/MzUzNzk4MDYyN2FkaXF6a2N4/document?format=pdf&download=0 | "In the opinion of the directors there is deemed to be no one controlling party."
+  - C7 | size | https://find-and-update.company-information.service.gov.uk/company/08382730/filing-history/MzUzNzk4MDYyN2FkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed during the year was"
+  - C8 | fit | https://www.mention-me.com/ | "Senior Global Digital Marketing Manager at Charlotte Tilbury"
+  - C9 | fit | https://www.mention-me.com/ | "Global E-commerce Marketing Lead at SodaStream"
+  - C10 | conflict | https://www.mention-me.com/about-us | "award-winning referral marketing platform"
+  - C11 | conflict | https://www.mention-me.com/about-us | "the tip of the customer advocacy iceberg"
+
+## A25 | Force24
+- Website given: force24.co.uk
+- Website: https://force24.co.uk/ loads; this company; marketing automation platform, plus SoAmpli, its employee advocacy product, sold from soampli.com
+- Registered: UK, Companies House, 07448931 (Force 24 Ltd), active since 24 November 2010, Leeds
+- Owner: British Smaller Companies VCT plc and British Smaller Companies VCT2 plc, each more than 25% but not more than 50%, since 16 October 2023 (venture capital trusts, investors, not a trading company); founder Nicholas Washbourne held over 25% until 20 November 2020
+- Size: 58 including directors (Force 24 Ltd, accounts to 31 December 2025, scanned PDF); 62 the year before
+- Fit: sells marketing automation to UK marketing teams, from "the UK's biggest brands" to SMEs, B2B and B2C; a UK software company in range with a marketing buyer
+- Conflicts: competitor, through SoAmpli, an employee advocacy platform Force24 owns and sells to marketing teams
+- Verdict: drop
+- Problems: competitor
+- Reason: Owns and sells SoAmpli, an advocacy platform, which the profile drops; note it is employee advocacy rather than customer reviews, so a person may choose to overrule.
+- Check notes: agreed: Force24's own privacy page says SoAmpli is "exclusively owned by Force24 Ltd" and its features page calls it "our employee advocacy tool"; size 58 and VCT owners confirmed.
+- Evidence:
+  - C1 | website | https://force24.co.uk/ | "Designed for UK marketing teams driving high-consideration sales"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/07448931 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/07448931/persons-with-significant-control | "British Smaller Companies Vct Plc"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/07448931/persons-with-significant-control | "British Smaller Companies Vct2 Plc"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/07448931/filing-history/MzUzMDMzMDM5NmFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed by the company during the year was"
+  - C6 | fit | https://force24.co.uk/about/ | "many ambitious SMEs more fearsome"
+  - C7 | conflict | https://force24.co.uk/features/ | "SoAmpli, our employee advocacy tool"
+  - C8 | conflict | https://force24.co.uk/privacy-policy/ | "a trading name exclusively owned by Force24 Ltd"
+
+## A26 | Pure360
+- Website given: pure360.com
+- Website: redirects (via spotler.co.uk) to https://spotler.com/en-gb, Spotler, another company, which turns away curl (403) but the built-in reader loads it; Spotler's own page says "Pure360 is now Spotler"; sells the Spotler Marketing Cloud (email marketing and marketing automation)
+- Registered: UK, Companies House, 04266410 (Purepromoter Ltd, the company that traded as Pure360), active since 7 August 2001
+- Owner: Spotler Holdings Limited since 1 August 2024 directly; the takeover itself was on 17 November 2021, when Spotler Holdings Limited replaced Scottish Equity Partners as owner of the old top company, Purepromoter Group (Holdings) Limited (since dissolved); Spotler Holdings is owned by Spotler B.V. (Netherlands); the ultimate parent named in the accounts is VNL B.V., incorporated in Belgium; who owns VNL B.V. not checked
+- Size: 1 person, a statutory director (Purepromoter Ltd, accounts to 31 December 2025, no contracted employees); 9 the year before; staff sit elsewhere in the Spotler group, whose figure was not checked
+- Fit: email marketing and marketing automation, now sold under the Spotler name to B2B and commerce marketers
+- Conflicts: none found
+- Verdict: drop
+- Problems: bought, wrong-website
+- Reason: Bought by Spotler on 17 November 2021 and now trades as Spotler; the website redirects to spotler.com.
+- Check notes: agreed on the verdict and both problems; corrected the takeover date from 1 August 2024 (a move inside the group) to 17 November 2021, from the register entry for the former top company.
+- Evidence:
+  - C1 | website | https://spotler.com/en-gb/pure360-is-now-spotler | "The company Pure360 is now part of Spotler."
+  - C2 | website | https://spotler.com/en-gb | "Spotler Marketing Cloud"
+  - C3 | trading | https://find-and-update.company-information.service.gov.uk/company/04266410 | "Company status Active"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/04266410/persons-with-significant-control | "Spotler Holdings Limited"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/08484599/persons-with-significant-control | "Scottish Equity Partners"
+  - C6 | owner | https://find-and-update.company-information.service.gov.uk/company/08484599/persons-with-significant-control | "Notified on 17 November 2021"
+  - C7 | owner | https://find-and-update.company-information.service.gov.uk/company/05978343/persons-with-significant-control | "Spotler B.V."
+  - C8 | owner | https://find-and-update.company-information.service.gov.uk/company/04266410/filing-history/MzUyODAzMDIxNmFkaXF6a2N4/document?format=pdf&download=0 | "The ultimate parent company is VNL B.V., incorporated in Belgium."
+  - C9 | size | https://find-and-update.company-information.service.gov.uk/company/04266410/filing-history/MzUyODAzMDIxNmFkaXF6a2N4/document?format=pdf&download=0 | "The company had no contracted employees for the year"
+  - C10 | fit | https://spotler.com/en-gb/pure360-is-now-spotler | "Pure360 is now Spotler"

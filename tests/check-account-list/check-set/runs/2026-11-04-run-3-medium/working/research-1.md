@@ -1,0 +1,192 @@
+## A01 | RotaCloud
+- Website given: rotacloud.com
+- Website: https://rotacloud.com loads; RotaCloud, online rota and workforce management software
+- Registered: UK, Companies House, 08625682 (Kettle and Keyboard Ltd, trading as RotaCloud), active since 2013
+- Owner: independent; three holding companies (J Beverley Ltd, D W Brandon Ltd, Jel Holdings Ltd), each 25 to 50% since 19 May 2022, each owned by one founder (Joel Beverley, David Brandon, James Lintern), who held the shares directly before that
+- Size: 65 staff (average, accounts to 31 July 2025)
+- Fit: rota, time and attendance software sold to small and medium businesses
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK founder-owned rota software company of 65 staff selling to small and medium businesses; the 2022 change only moved the founders' shares into their own holding companies.
+- Evidence:
+  - E1 | website | https://rotacloud.com/privacy/ | "Kettle and Keyboard Ltd (trading as RotaCloud"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08625682 | "KETTLE AND KEYBOARD LTD"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/08625682/persons-with-significant-control | "J Beverley Ltd"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/14026227/persons-with-significant-control | "Mr Joel Matthew Beverley"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/14065784/persons-with-significant-control | "Mr David William Brandon"
+  - E6 | owner | https://find-and-update.company-information.service.gov.uk/company/14111453/persons-with-significant-control | "Mr James Edward Lintern"
+  - E7 | size | https://find-and-update.company-information.service.gov.uk/company/08625682/filing-history/MzUxOTE3NDY1OWFkaXF6a2N4/document?format=xhtml&download=0 | "The average number of employees during the year was 65"
+  - E8 | fit | https://rotacloud.com | "Join more than 5,000 small and medium businesses using RotaCloud"
+
+## A02 | Rotageek
+- Website given: rotageek.com
+- Website: https://www.rotageek.com/ loads; Rotageek, AI-powered workforce management and scheduling software
+- Registered: UK, Companies House, 06783810 (Rota Geek Limited), active since 2009
+- Owner: Elmo Software UK Holdings Limited (12843874), 75% or more since 30 May 2025; above it ELMO Software Limited, Australia; owner above ELMO Software Limited unverified
+- Size: 39 staff (average monthly, including directors, accounts to 30 June 2025)
+- Fit: scheduling software for single-site to enterprise operators; site features a retailer with 501 to 1,000 employees
+- Conflicts: same group as your best customer, Breathe HR (Breathe HR Ltd, 13071896, owned by Elmo Software UK Holdings Limited since 21 March 2022)
+- Verdict: drop
+- Problems: bought, wrong-size, wrong-fit, customer
+- Reason: Bought by ELMO in May 2025, the group that owns your best customer Breathe; 39 staff; aimed at mid-market and enterprise chains.
+- Evidence:
+  - E1 | website | https://www.rotageek.com/ | "Rota Geek Limited is a company registered in England and Wales with the company number 06783810"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/06783810 | "ROTA GEEK LIMITED"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/06783810/persons-with-significant-control | "Elmo Software Uk Holdings Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/12843874/persons-with-significant-control | "Elmo Software Limited"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/06783810/filing-history/MzUxNDEyMjI5MmFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the period was 39"
+  - E6 | fit | https://www.rotageek.com/ | "Employees 501–1,000"
+  - E7 | conflict | https://find-and-update.company-information.service.gov.uk/company/13071896/persons-with-significant-control | "Elmo Software Uk Holdings Limited"
+  - E8 | conflict | https://www.rotageek.com/ | "HR powered by ELMO"
+
+## A03 | Capsule CRM
+- Website given: capsulecrm.com
+- Website: https://capsulecrm.com loads; Capsule, CRM software, a service of Zestia Ltd
+- Registered: UK, Companies House, 06418281 (Zestia Limited), active since 2007
+- Owner: Bidco Koru Limited, 75% or more since 13 July 2020; above it Topco Koru Limited, held by Newlands Capital 1 LLP (investor, more than 50% of shares) and founders Phillip Haines and Duncan Stockdill, since July 2020
+- Size: 35 staff excluding directors (Zestia Limited, accounts to 31 December 2025)
+- Fit: CRM software for small businesses and small sales teams
+- Conflicts: same company as A08 (06418281)
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 35 staff, below your 50 to 200 range; investor ownership dates from July 2020, older than five years.
+- Evidence:
+  - E1 | website | https://capsulecrm.com | "Capsule is a service of Zestia Ltd, registered in England with No 06418281"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/06418281 | "ZESTIA LIMITED"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/06418281/persons-with-significant-control | "Bidco Koru Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/12725988/persons-with-significant-control | "Topco Koru Limited"
+  - E5 | owner | https://find-and-update.company-information.service.gov.uk/company/12717398/persons-with-significant-control | "Newlands Capital 1 Llp"
+  - E6 | size | https://find-and-update.company-information.service.gov.uk/company/06418281/filing-history/MzU0MTIwNTM4NWFkaXF6a2N4/document?format=xhtml&download=0 | "Average number of persons employed by the company excluding Directors"
+  - E7 | fit | https://capsulecrm.com | "For small businesses with one to five employees"
+
+## A04 | Feefo
+- Website given: feefo.com
+- Website: https://business.feefo.com/ loads; Feefo, verified customer reviews platform
+- Registered: UK, Companies House, 07191962 (Feefo Holdings Limited), active since 2010
+- Owner: Mercatans Capital Limited (11584232), 75% or more since 15 November 2018; above it Vespa B GP LLP (private equity, Vespa Capital), more than 50% since 24 September 2018
+- Size: 118 staff (Feefo Holdings Limited, average monthly, accounts to 31 March 2026)
+- Fit: customer reviews and feedback platform sold to brands and businesses
+- Conflicts: competitor (review platform)
+- Verdict: drop
+- Problems: competitor
+- Reason: Feefo sells a customer reviews platform, the same thing you sell.
+- Evidence:
+  - E1 | website | https://business.feefo.com/terms-and-conditions | "Your agreement is with Feefo Holdings Limited"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/07191962 | "Feefo Barn Heath Farm"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/07191962/persons-with-significant-control | "Mercatans Capital Limited"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/11584232/persons-with-significant-control | "Vespa B Gp Llp"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/07191962/filing-history/MzU0ODc5NjE2MGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors"
+  - E6 | fit | https://business.feefo.com/ | "Verified Customer Reviews Platform"
+  - E7 | conflict | https://business.feefo.com/ | "Grow your business with customer reviews"
+
+## A05 | Payescape
+- Website given: payescape.com
+- Website: https://www.payescape.com/ loads; PayEscape, payroll, HR and time and attendance software and managed payroll services for UK businesses
+- Registered: UK (Northern Ireland), Companies House, NI625726 (Payescape Ltd), active since 2014
+- Owner: independent; controlled by Steven Sarowitz (25 to 50%, since 17 July 2017) and John Borland (since 16 July 2016); the group accounts name both as controlling party
+- Size: 83 staff (Payescape Ltd group, average, accounts to 31 March 2025)
+- Fit: payroll, HR and workforce management software and related services for UK businesses
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Northern Ireland payroll and HR software company of 83 staff, controlled by the same two people since 2016 and 2017.
+- Evidence:
+  - E1 | website | https://www.payescape.com/contact-us | "Payescape House, 18-20 Church Street, Ballymoney, BT53 6DL"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/NI625726 | "18-20 Church Street, Ballymoney"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/persons-with-significant-control | "Mr Steven Ira Sarowitz"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/persons-with-significant-control | "Mr John Borland"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUwMjUzNDYzNGFkaXF6a2N4/document?format=pdf&download=0 | "average number of employees 83"
+  - E6 | fit | https://www.payescape.com/ | "helps UK businesses streamline processes"
+  - E7 | fit | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUwMjUzNDYzNGFkaXF6a2N4/document?format=pdf&download=0 | "payroll, HR, and workforce management software"
+
+## A06 | Weekly10
+- Website given: weekly10.com
+- Website: redirects to https://zensai.com/, another company's domain; Zensai, talent management, learning and performance software in Microsoft 365
+- Registered: UK, Companies House, 08225904 (Zensai UKI Ltd, previously Binary Geek Limited until 17 January 2024, then LMS365 UK Ltd), active since 2012
+- Owner: Omni Elearning 2017 ApS (Denmark), 75% or more since 6 November 2024; before that Elearningforce International ApS (LMS365, Denmark) from 8 August 2023; founder Andrew Roberts until 8 August 2023; owner above Omni Elearning 2017 ApS unverified
+- Size: 22 staff (Zensai UKI Ltd, average, accounts to 31 December 2025); Zensai group states 250+ employees
+- Fit: learning, performance and engagement software for Microsoft-first organisations
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website, bought, wrong-size
+- Reason: Bought by Danish LMS365 (now Zensai) in August 2023; weekly10.com now goes to zensai.com; UK company has 22 staff.
+- Evidence:
+  - E1 | website | https://zensai.com/ | "Talent Management and Human Success in Microsoft 365"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08225904 | "BINARY GEEK LIMITED"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/08225904/persons-with-significant-control | "Omni Elearning 2017 Aps"
+  - E4 | owner | https://zensai.com/articles/lms365-acquires-weekly10/ | "announces its acquisition of Weekly10"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/08225904/filing-history/MzU0Nzc4NTA4N2FkaXF6a2N4/document?format=pdf&download=0 | "The average number of persons employed by the company during the year amounted to 22"
+  - E6 | fit | https://zensai.com/ | "Microsoft-first organizations"
+
+## A07 | Pinpoint
+- Website given: pinpointhq.com
+- Website: https://www.pinpointhq.com/ loads; Pinpoint, applicant tracking system
+- Registered: Jersey, The Infuse Group Limited (t/a Pinpoint Software), registration number 124135, registered office St Helier, as stated on the company's own legal page; Jersey register not checked; no UK company found on Companies House (Pinpoint Software Limited, 11298465, dissolved on 11 October 2022, not matched to this company)
+- Owner: unverified
+- Size: unverified
+- Fit: applicant tracking software for SMBs and enterprises, including global multi-location hiring
+- Conflicts: none
+- Verdict: drop
+- Problems: not-in-country
+- Reason: Registered and headquartered in St Helier, Jersey, outside the United Kingdom; owner and staff numbers not checked.
+- Evidence:
+  - E1 | website | https://www.pinpointhq.com/ | "Leading Global Applicant Tracking System"
+  - E2 | trading | https://www.pinpointhq.com/legal | "The Infuse Group Limited (t/a Pinpoint Software)"
+  - E3 | trading | https://www.pinpointhq.com/legal | "One Waverley Place, Union Street, St. Helier, Jersey"
+  - E4 | fit | https://www.pinpointhq.com/ | "manage global hiring without losing local precision"
+
+## A08 | Zestia
+- Website given: zestia.com
+- Website: https://zestia.com loads; Zestia, makers of Capsule CRM
+- Registered: UK, Companies House, 06418281 (Zestia Limited), active since 2007
+- Owner: Bidco Koru Limited, 75% or more since 13 July 2020; above it Topco Koru Limited, held by Newlands Capital 1 LLP (investor, more than 50% of shares) and founders Phillip Haines and Duncan Stockdill, since July 2020
+- Size: 35 staff excluding directors (Zestia Limited, accounts to 31 December 2025)
+- Fit: CRM software (Capsule) for small businesses
+- Conflicts: duplicate of A03 (same company number 06418281)
+- Verdict: drop
+- Problems: duplicate, wrong-size
+- Reason: Same company as A03 Capsule CRM; 35 staff, below your range.
+- Evidence:
+  - E1 | website | https://zestia.com | "Makers of Capsule"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/06418281 | "ZESTIA LIMITED"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/06418281/persons-with-significant-control | "Bidco Koru Limited"
+  - E4 | size | https://find-and-update.company-information.service.gov.uk/company/06418281/filing-history/MzU0MTIwNTM4NWFkaXF6a2N4/document?format=xhtml&download=0 | "Average number of persons employed by the company excluding Directors"
+  - E5 | fit | https://capsulecrm.com | "For small businesses with one to five employees"
+  - E6 | conflict | https://zestia.com | "Company Number 06418281"
+
+## A09 | SeedLegals
+- Website given: seedlegals.com
+- Website: https://seedlegals.com loads; SeedLegals, legal and fundraising platform for startups
+- Registered: UK, Companies House, 10368887 (SeedLegals Ltd), active since 2016
+- Owner: independent; Laurent Laffy (significant influence or control) and Anthony Rose (25 to 50%), both since 11 September 2016
+- Size: 155 staff (average, accounts to 31 December 2025)
+- Fit: legal, fundraising and company admin software for startup founders and small companies
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK founder-controlled software company of 155 staff selling to startups and small companies.
+- Evidence:
+  - E1 | website | https://seedlegals.com/privacy-policy/ | "SeedLegals Limited is your Data Controller"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/10368887 | "SEEDLEGALS LTD"
+  - E3 | owner | https://find-and-update.company-information.service.gov.uk/company/10368887/persons-with-significant-control | "Mr Anthony Morris Rose"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/10368887/persons-with-significant-control | "Mr Laurent Pierre Marie Raoul Edmond Laffy"
+  - E5 | size | https://find-and-update.company-information.service.gov.uk/company/10368887/filing-history/MzUzODMzNTMyM2FkaXF6a2N4/document?format=xhtml&download=0 | "Average number of employees during the year 155"
+  - E6 | fit | https://seedlegals.com | "Startups made easy"
+
+## A10 | Wejo
+- Website given: wejo.com
+- Website: http://wejo.com returns an empty holding page that redirects to "defaultsite"; no company content
+- Registered: UK, Companies House, 08813730 (Wejo Limited), in administration since 10 July 2023; accounts overdue since 31 December 2022
+- Owner: Wejo Group Limited (Bermuda, 56698), 75% or more since 18 November 2021; General Motors Holdings LLC held an interest from 21 December 2018 to 18 November 2021
+- Size: unverified (last accounts filed to 31 December 2020)
+- Fit: unverified; the website shows nothing
+- Conflicts: none
+- Verdict: drop
+- Problems: closed, wrong-website
+- Reason: Wejo Limited has been in administration since July 2023 and its website is an empty holding page.
+- Evidence:
+  - E1 | website | http://wejo.com/defaultsite | "This domain is already registered"
+  - E2 | trading | https://find-and-update.company-information.service.gov.uk/company/08813730/insolvency | "Administration started 10 July 2023"
+  - E3 | trading | https://find-and-update.company-information.service.gov.uk/company/08813730 | "In Administration"
+  - E4 | owner | https://find-and-update.company-information.service.gov.uk/company/08813730/persons-with-significant-control | "Wejo Group Limited"

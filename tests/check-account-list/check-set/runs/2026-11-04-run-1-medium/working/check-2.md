@@ -1,0 +1,75 @@
+## A12 | CyberSmart
+- Website given: cybersmart.co.uk
+- Website: https://cybersmart.co.uk/ loads; this company (footer names CyberSmart Ltd); Cyber Essentials certification and cyber security platform for SMEs
+- Registered: UK, Companies House, 10088945 (CyberSmart Ltd), active since 29 March 2016; registered office 68 Hanbury Street, London, the same address as the founder's PSC entry
+- Owner: independent; register states no registrable person or legal entity since 16 March 2023; founder Jamie Akhtar ceased as a person with significant control on 30 December 2022; no trading company owner on the register and no takeover announcement found
+- Size: 60 staff, including directors (UK company, small company accounts to 31 December 2025; 55 in 2024)
+- Fit: sells security software and certification to small and medium-sized businesses and the providers that serve them, from the UK; a B2B software company selling to SMEs, inside the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company selling to SMEs, 60 staff in 2025, active and independent on the register.
+- Check notes: agreed: register shows no corporate owner and accounts give 60 staff
+- Evidence:
+  - C1 | website | https://cybersmart.co.uk/ | "CyberSmart Ltd"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/10088945 | "Last statement dated 9 March 2026"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/10088945/persons-with-significant-control | "no registrable person or registrable relevant legal entity in relation to the company"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/10088945/filing-history/MzUzMzgwNjIxMWFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the year was 60"
+  - C5 | fit | https://cybersmart.co.uk/ | "The cybersecurity platform built for SMEs and the organisations that support them"
+
+## A13 | Goodlord
+- Website given: goodlord.co
+- Website: redirects to https://www.goodlord.com/, the same company's own domain (footer names Oh Goodlord Limited); letting agent software, tenant referencing and insurance
+- Registered: UK, Companies House, 08933499 (Oh Goodlord Ltd), active since 11 March 2014
+- Owner: independent; register states no registrable person or legal entity since 15 October 2020 (venture-backed; earlier PSCs were founders and Finch Capital)
+- Size: 318 staff in the group, 277 in Oh Goodlord Ltd (group accounts to 31 August 2025; 323 and 288 in 2024)
+- Fit: sells software and services to UK letting agents, which fits, but the company is well above the staff range
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 277 staff in the company and 318 in the group in the year to August 2025, above the 50 to 200 range.
+- Check notes: agreed: the staff note in the 2025 group accounts gives 318 group and 277 company staff
+- Evidence:
+  - C1 | website | https://www.goodlord.com/ | "Oh Goodlord Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08933499 | "Last statement dated 11 March 2026"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08933499/persons-with-significant-control | "no registrable person or registrable relevant legal entity in relation to the company"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/08933499/filing-history/MzUyMjE3MTc2OGFkaXF6a2N4/document?format=pdf&download=0 | "average monthly number of employees, including the directors"
+  - C5 | fit | https://www.goodlord.com/ | "Letting agents"
+
+## A15 | Apron
+- Website given: getapron.com
+- Website: https://getapron.com/ loads; this company (footer names Apron Payments Ltd, CRN 13779960); payments, expenses and accounting platform for business owners and their accountants
+- Registered: UK, Companies House, 13779960 (Apron Payments Ltd), active since 3 December 2021; registered office 201 Bishopsgate, London, matching the site's footer
+- Owner: independent; founder Bogdan Uzbekov holds more than 25% but not more than 50% since 3 December 2021, the only person with significant control; no corporate owner on the register and no takeover announcement found
+- Size: 68 staff (UK company, full accounts to 31 December 2025: 66 staff and 2 directors; 34 in 2024)
+- Fit: sells finance software to small business owners and accountants in the UK, inside the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company for small businesses, 68 staff in 2025, active and founder-controlled.
+- Check notes: agreed: the staff note in the 2025 accounts gives 66 staff and 2 directors, and the founder is the only PSC
+- Evidence:
+  - C1 | website | https://getapron.com/ | "Apron Payments Ltd"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/13779960 | "Last statement dated 2 December 2025"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/13779960/persons-with-significant-control | "Bogdan Uzbekov"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/13779960/filing-history/MzUzNjk5ODYzOGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors, during the year was as follows"
+  - C5 | fit | https://getapron.com/ | "For business owners"
+
+## A18 | Commusoft
+- Website given: commusoft.com
+- Website: lands on https://www.commusoft.com/en-us/ (the US page of the same site, footer Commusoft Inc.); the UK page https://www.commusoft.com/en-gb/ names Commusoft Ltd; job management software for field service and trades businesses
+- Registered: UK, Companies House, 11611736 (Commusoft Limited), active since 9 October 2018; registered office 124 Finchley Road, London
+- Owner: independent; Jason Morjaria holds 75% or more since 9 October 2018, the only person with significant control
+- Size: 79 staff, including directors (UK company, accounts to 31 December 2024; 76 in 2023)
+- Fit: sells software to plumbing, heating and other trades businesses, mostly small, inside the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company for trades businesses, 79 staff in 2024, active and owned by its founder.
+- Check notes: agreed: founder holds 75% or more and accounts give 79 staff; the 2025 accounts are not yet due (31 December 2026)
+- Evidence:
+  - C1 | website | https://www.commusoft.com/en-gb/ | "Commusoft Ltd"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/11611736 | "Last statement dated 15 April 2026"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/11611736/persons-with-significant-control | "Ownership of shares – 75% or more"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/11611736/filing-history/MzQ4MzI1MDc0NGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the year was 79"
+  - C5 | fit | https://www.commusoft.com/en-gb/ | "ambitious trades professionals"

@@ -5,3 +5,5 @@ __pycache__/
 /find-events/
 # Local test runs of check-call-summary write here.
 /check-call-summary/
+# Local test runs of check-account-list write here.
+/check-account-list/

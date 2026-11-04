@@ -1,0 +1,164 @@
+## A31 | BigChange
+- Website given: bigchange.com
+- Website: https://www.bigchange.com/ loads; this company; job management software for UK field service businesses
+- Registered: UK, Companies House, 08189817 (BigChange Limited, previously BigChange Apps Limited), active since 2012
+- Owner: BigChange Group Limited since 3 February 2021, replacing Martin and Amanda Port. The whole group (BigChange TopCo Limited and below) was bought on 25 October 2024 by Simpro Corporate Pty Ltd, part of the Sonar TopCo, Inc group (Simpro Group, a field service software company). The 2024 accounts name Sonar TopCo, Inc (United States) as the ultimate holding company and K1 Investment Management LLC (private equity) as its majority shareholder
+- Size: 226 staff (BigChange Limited, average for the year to 31 December 2024)
+- Fit: sells field service job management software to UK trade and field service businesses; fits on what it sells and to whom
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Bought by Simpro Group, a trading software group, in October 2024, and has 226 staff, above the 50 to 200 range.
+- Check notes: agreed: Simpro takeover of October 2024 in the 2024 accounts and the BigChange blog; 226 staff in the same accounts.
+- Evidence:
+  - C1 | website | https://www.bigchange.com/ | "Job Management Software for UK Field Service"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08189817 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08189817/persons-with-significant-control | "Bigchange Group Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08189817/filing-history/MzUxNTM1Njc0MWFkaXF6a2N4/document?format=pdf&download=0 | "acquired the Group through its wholly owned subsidiary"
+  - C5 | owner | https://bigchange.com/blog/simpro-group-acquires-bigchange-q-and-a | "Simpro Group is thrilled to announce its acquisition of BigChange"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/08189817/filing-history/MzUxNTM1Njc0MWFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors, during the year was as follows"
+  - C7 | fit | https://www.bigchange.com/ | "Built for field service businesses"
+
+## A33 | Commusoft
+- Website given: commusoft.co.uk
+- Website: https://www.commusoft.com/en-gb/ loads (commusoft.co.uk redirects to the company's own .com domain); this company; job management software for trade businesses. The terms name Commusoft Ltd. as the provider; the privacy policy names Commusoft Inc as controller for the website
+- Registered: UK, Companies House, 11611736 (Commusoft Limited), active since 2018
+- Owner: independent; founder and CEO Jason Morjaria holds 75% or more since 9 October 2018, and the 2024 accounts say the company was under the control of the director throughout the year. It owns subsidiaries (teams in the US and India); no company above it
+- Size: 79 staff (Commusoft Limited, average for the year to 31 December 2024). The site says it also has teams in Chicago and in Chennai and Nasik; the accounts show £1,525,791 paid to subsidiaries for services, and the headcount of those subsidiaries is unverified
+- Fit: sells job management software to UK plumbing, heating, electrical and renewables businesses with 6 or more staff, which are small and medium-sized businesses; headquartered in London; fits the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK-headquartered, founder-owned, 79 staff, sells software to small trade businesses: a fit on every check.
+- Check notes: agreed: founder still holds 75% or more on the register and in the 2024 accounts, 79 staff, no takeover found on the site or its press page.
+- Evidence:
+  - C1 | website | https://www.commusoft.com/en-gb/ | "Commusoft is specifically designed for businesses with 6 or more staff"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/11611736 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/11611736/persons-with-significant-control | "Jason Morjaria Active"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/11611736/filing-history/MzQ4MzI1MDc0NGFkaXF6a2N4/document?format=pdf&download=0 | "under the control of the director by virtue of their shareholding"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/11611736/filing-history/MzQ4MzI1MDc0NGFkaXF6a2N4/document?format=pdf&download=0 | "during the year was 79"
+  - C6 | fit | https://www.commusoft.com/en-gb/company/meet-the-team/ | "headquarters are based in London, UK, but we have teams in the US and India"
+  - C7 | fit | https://www.commusoft.com/en-gb/company/terms-conditions/ | "Commusoft Ltd. (the"
+
+## A34 | Powered Now
+- Website given: powerednow.com
+- Website: https://powerednow.com loads; this company; job management, invoicing and scheduling app for UK tradespeople
+- Registered: UK, Companies House, 07647786 (Powered Now Ltd, previously Worriednow Ltd), active since 2011
+- Owner: independent; Peter Kendal Hargreaves holds more than 25% but not more than 50% since 8 December 2016; no company owner registered
+- Size: 15 staff (Powered Now Ltd, average for the year to 30 June 2025; 16 the year before)
+- Fit: sells job management software to small UK trade businesses (plumbers, electricians, gas engineers, builders); fits on what it sells and to whom
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 15 staff in the accounts to June 2025, well under the 50 to 200 range.
+- Check notes: agreed: 15 staff in the 2025 accounts, no company owner on the register.
+- Evidence:
+  - C1 | website | https://powerednow.com/ | "Job management software for UK trades"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/07647786 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/07647786/persons-with-significant-control | "Mr Peter Kendal Hargreaves Active"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/07647786/filing-history/MzQ4MDUyNjg0OWFkaXF6a2N4/document?format=pdf&download=0 | "Average number of employees during the year"
+  - C5 | fit | https://powerednow.com/ | "helps plumbers, electricians, gas engineers and builders quote on site"
+
+## A35 | Eque2
+- Website given: eque2.co.uk
+- Website: https://www.eque2.com/ loads (eque2.co.uk redirects to the company's own .com domain); this company; commercial and finance software (ERP, job costing, estimating) for construction
+- Registered: UK, Companies House, 08179642 (Eque2 Limited, previously Ensco 947 Limited), active since 2012
+- Owner: Everest Acquisition Company Limited since 9 November 2017. The accounts to 30 April 2026 name Cirrus (Topco) Limited as the ultimate parent and Bowmark Capital LLP (private equity) as its ultimate controlling party. Bowmark announced its investment on 29 May 2024, a partial exit for WestBridge (private equity, invested 2020), which kept a minority stake
+- Size: 211 staff (Eque2 Limited, average for the year to 30 April 2026; 201 the year before)
+- Fit: sells commercial, finance and ERP software to UK construction businesses, from sole traders to large contractors (3,000+ customers); fits on what it sells
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Taken over by Bowmark Capital in May 2024 and has 211 staff, above the 50 to 200 range.
+- Check notes: agreed: Bowmark named as ultimate controlling party in the 2026 accounts and its own May 2024 announcement; 211 staff in the same accounts.
+- Evidence:
+  - C1 | website | https://www.eque2.com/ | "The Commercial & Financial Platform For Construction"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08179642 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08179642/persons-with-significant-control | "Everest Acquisition Company Limited Active"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08179642/filing-history/MzU1Mjg2NDE3M2FkaXF6a2N4/document?format=pdf&download=0 | "The ultimate controlling party of Cirrus (Topco) Limited is Bowmark Capital LLP."
+  - C5 | owner | https://www.bowmark.com/news/bowmark-capital-invests-in-eque2 | "The transaction provides a partial exit for WestBridge"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/08179642/filing-history/MzU1Mjg2NDE3M2FkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including directors) employed by the company during the year was"
+  - C7 | fit | https://www.eque2.com/ | "Used by over 3,000 businesses, from sole traders to"
+
+## A36 | Zutec
+- Website given: zutec.com
+- Website: https://zutec.com loads; this company; quality, handover and asset management software for construction and property
+- Registered: UK, Companies House, 09335281 (Zutec Inc. (UK) Limited), active since 2014. The contact page also lists Zutec Ireland in Dublin
+- Owner: Stefan Charette holds 75% or more since 1 October 2023, replacing Zutec Inc (Ireland) Limited. The accounts to 30 June 2025 name Builddata Acquisition AB (Sweden) as the ultimate parent. Zutec's own news page lists the acquisition of Zutec in 2020 and a management buyout of Zutec Holding in 2023 among the group's deals, and the group has since bought DFM Systems (2024) and Operance (2025)
+- Size: 22 staff (Zutec Inc. (UK) Limited, average for the year to 30 June 2025; 20 the year before); the size of the whole UK and Irish group is unverified
+- Fit: sells to contractors, housebuilders, developers, asset owners and housing associations, with customer stories for Peabody, Berkeley Homes and Galliford Try and a Taylor Wimpey logo on the homepage: large organisations, not small and medium-sized businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-fit
+- Reason: Control changed in October 2023 (management buyout, now under Builddata Acquisition AB, a group that buys companies), and it sells to large contractors, housebuilders and housing associations.
+- Check notes: agreed: owner change of 1 October 2023 on the register and the 2023 buyout on Zutec's own news page; customers are large builders and housing associations. Wrong-size left out: 22 is the UK company only.
+- Evidence:
+  - C1 | website | https://zutec.com/ | "ConTech and PropTech Software"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09335281 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09335281/persons-with-significant-control | "Notified on 1 October 2023"
+  - C4 | owner | https://zutec.com/news/zutec-strategic-recapitalisation | "the management buyout (MBO) of Zutec Holding in 2023"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/09335281/filing-history/MzQ5ODg0ODUxNWFkaXF6a2N4/document?format=pdf&download=0 | "The ultimate parent company is Builddata Acquisition AB."
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/09335281/filing-history/MzQ5ODg0ODUxNWFkaXF6a2N4/document?format=pdf&download=0 | "during the financial year was 22"
+  - C7 | fit | https://zutec.com/ | "Contractors Housebuilders Developers Asset Owners Housing Associations"
+  - C8 | fit | https://zutec.com/case-studies | "Peabody Case Study Berkeley Homes"
+
+## A37 | CMap
+- Website given: cmap.io
+- Website: https://www.cmap.io/en-gb loads; this company; operations and intelligence software for architecture, engineering and consulting firms
+- Registered: UK, Companies House, 09732010 (CMap Software Limited), active since 2015
+- Owner: CMap Global Limited since 6 April 2016, under CMap Group Limited and Project Orlando Bidco Limited (owner of CMap Group since 18 December 2019, NorthEdge, private equity). The accounts to 31 December 2025 name Hamsard 3788 Limited as the ultimate parent; ECI Partners (private equity) announced its investment on 4 November 2024, buying out NorthEdge
+- Size: 122 staff (CMap Software Limited, average for the year to 31 December 2025; 108 the year before)
+- Fit: sells business management software to architecture, engineering and consulting firms (750+ firms); fits on what it sells and to whom
+- Conflicts: none
+- Verdict: drop
+- Problems: bought
+- Reason: Taken over by ECI Partners in November 2024; size (122) and fit are otherwise right, so it could come back if recent private equity takeovers are acceptable.
+- Check notes: agreed: Hamsard 3788 named as ultimate parent in the 2025 accounts and ECI's own announcement of 4 November 2024.
+- Evidence:
+  - C1 | website | https://www.cmap.io/en-gb | "Operations & Intelligence Engine for Service Firms"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09732010 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09732010/persons-with-significant-control | "Cmap Global Limited Active"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/09732010/filing-history/MzU0NjI1ODc2OGFkaXF6a2N4/document?format=pdf&download=0 | "The ultimate parent company is Hamsard 3788 Limited"
+  - C5 | owner | https://www.ecipartners.com/news-and-insights/news/2024/eci-announces-investment-in-cmap | "ECI invests in CMap for next stage of growth"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/09732010/filing-history/MzU0NjI1ODc2OGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of persons (including Directors) employed by the Company during the year was"
+  - C7 | fit | https://www.cmap.io/en-gb | "CMAP IS TRUSTED BY 750+ CUSTOMERS"
+
+## A38 | Synergist
+- Website given: synergist.co.uk
+- Website: https://www.synergist.co.uk/ loads; this company; agency management software
+- Registered: UK, Companies House, 04697775 (Synergist Express Limited), active since 2003; the register shows its confirmation statement as overdue
+- Owner: Banyan Software UK Limited since 27 February 2026, replacing founder Keith White. Banyan Software UK Limited was owned by Banyan Software Holdings LLC (United States) until 20 January 2023 and now files a statement that it has no registrable owner. The about page says Synergist has become part of Banyan Software Group
+- Size: 22 staff (Synergist Express Limited, average for the year to 31 December 2024); the about page now says 40+ people across the UK after merging with Agency Works, still under 50
+- Fit: sells agency management software to marketing, creative, PR and digital agencies and consultancies; fits on what it sells and to whom
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Bought by Banyan Software in February 2026, and has 22 staff (40+ by its own count), under the 50 to 200 range.
+- Check notes: agreed: Banyan Software UK became owner on 27 February 2026 on the register and the site says it is part of Banyan Software Group; 22 staff in the 2024 accounts.
+- Evidence:
+  - C1 | website | https://www.synergist.co.uk/ | "All-in-One Agency Management Software"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/04697775 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/04697775/persons-with-significant-control | "Notified on 27 February 2026"
+  - C4 | owner | https://www.synergist.co.uk/about | "part of Banyan Software Group"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/04697775/filing-history/MzQ3NzA1NjkzMGFkaXF6a2N4/document?format=pdf&download=0 | "Monthly average number of persons employed by the Company"
+  - C6 | size | https://www.synergist.co.uk/about | "40+ people across the UK"
+  - C7 | fit | https://www.synergist.co.uk/ | "Marketing agencies Creative agencies PR agencies Digital agencies Consultants"
+
+## A40 | Findmyshift
+- Website given: findmyshift.com
+- Website: https://www.findmyshift.com/ loads; this company; employee scheduling and time clock software
+- Registered: Netherlands, KVK, 76110168 (Findmyshift B.V., Amsterdam), from the company's own terms; status not checked on the KVK register, whose free entry gives name, address and number only. The UK company Findmyshift Limited (06339507, previously Out Crowd Limited) was dissolved on 29 December 2020
+- Owner: unverified (owners and officers are in the paid KVK extract)
+- Size: unverified
+- Fit: sells online staff scheduling to employers of any size, free for teams of up to 5; fits on what it sells
+- Conflicts: none
+- Verdict: drop
+- Problems: not-in-country
+- Reason: Incorporated in the Netherlands and run from its headquarters there, by its own terms; the UK company was dissolved in 2020. It keeps a London postal address only.
+- Check notes: agreed: the terms name Findmyshift B.V. in Amsterdam and say the service is run from its headquarters in the Netherlands.
+- Evidence:
+  - C1 | website | https://www.findmyshift.com/ | "Free plan for small teams"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06339507 | "Dissolved on 29 December 2020"
+  - C3 | trading | https://www.findmyshift.com/terms-and-conditions | "a company incorporated under the laws of The Netherlands"
+  - C4 | trading | https://www.findmyshift.com/terms-and-conditions | "Findmyshift controls and operates the Services from its headquarters in The Netherlands"
+  - C5 | fit | https://www.findmyshift.com/ | "Findmyshift will always be free for small teams of up to 5 employees"

@@ -1,0 +1,125 @@
+## A01 | RotaCloud
+- Website given: rotacloud.com
+- Website: https://rotacloud.com/ loads; RotaCloud, online rota and workforce management software
+- Registered: UK, Companies House, 08625682 (Kettle and Keyboard Ltd), active since 26 July 2013
+- Owner: independent; J Beverley Ltd (14026227), D W Brandon Ltd (14065784) and Jel Holdings Ltd (14111453), each 25 to 50% since 19 May 2022, owned by Joel Beverley, David Brandon and James Lintern, who held 25 to 50% each directly from 6 April 2016 to 19 May 2022
+- Size: 65 staff (average, accounts to 31 July 2025)
+- Fit: workforce management software for growing businesses, used by more than 5,000 small and medium businesses
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Founder-owned UK rota software company with 65 staff, selling to small and medium businesses.
+- Check notes: agreed: holding companies each owned by one founder, c/o RotaCloud; 65 staff in accounts to July 2025
+- Evidence:
+  - C1 | website | https://rotacloud.com/ | "RotaCloud is workforce management software for growing businesses"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08625682 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08625682/persons-with-significant-control | "J Beverley Ltd"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/14026227/persons-with-significant-control | "Mr Joel Matthew Beverley"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/14065784/persons-with-significant-control | "Mr David William Brandon"
+  - C6 | owner | https://find-and-update.company-information.service.gov.uk/company/14111453/persons-with-significant-control | "Mr James Edward Lintern"
+  - C7 | size | https://find-and-update.company-information.service.gov.uk/company/08625682/filing-history/MzUxOTE3NDY1OWFkaXF6a2N4/document?format=pdf&download=0 | "The average number of employees during the year was 65"
+  - C8 | fit | https://rotacloud.com/ | "Join more than 5,000 small and medium businesses using RotaCloud"
+
+## A02 | Rotageek
+- Website given: rotageek.com
+- Website: https://www.rotageek.com/ loads; Rotageek, AI-powered workforce management and scheduling software; footer names Rota Geek Limited, 06783810
+- Registered: UK, Companies House, 06783810 (Rota Geek Limited), active since 6 January 2009
+- Owner: Elmo Software UK Holdings Limited, 75% or more since 30 May 2025; ultimate controlling party Elmo Software Holdings Pty Ltd (formerly Cookie Monster TopCo Pty Ltd), Australia (accounts to 30 June 2025)
+- Size: 39 staff (average monthly, including directors, six months to 30 June 2025)
+- Fit: scheduling software for single-site, multi-site, mid-market and enterprise operators; site offers HR modules powered by ELMO
+- Conflicts: same group as your best customer, Breathe (Centurion Management Systems Limited, 03020608, trading as Breathe, owned by Elmo Software UK Holdings Limited since 7 October 2020)
+- Verdict: drop
+- Problems: bought, wrong-size, customer
+- Reason: Bought by ELMO in May 2025, the group that owns Breathe; 39 staff, below 50.
+- Check notes: removed wrong-fit (site sells to single-site through enterprise, so small businesses are in scope); Breathe's trading company is 03020608, not the dormant 13071896, and is ELMO-owned too; filled in the owner at the top of the chain
+- Evidence:
+  - C1 | website | https://www.rotageek.com/ | "Rota Geek Limited is a company registered in England and Wales with the company number 06783810"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06783810 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/06783810/persons-with-significant-control | "Elmo Software Uk Holdings Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/06783810/filing-history/MzUxNDEyMjI5MmFkaXF6a2N4/document?format=pdf&download=0 | "The ultimate controlling party is Elmo Software Holdings Pty Ltd"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/06783810/filing-history/MzUxNDEyMjI5MmFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the period was 39"
+  - C6 | fit | https://www.rotageek.com/ | "Single-site Multi-site operators Mid-market Enterprise"
+  - C7 | conflict | https://www.breathehr.com/en-gb/privacy-policy | "Centurion Management Systems Limited, trading as"
+  - C8 | conflict | https://find-and-update.company-information.service.gov.uk/company/03020608/persons-with-significant-control | "Elmo Software Uk Holdings Limited"
+
+## A04 | Feefo
+- Website given: feefo.com
+- Website: redirects to https://business.feefo.com/ (same company); Feefo, verified customer reviews platform
+- Registered: UK, Companies House, 07191962 (Feefo Holdings Limited), active since 16 March 2010
+- Owner: Mercatans Capital Limited (11584232), 75% or more since 15 November 2018; ultimate controlling party Vespa Capital II LLP, private equity (accounts to 31 March 2026)
+- Size: 118 staff (Feefo Holdings Limited, average monthly, accounts to 31 March 2026)
+- Fit: customer reviews platform sold to businesses
+- Conflicts: competitor (review platform)
+- Verdict: drop
+- Problems: competitor
+- Reason: Feefo sells a customer reviews platform, which the profile names as a competitor type.
+- Check notes: agreed: the homepage sells verified customer reviews; top of chain is Vespa Capital II LLP, per the 2026 accounts
+- Evidence:
+  - C1 | website | https://business.feefo.com/ | "Grow your business with customer reviews"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/07191962 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/07191962/persons-with-significant-control | "Mercatans Capital Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/07191962/filing-history/MzU0ODc5NjE2MGFkaXF6a2N4/document?format=pdf&download=0 | "ultimate controlling party is Vespa Capital II LLP"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/07191962/filing-history/MzU0ODc5NjE2MGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors"
+  - C6 | fit | https://business.feefo.com/ | "100% verified customer reviews"
+  - C7 | conflict | https://business.feefo.com/ | "real customer reviews collected by us for you"
+
+## A05 | Payescape
+- Website given: payescape.com
+- Website: https://www.payescape.com/ loads; PayEscape, payroll, HR and time and attendance software for UK businesses
+- Registered: UK (Northern Ireland), Companies House, NI625726 (Payescape Ltd), active since 17 July 2014
+- Owner: the register page shows Steven Sarowitz (25 to 50%, since 17 July 2017) and John Borland (25 to 50%, since 16 July 2016), both with the right to appoint directors; a PSC04 filed on 31 July 2026 changes Steven Sarowitz to more than 50% but less than 75% of shares and votes from 17 July 2026; confirmation statement of 17 July 2026 shows 10,973 of 20,000 ordinary shares held by Steven Sarowitz and a transfer of 1,744 shares on 2 January 2026; group accounts to 31 March 2025 name both men as controlling party
+- Size: 83 staff (Payescape Ltd, average including directors, accounts to 31 March 2025)
+- Fit: payroll, HR and time and attendance software for UK businesses
+- Conflicts: none
+- Verdict: check-by-hand
+- Problems: none
+- Reason: Steven Sarowitz appears to have moved from joint to sole majority control on 17 July 2026 (filed 31 July 2026), but the register page still shows 25 to 50%; a person should decide whether that is a change of control.
+- Check notes: changed from keep: a July 2026 PSC filing puts Steven Sarowitz above 50%, which contradicts the register page and may be a change of control within five years
+- Evidence:
+  - C1 | website | https://www.payescape.com/ | "helps UK businesses streamline processes"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/NI625726 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/persons-with-significant-control | "Mr Steven Ira Sarowitz"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUzNjMzNDk0NWFkaXF6a2N4/document?format=pdf&download=0 | "more than 50% but less than 75% of the shares"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUzNjMzNTI3OWFkaXF6a2N4/document?format=pdf&download=0 | "1744 transferred on 2026-01-02"
+  - C6 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUwMjUzNDYzNGFkaXF6a2N4/document?format=pdf&download=0 | "The company is under the control of Mr Steven Sarowitz and Mr John Borland"
+  - C7 | size | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUwMjUzNDYzNGFkaXF6a2N4/document?format=pdf&download=0 | "average number of employees 83"
+  - C8 | fit | https://www.payescape.com/ | "Our payroll software helps businesses"
+
+## A06 | Weekly10
+- Website given: weekly10.com
+- Website: https://www.weekly10.com/ redirects to https://zensai.com/, another company's domain; Zensai, learning, performance and engagement software in Microsoft 365
+- Registered: UK, Companies House, 08225904 (Zensai UKI Ltd, previously Binary Geek Limited until 17 January 2024, then LMS365 UK Ltd until 14 April 2024), active since 24 September 2012
+- Owner: Omni Elearning 2017 ApS (Denmark), 75% or more since 6 November 2024, majority shareholder of the parent Zensai International ApS; Elearningforce International ApS on 8 August 2023; founder Andrew Roberts 75% or more until 8 August 2023; owner above Omni Elearning 2017 ApS unverified
+- Size: 22 staff (Zensai UKI Ltd, average, accounts to 31 December 2025)
+- Fit: learning, performance and engagement software for organisations in Microsoft 365
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website, bought, wrong-size
+- Reason: Weekly10 now redirects to Zensai; founder sold to a Danish group in August 2023; the UK company has 22 staff.
+- Check notes: agreed: redirect to zensai.com, founder ceased 8 August 2023, 22 staff in accounts to December 2025
+- Evidence:
+  - C1 | website | https://zensai.com/ | "Agentic coaching for learning, performance, and engagement"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08225904 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08225904/persons-with-significant-control | "Mr Andrew Paul Roberts"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08225904/filing-history/MzU0Nzc4NTA4N2FkaXF6a2N4/document?format=pdf&download=0 | "ultimately controlled by Omni Elearning 2017 Aps"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/08225904/filing-history/MzU0Nzc4NTA4N2FkaXF6a2N4/document?format=pdf&download=0 | "average number of persons employed by the company during the year amounted to 22"
+  - C6 | fit | https://zensai.com/ | "One AI-agentic platform for Microsoft 365"
+
+## A09 | SeedLegals
+- Website given: seedlegals.com
+- Website: https://seedlegals.com/ loads; SeedLegals, legal and fundraising platform for startups
+- Registered: UK, Companies House, 10368887 (SeedLegals Ltd), active since 11 September 2016
+- Owner: independent; Laurent Laffy (significant influence or control) and Anthony Rose (25 to 50%), both since 11 September 2016; confirmation statement of 3 May 2026 lists many shareholders, none with a majority
+- Size: 155 staff (average, accounts to 31 December 2025)
+- Fit: legal, fundraising and equity software for startup founders and their investors
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Founder-controlled UK startup legal software company with 155 staff, selling to founders of small companies.
+- Check notes: agreed: PSCs unchanged since 2016 despite a June 2026 share allotment; 155 staff in accounts to December 2025
+- Evidence:
+  - C1 | website | https://seedlegals.com/ | "Grow faster with SeedLegals"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/10368887 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/10368887/persons-with-significant-control | "Mr Anthony Morris Rose"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/10368887/filing-history/MzUzODMzNTMyM2FkaXF6a2N4/document?format=pdf&download=0 | "Average number of employees during the year 155"
+  - C5 | fit | https://seedlegals.com/ | "Startups made easy"

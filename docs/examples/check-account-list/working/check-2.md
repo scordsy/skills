@@ -1,0 +1,62 @@
+## A14 | Apron
+- Website given: apron.com
+- Website: http://apron.com returns a 404 "File not found" page and is not this company. The company's site is https://getapron.com (Apron Payments Ltd), a bills, payroll and expenses payments platform for business owners, finance teams and accountants
+- Registered: UK, Companies House, 13779960 (Apron Payments Ltd, formerly Hello Cash Ltd), active since 3 December 2021
+- Owner: independent; founder Bogdan Uzbekov holds more than 25% but not more than 50% since 3 December 2021; no company is a person with significant control
+- Size: 68 staff (Apron Payments Ltd, average monthly number including directors, accounts to 31 December 2025; 34 in 2024). The accounts are a scanned PDF, read by eye
+- Fit: sells payments and bookkeeping software to UK small businesses and accounting firms, a good match for the profile
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website
+- Reason: The given address apron.com is a dead 404 page, not this company; the real company (getapron.com, 68 staff, founder-led, UK) otherwise passes and could be re-added with the right website.
+- Check notes: agreed: apron.com returns "File not found"; the company itself is at getapron.com and its register entry, owner and 68 staff all check out
+- Evidence:
+  - C1 | website | http://apron.com | "File not found (404 error)"
+  - C2 | website | https://getapron.com | "is a company registered in England and Wales (CRN: 13779960)"
+  - C3 | trading | https://find-and-update.company-information.service.gov.uk/company/13779960 | "Company status Active"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/13779960/persons-with-significant-control | "More than 25% but not more than 50%"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/13779960/filing-history/MzUzNjk5ODYzOGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including the directors, during the year was as follows"
+  - C6 | fit | https://getapron.com | "Business payments, done properly"
+
+## A16 | ExpenseIn
+- Website given: expensein.com
+- Website: https://www.expensein.com/ loads; this company (trading name of Mobile Dynamics Limited); expense management software
+- Registered: UK, Companies House, 09456735 (Mobile Dynamics Limited), active since 24 February 2015
+- Owner: AccountsIQ Limited (06578522, an accounting software company) holds 75% or more since 20 December 2024; the site says it was acquired by AccountsIQ in January 2025. The top of the chain is AccountsIQ Group Limited, incorporated in Ireland, named in the accounts as ultimate parent and controlling party; who owns that company is not public (Irish beneficial owners are closed)
+- Size: 36 staff (Mobile Dynamics Limited, average monthly number including directors, accounts to 31 December 2025; 33 in 2024). The accounts are a scanned PDF, read by eye
+- Fit: sells expense management software to businesses' finance teams, which suits the profile's buyer type, but it is now part of the AccountsIQ group
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Bought by AccountsIQ (an accounting software group, ultimate parent in Ireland) in December 2024 and has 36 staff, under the 50 to 200 range.
+- Check notes: agreed: AccountsIQ Limited has been the owner since 20 December 2024 and the accounts give 36 staff; corrected the top of the chain to AccountsIQ Group Limited (Ireland), which the accounts name as ultimate parent
+- Evidence:
+  - C1 | website | https://www.expensein.com/privacy | "ExpenseIn is the trading name of Mobile Dynamics Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09456735 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09456735/persons-with-significant-control | "Accountsiq Limited"
+  - C4 | owner | https://www.expensein.com/about | "In January 2025, we were acquired by AccountsIQ"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/09456735/filing-history/MzU0OTA0MTE2MmFkaXF6a2N4/document?format=pdf&download=0 | "the ultimate parent company and controlling party of the company is AccountsIQ Group Limited"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/09456735/filing-history/MzU0OTA0MTE2MmFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the year was 36"
+  - C7 | fit | https://www.expensein.com/ | "Complete expense management software"
+
+## A19 | Satago
+- Website given: satago.com
+- Website: https://www.satago.com/ loads (a first attempt returned a 502 error, a retry loaded); this company (trading name of Satago Financial Solutions Limited); credit checks, automated credit control and invoice finance for small businesses
+- Registered: UK, Companies House, 09998904 (Satago Financial Solutions Limited, formerly Clear Funding Financial Services Ltd), active since 10 February 2016
+- Owner: TruFin Holdings Limited holds the large majority of the ordinary shares (confirmation statement of 9 February 2026); TruFin plc, AIM-listed and incorporated in Jersey, has been a person with significant control since 2016 and took 75% or more on 21 February 2018. The accounts name TruFin plc as ultimate parent and controlling party. TruFin runs Oxygen Finance and Satago as an operating group; no takeover of TruFin itself was found on its own news page
+- Size: 16 staff (Satago Financial Solutions Limited, average monthly number including executive directors, accounts to 31 December 2025; 34 in 2024). The accounts are a scanned PDF, read by eye
+- Fit: sells cash flow software to UK small businesses, but a large part of the offer and revenue is lending (invoice finance and lending as a service) rather than software
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Part of the listed TruFin group since 2018 (the profile does not want group-owned companies) and has 16 staff, well under the 50 to 200 range.
+- Check notes: agreed: TruFin plc has controlled it since 2018 and the accounts give 16 staff. Note that the takeover is older than five years, so "bought" stands only because the profile says "Owned by a larger group: not wanted" and TruFin is an operating group that consolidates Satago; wrong-size alone is enough for the drop
+- Evidence:
+  - C1 | website | https://www.satago.com/ | "Satago is a trading name of Satago Financial Solutions Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09998904 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09998904/persons-with-significant-control | "Trufin Plc"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/09998904/filing-history/MzUwNDkzMjQyOWFkaXF6a2N4/document?format=pdf&download=0 | "TRUFIN HOLDINGS LIMITED"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/09998904/filing-history/MzU0ODIyMzc0MGFkaXF6a2N4/document?format=pdf&download=0 | "The ultimate parent company and controlling party is TruFin Plc"
+  - C6 | owner | https://www.trufin.com/ | "TruFin provides software and niche lending solutions"
+  - C7 | size | https://find-and-update.company-information.service.gov.uk/company/09998904/filing-history/MzU0ODIyMzc0MGFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees (including executive directors)"
+  - C8 | fit | https://www.satago.com/ | "Take the pain out of getting paid"

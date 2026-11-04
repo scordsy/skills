@@ -1,0 +1,195 @@
+## A41 | CyberSmart
+- Website given: cybersmart.co.uk
+- Website: https://cybersmart.co.uk/ loads; this company (CyberSmart Ltd, named in the footer); Cyber Essentials certification and device security software for small and medium-sized businesses
+- Registered: UK, Companies House, 10088945, active since 29 March 2016
+- Owner: independent; no registrable person or company since 16 March 2023 (founder Jamie Akhtar ceased as a controlling person on 30 December 2022); the 2025 accounts say there is no ultimate controlling party. Venture-backed
+- Size: 60 staff (CyberSmart Ltd, accounts to 31 December 2025; 55 in 2024)
+- Fit: sells security software and certification to SMEs, with packages for small teams; a UK B2B software company selling to small businesses, as in the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company selling to SMEs, 60 staff, active and independent.
+- Check notes: agreed: Companies House shows no controlling person since 2023, accounts give 60 staff and no controlling party, homepage sells to SMEs
+- Evidence:
+  - C1 | website | https://cybersmart.co.uk/ | "Cyber Essentials and Cyber Security for SMEs"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/10088945 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/10088945/persons-with-significant-control | "no registrable person or registrable relevant legal entity in relation to the company"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/10088945/filing-history/MzUzMzgwNjIxMWFkaXF6a2N4/document?format=pdf&download=0 | "The directors believe there to be no ultimate controlling party"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/10088945/filing-history/MzUzMzgwNjIxMWFkaXF6a2N4/document?format=pdf&download=0 | "The average monthly number of employees, including directors, during the year was 60"
+  - C6 | fit | https://cybersmart.co.uk/ | "Simple, affordable security and certification for small teams"
+
+## A42 | Red Sift
+- Website given: redsift.com
+- Website: https://redsift.com/ loads; this company (Redsift Limited, named in its privacy policy); email, domain and web security software (OnDMARC)
+- Registered: UK, Companies House, 09240956, active since 30 September 2014
+- Owner: independent; co-founders Rahul Powar and Randal Pinto have significant influence or control since 6 April 2016; the investors MMC Ventures and Oxford Capital Partners ceased as controlling persons on 6 February 2021. The 2025 accounts report no significant events since the year end
+- Size: 95 staff (group, accounts to 31 December 2025; 97 in 2024; 44 at Redsift Limited itself)
+- Fit: sells security software to security and IT teams; its OnDMARC pricing runs from small organisations (from 9 dollars a month) to enterprise, though its customer stories are mostly large organisations
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company with 95 staff, founder-controlled, with plans for small organisations; its showcased customers are large, so its marketing may lean enterprise.
+- Check notes: agreed: founders are the only active controlling persons, group accounts give 95 staff, pricing page sells to small organisations as well as enterprise
+- Evidence:
+  - C1 | website | https://redsift.com/ | "Red Sift helps security and IT teams embrace the security protocols"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09240956 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09240956/persons-with-significant-control | "2 active persons with significant control"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/09240956/filing-history/MzU0MjQwNjQ2M2FkaXF6a2N4/document?format=pdf&download=0 | "Employees 95 97"
+  - C5 | fit | https://redsift.com/pulse-platform/ondmarc/pricing | "Simple and easy DMARC for small organizations"
+  - C6 | fit | https://redsift.com/pulse-platform/ondmarc/pricing | "Plans for SMB to Enterprise"
+
+## A43 | Panaseer
+- Website given: panaseer.com
+- Website: https://panaseer.com/ loads with a normal browser user agent; this company (Panaseer Limited, 09098199, named in the footer); continuous controls monitoring software for enterprise security teams
+- Registered: UK, Companies House, 09098199, active since 23 June 2014
+- Owner: independent; no registrable person or company since 16 April 2021 (founder Nicholas Whitfield ceased as a controlling person that day). Venture-backed
+- Size: unverified by this check (the first pass gave 97 staff, group accounts to 30 June 2025); not needed for the verdict
+- Fit: built for large enterprises and highly regulated industries, not companies selling to small and medium-sized businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-fit
+- Reason: Sells security controls monitoring to large, regulated enterprises, not a fit for a profile of software companies selling to small businesses.
+- Check notes: agreed: its own homepage says it is designed for enterprises and large, well-protected organisations
+- Evidence:
+  - C1 | website | https://panaseer.com/ | "Reg in England and Wales with the company registration 09098199"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09098199 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09098199/persons-with-significant-control | "no registrable person or registrable relevant legal entity in relation to the company"
+  - C4 | fit | https://panaseer.com/ | "Panaseer is designed for enterprises that need to handle large volumes of data effortlessly"
+  - C5 | fit | https://panaseer.com/ | "the security standards of highly regulated industries"
+
+## A44 | Titania
+- Website given: titaniasecurity.com
+- Website: titaniasecurity.com does not load (the domain does not resolve); the company's site is https://www.titania.com/, which loads and names Titania Limited in its privacy notice; network configuration security software (Nipper)
+- Registered: UK, Companies House, 06870498, active since 6 April 2009
+- Owner: Titania Group Limited (09803514), 75% or more since 30 May 2017; at the top, Nicola Whiting and Amy Whiting, each holding 25% to 50% of the group since 6 April 2016. Independent, family-owned
+- Size: unverified by this check (the first pass gave 47 at Titania Ltd plus 5 at the group, accounts to 30 April 2025); not needed for the verdict
+- Fit: sells to the largest enterprises, service providers, defence and government bodies, not to small and medium-sized businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website, wrong-fit
+- Reason: The given domain does not resolve, and the company sells network security to large enterprises and governments, not to small businesses.
+- Check notes: agreed: titaniasecurity.com does not resolve; titania.com says it secures the largest enterprises and government organisations
+- Evidence:
+  - C1 | website | https://www.titania.com/legal/privacy-notice | "refers to Titania Limited, 167-169 Great Portland Street"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06870498 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/06870498/persons-with-significant-control | "Titania Group Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/09803514/persons-with-significant-control | "Mrs Nicola Michelle Whiting"
+  - C5 | fit | https://www.titania.com/ | "Titania secures the networks of the largest enterprises, service providers, and government organizations around the world"
+  - C6 | fit | https://www.titania.com/ | "more than 100 critical infrastructure providers, departments of defense"
+
+## A45 | Netacea
+- Website given: netacea.com
+- Website: https://netacea.com/ loads; this company (Netacea Limited, named in the footer); bot and AI agent protection software
+- Registered: UK, Companies House, 11566936, active since 13 September 2018
+- Owner: Netacea Holdings Limited (07291461), 75% or more since 13 September 2018; Netacea Holdings is owned by Netacea Group Limited (13901160) since 11 April 2022; at the top, Mercia (General Partner) Limited, a venture investor, holds 25% to 50% of Netacea Group since 11 April 2022. Investor-backed, not owned by a trading company; the accounts say there is no ultimate controlling party
+- Size: 42 staff (Netacea Limited, accounts to 31 March 2026; 61 in 2025). The whole-group figure was not checked here
+- Fit: sells bot protection to global enterprises in retail, media, streaming, travel and telecoms, not to small and medium-sized businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size, wrong-fit
+- Reason: 42 staff at the trading company, below the 50 to 200 range, and it sells to global enterprises rather than small businesses.
+- Check notes: agreed: 2026 accounts give 42 staff, homepage says it is trusted by global enterprises
+- Evidence:
+  - C1 | website | https://netacea.com/ | "Copyright Netacea Limited, 2026"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/11566936 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/11566936/persons-with-significant-control | "Netacea Holdings Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/13901160/persons-with-significant-control | "Mercia (General Partner) Limited"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/11566936/filing-history/MzU0MDA1NDk3N2FkaXF6a2N4/document?format=pdf&download=0 | "Total 42 61"
+  - C6 | fit | https://netacea.com/ | "Trusted by global enterprises"
+  - C7 | fit | https://netacea.com/ | "Netacea redefines enterprise bot protection"
+
+## A46 | Juro
+- Website given: juro.com
+- Website: https://juro.com/ loads; this company (Juro Online Limited, named in its privacy policy); AI contract management software
+- Registered: UK, Companies House, 09684844, active since 14 July 2015 (previous name Termscloud Limited)
+- Owner: independent; no registrable person or company since 10 December 2021 (co-founder Richard Mabey ceased as a controlling person that day); the 2025 accounts say no single shareholder or entity controls it. Venture-backed
+- Size: 97 staff (group, accounts to 31 December 2025; 92 in 2024)
+- Fit: sells contract software to legal, sales, procurement and finance teams at scaleups, including B2B SaaS companies; a UK B2B software company selling to growing businesses
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company with 97 staff, no controlling owner, selling to scaleup teams.
+- Check notes: agreed: no controlling person since 2021 and no controlling party in the accounts, group accounts give 97 staff
+- Evidence:
+  - C1 | website | https://juro.com/privacy | "We are Juro Online Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09684844 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09684844/persons-with-significant-control | "no registrable person or registrable relevant legal entity in relation to the company"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/09684844/filing-history/MzUzMDc2Mjc0MmFkaXF6a2N4/document?format=pdf&download=0 | "control is not exercised by any single shareholder or entity"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/09684844/filing-history/MzUzMDc2Mjc0MmFkaXF6a2N4/document?format=pdf&download=0 | "Employees 97 92"
+  - C6 | fit | https://juro.com/ | "Join 1,500+ scaleup lawyers in a private community"
+
+## A47 | Legl
+- Website given: legl.com
+- Website: https://legl.com/ loads; this company (The Justice Platform Ltd t/a Legl, 09534141, named in the footer); client onboarding, compliance and payments software for law firms
+- Registered: UK, Companies House, 09534141 (The Justice Platform Ltd), active since 9 April 2015
+- Owner: The Justice Platform Inc, a US-registered company, is the ultimate parent and controlling party (2025 accounts); it is Legl's own holding company, not a buyer, and was already the parent in 2024. Founder Julia Salasky is the only person with significant influence or control on the register, since 6 April 2016. Investor-backed (Octopus Ventures)
+- Size: 56 staff (The Justice Platform Ltd, accounts to 31 December 2025; 58 in the period to 31 December 2024)
+- Fit: sells software to law firms, 600+ of them; a UK B2B software company selling to businesses of all sizes
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK B2B software company with 56 staff selling to 600+ law firms; its top company is its own US holding company, which a person may want to note.
+- Check notes: owner corrected, verdict kept: the 2025 accounts name a US parent, The Justice Platform Inc, as ultimate controlling party, not "independent"; it is the company's own holding company, so not bought
+- Evidence:
+  - C1 | website | https://legl.com/ | "The Justice Platform Ltd t/a Legl is registered as a company in England and Wales"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09534141 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09534141/persons-with-significant-control | "Ms Julia Salasky"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/09534141/filing-history/MzUyMzI5MDczNGFkaXF6a2N4/document?format=pdf&download=0 | "ultimate parent undertaking and controlling party is The Justice Platform Inc"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/09534141/filing-history/MzUyMzI5MDczNGFkaXF6a2N4/document?format=pdf&download=0 | "Staff 56 58"
+  - C6 | fit | https://legl.com/ | "600+ law firms trust Legl"
+
+## A48 | Peppermint Technology
+- Website given: pepperminttechnology.co.uk
+- Website: redirects through pepperminttechnology.com to https://www.litera.com/capabilities/close, a product page of another company, Litera; Peppermint's own site no longer exists
+- Registered: UK, Companies House, 04013392, active since 13 June 2000 (previous name The Learning Exchange Limited). Its accounts to 30 June 2025 are prepared for a managed wind down, with its trade to move to Workshare Ltd
+- Owner: Peppermint Technology Holdings Limited (09679181), owned by Workshare Limited (03559880), part of the Litera group, since 5 February 2025; before that SEP IV LP and Scottish Equity Partners, an investor
+- Size: 86 staff (Peppermint Technology Limited, accounts to 30 June 2025)
+- Fit: its own accounts describe it as legal software for large law firms, not for small and medium-sized businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-website, wrong-fit
+- Reason: Bought by the Litera group in February 2025 and being wound into it; its site now redirects to Litera, and it sold to large law firms.
+- Check notes: added wrong-fit: the 2025 accounts say it is "dedicated to helping large law firms"; bought and wrong-website hold
+- Evidence:
+  - C1 | website | https://www.litera.com/capabilities/close | "Close | Litera"
+  - C2 | owner | https://find-and-update.company-information.service.gov.uk/company/09679181/persons-with-significant-control | "Workshare Limited"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/04013392/filing-history/MzUyOTQ4Njk2MWFkaXF6a2N4/document?format=pdf&download=0 | "The Group was acquired by Workshare Ltd on 5th February 2025"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/04013392/filing-history/MzUyOTQ4Njk2MWFkaXF6a2N4/document?format=pdf&download=0 | "Following the acquisition of the Peppermint group by the Litera group"
+  - C5 | trading | https://find-and-update.company-information.service.gov.uk/company/04013392 | "Company status Active"
+  - C6 | fit | https://find-and-update.company-information.service.gov.uk/company/04013392/filing-history/MzUyOTQ4Njk2MWFkaXF6a2N4/document?format=pdf&download=0 | "dedicated to helping large law firms transform"
+
+## A49 | HowNow
+- Website given: gethownow.com
+- Website: redirects to https://hownow.com/, the same company's current domain (operated by Wonderush Limited, 09644569, per its privacy policy); AI learning and upskilling platform
+- Registered: UK, Companies House, 09644569 (Wonderush Limited), active since 17 June 2015
+- Owner: independent; co-founders Kuvera Sivalingam and Nelson Sivalingam have significant influence or control since 8 April 2025 (and held shares from 2016 to 2021)
+- Size: 28 staff (Wonderush Limited, accounts to 31 July 2025; 30 in 2024)
+- Fit: sells learning software to L&D and HR teams; a UK B2B software company
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 28 staff in its latest accounts, below the 50 to 200 range.
+- Check notes: agreed: accounts to July 2025 give 28 staff
+- Evidence:
+  - C1 | website | https://hownow.com/privacy-policy | "owned and operated by Wonderush Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09644569 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09644569/persons-with-significant-control | "Mr Kuvera Sivalingam"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/09644569/filing-history/MzQ5NTIyNTg1NWFkaXF6a2N4/document?format=pdf&download=0 | "During the year the average number of employees was 28"
+  - C5 | fit | https://hownow.com/ | "Trusted by modern L&D and HR teams"
+
+## A50 | Thrive
+- Website given: thrivelearning.com
+- Website: https://www.thrivelearning.com/ loads; Thrive Learning; learning and development platform
+- Registered: UK, Companies House, 10988277 (Thrive Learning Limited), active since 29 September 2017
+- Owner: independent; Sean Reddington holds 75% or more since 12 September 2019
+- Size: unverified by this check (the first pass gave 176, group accounts to 31 December 2025); not needed for the verdict
+- Fit: sells learning software to businesses, including enterprise; would fit, but it is already a customer
+- Conflicts: existing customer named in the profile, Thrive Learning
+- Verdict: drop
+- Problems: customer
+- Reason: Thrive Learning is named in the profile as an existing customer.
+- Check notes: agreed: thrivelearning.com is Thrive Learning, the existing customer the profile names
+- Evidence:
+  - C1 | conflict | https://www.thrivelearning.com/ | "Thrive Learning | Learning and Development Platform"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/10988277 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/10988277/persons-with-significant-control | "Mr Sean Reddington"
