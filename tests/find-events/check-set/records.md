@@ -5,7 +5,7 @@ Ten records for the checker, as a discovery lane might write them. Five are accu
 ## 1. Infosecurity Europe 2027  [confirmed]  (lane: europe-trade-shows)
 - Where: London, ExCeL London, UK
 - When: 8 to 10 June 2027
-- Listed price: Free. "Registration for the event is complimentary" (organiser's admissions policy). 2027 registration is not open yet; the site offers "Register interest"
+- Listed price: Free to register in advance. "Registration for the event is complimentary" (organiser's admissions policy). For 2026 it was "free until 5th May. After this date, the entry cost to attend will be £49" (organiser's news page); the 2027 cut-off and fee are not published yet. 2027 registration is not open; the site offers "Register interest"
 - Your price: Vendors and consultancies register for the Channel Pass. Price not published for 2027
 - Meetings: Infosec Meets: visitors can pre-book meetings with exhibitors. For exhibitors it is an add-on to the exhibitor package, so a Channel Pass holder who is not exhibiting cannot use it to book meetings with buyers
 - Format: expo
