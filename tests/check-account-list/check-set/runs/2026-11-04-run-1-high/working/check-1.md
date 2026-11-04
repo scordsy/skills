@@ -1,0 +1,97 @@
+## A01 | RotaCloud
+- Website given: rotacloud.com
+- Website: https://rotacloud.com/ loads; this company; online rota, time and attendance and HR software, footer says "A product of Kettle & Keyboard"
+- Registered: UK, Companies House, 08625682 (Kettle and Keyboard Ltd, registered office "Rotacloud, 20 George Hudson Street, York"), active since 26 July 2013
+- Owner: independent; three holding companies, J Beverley Ltd, D W Brandon Ltd and Jel Holdings Ltd, each 25 to 50 percent since 19 May 2022, replacing the founders as individuals (Joel Matthew Beverley ceased 19 May 2022); no trading company owner. A June 2025 change of share class names is not a change of control
+- Size: 65 staff (Kettle and Keyboard Ltd, accounts to 31 July 2025; 63 in 2024)
+- Fit: sells rota, time and HR software to small businesses such as vets, cafes and care homes; UK software sold to small businesses, matches the profile
+- Conflicts: none (not a review or advocacy platform; no link to Breathe, Crunch or Thrive Learning found)
+- Verdict: keep
+- Problems: none
+- Reason: Independent UK rota software company in York, 65 staff, selling to small businesses.
+- Check notes: agreed: holding companies of the founders since 2022, 65 staff in the July 2025 accounts
+- Evidence:
+  - C1 | website | https://rotacloud.com/ | "Why 5000+ businesses use RotaCloud to save time & money"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08625682 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08625682/persons-with-significant-control | "J Beverley Ltd"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08625682/persons-with-significant-control | "Jel Holdings Ltd"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/08625682/filing-history/MzUxOTE3NDY1OWFkaXF6a2N4/document?format=pdf&download=0 | "The average number of employees during the year was 65"
+  - C6 | fit | https://rotacloud.com/ | "From care homes to cafes, takeaways to tech teams"
+
+## A03 | Capsule CRM
+- Website given: capsulecrm.com
+- Website: https://capsulecrm.com/ loads; this company; CRM software for small businesses, "Capsule is a service of Zestia Ltd, registered in England with No 06418281"
+- Registered: UK, Companies House, 06418281 (Zestia Limited), active since 5 November 2007
+- Owner: Bidco Koru Limited (75 percent or more) since 13 July 2020, owned by Topco Koru Limited, whose controllers are Newlands Capital 1 LLP, an investor (50 to 75 percent of shares), and founders Phillip Haines and Duncan Stockdill; investor-backed since July 2020, more than five years ago, so not counted as bought
+- Size: 35 staff excluding directors (Zestia Limited, accounts to 31 December 2025; 37 in 2024). The whole group, consolidated in Topco Koru Limited, averaged 46 including directors in 2025. Both under 50
+- Fit: sells simple CRM software to small businesses; would fit, but is too small
+- Conflicts: same company as A08 (Zestia, same company number 06418281); this is the earlier row
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 35 staff at Zestia and 46 across the whole Capsule group in 2025, below the 50 to 200 range.
+- Check notes: agreed: 35 staff in Zestia's 2025 accounts; checked the group too, 46 including directors in Topco Koru's 2025 group accounts, still under 50
+- Evidence:
+  - C1 | website | https://capsulecrm.com/ | "Capsule is a service of Zestia Ltd, registered in England with No 06418281"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06418281 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/06418281/persons-with-significant-control | "Bidco Koru Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/12717398/persons-with-significant-control | "Newlands Capital 1 Llp"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/06418281/filing-history/MzU0MTIwNTM4NWFkaXF6a2N4/document?format=pdf&download=0 | "Average number of persons employed by the company"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/12717398/filing-history/MzU0MTI2NzcyNGFkaXF6a2N4/document?format=pdf&download=0 | "There are no persons employed directly by the company Topco Koru Limited"
+  - C7 | fit | https://capsulecrm.com/ | "Most user friendly CRM for small businesses"
+
+## A05 | Payescape
+- Website given: payescape.com
+- Website: https://www.payescape.com/ loads; this company (Payescape Limited, Payescape House, 18-20 Church Street, Ballymoney, the registered office); payroll, HR and time and attendance software, with managed payroll services
+- Registered: UK (Northern Ireland), Companies House, NI625726, active since 17 July 2014
+- Owner: independent; two individuals with control, Steven Ira Sarowitz (since 17 July 2017) and John Borland (since 16 July 2016), no company owner. Two PSC04 filings dated 17 July 2026 disagree on Mr Sarowitz's share (one says 25 to 50 percent, the later one, filed 31 July 2026, says more than 50 but less than 75 percent); either way he is a person, not a trading company or group
+- Size: 83 staff (Payescape Ltd group, accounts to 31 March 2025; 73 in 2024)
+- Fit: sells payroll, HR and time and attendance software, and managed payroll, to UK small and medium-sized businesses; matches the profile
+- Conflicts: none (it uses Trustpilot as a customer would; it does not sell reviews)
+- Verdict: keep
+- Problems: none
+- Reason: Northern Ireland payroll and HR software company, 83 staff, controlled by two individuals, selling to UK SMBs.
+- Check notes: agreed: individuals control it, 83 staff in the March 2025 group accounts; noted a July 2026 filing that may make Mr Sarowitz the majority holder, a person not a group, so no change
+- Evidence:
+  - C1 | website | https://www.payescape.com/ | "PayEscape brings payroll, HR, and time and attendance together in one intelligent platform"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/NI625726 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/persons-with-significant-control | "Mr Steven Ira Sarowitz"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUzNjMzNDk0NWFkaXF6a2N4/document?format=pdf&download=0 | "more than 50% but less than 75% of the shares"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/NI625726/filing-history/MzUwMjUzNDYzNGFkaXF6a2N4/document?format=pdf&download=0 | "average number of employees 83"
+  - C6 | fit | https://www.payescape.com/ | "helps UK businesses streamline processes"
+
+## A08 | Zestia
+- Website given: zestia.com
+- Website: https://zestia.com/ loads; this company; a page for the makers of Capsule CRM, with a "©2008-2018 Zestia Limited" line and company number 06418281
+- Registered: UK, Companies House, 06418281, active since 5 November 2007
+- Owner: Bidco Koru Limited since 13 July 2020 (see A03)
+- Size: 35 staff excluding directors (Zestia Limited, accounts to 31 December 2025); 46 including directors across the Topco Koru group
+- Fit: the legal company behind Capsule CRM, small-business CRM software
+- Conflicts: duplicate of A03 (Capsule CRM, same company number 06418281)
+- Verdict: drop
+- Problems: duplicate, wrong-size
+- Reason: The same company as A03 (Capsule CRM), and 35 staff, below the range.
+- Check notes: agreed: zestia.com and capsulecrm.com both name company 06418281
+- Evidence:
+  - C1 | website | https://zestia.com/ | "Zestia Limited, a company registered in England and Wales with Company Number 06418281"
+  - C2 | conflict | https://capsulecrm.com/ | "registered in England with No 06418281"
+  - C3 | size | https://find-and-update.company-information.service.gov.uk/company/06418281/filing-history/MzU0MTIwNTM4NWFkaXF6a2N4/document?format=pdf&download=0 | "Average number of persons employed by the company"
+
+## A09 | SeedLegals
+- Website given: seedlegals.com
+- Website: https://seedlegals.com/ loads; this company (SeedLegals Limited, 100 Bunhill Row, London, the registered office); legal and fundraising platform for startups
+- Registered: UK, Companies House, 10368887, active since 11 September 2016
+- Owner: independent; founders Anthony Morris Rose (25 to 50 percent) and Laurent Laffy (significant influence or control), both since 11 September 2016; no company owner. A June 2026 share allotment is a funding round, not a change of control
+- Size: 155 staff (SeedLegals Ltd, accounts to 31 December 2025; 156 in 2024)
+- Fit: sells legal, fundraising and share-option software to UK startups and small companies; matches the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Founder-controlled London legal and fundraising software company, 155 staff, selling to startups and small companies.
+- Check notes: agreed: founders are the only controllers, 155 staff in the 2025 accounts
+- Evidence:
+  - C1 | website | https://seedlegals.com/ | "The UK's most powerful legal and fundraising platform"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/10368887 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/10368887/persons-with-significant-control | "Mr Anthony Morris Rose"
+  - C4 | owner | https://seedlegals.com/privacy-policy/ | "SeedLegals Limited is your Data Controller"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/10368887/filing-history/MzUzODMzNTMyM2FkaXF6a2N4/document?format=pdf&download=0 | "Average number of employees during the year"
+  - C6 | fit | https://seedlegals.com/ | "Startups made easy."

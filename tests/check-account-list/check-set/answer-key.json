@@ -1,0 +1,26 @@
+{
+  "written": "2026-11-04, by hand from Companies House, the Norwegian register and the companies' own sites, before any run. Every fact and its source is in ground-truth.md.",
+  "pass": "Every planted company dropped with each required problem type and no forbidden one. No clean company dropped. The unsettled company passes when kept, sent to check by hand, or dropped only for the problem types it accepts. Extra problem types are listed as notes, not failed: several planted companies have more than one true problem, and the key holds only the ones ground-truth.md proves.",
+  "companies": {
+    "A01": {"name": "RotaCloud", "expect": "clean"},
+    "A02": {"name": "Rotageek", "expect": "planted", "required": ["customer", "bought"], "why": "Owned since 30 May 2025 by Elmo Software UK Holdings, which has owned Breathe since 7 October 2020: the best customer's own group."},
+    "A03": {"name": "Capsule CRM", "expect": "planted", "required": ["wrong-size"], "why": "Zestia Ltd, which runs Capsule, employed 35 people in 2025, excluding directors."},
+    "A04": {"name": "Feefo", "expect": "planted", "required": ["competitor"], "why": "A verified customer reviews platform: what the seller sells."},
+    "A05": {"name": "Payescape", "expect": "unsettled", "accept": ["bought"], "why": "Clean when the key was written. A filing of 31 July 2026, found after run 3, puts one long-standing investor above 50% from 17 July 2026. Whether that is a change of control the skill should call bought is not settled, so keep, check by hand, or a drop for bought alone all pass."},
+    "A06": {"name": "Weekly10", "expect": "planted", "required": ["bought"], "why": "weekly10.com lands on zensai.com. Its company's founder ceased control on 8 August 2023 and a Danish group took it over."},
+    "A07": {"name": "Pinpoint", "expect": "planted", "required": ["not-in-country"], "forbidden": ["closed"], "why": "Run by The Infuse Group Limited, in St Helier, Jersey. Name trap: Pinpoint Software Limited on Companies House is an unrelated Bicester company, dissolved in 2022."},
+    "A08": {"name": "Zestia", "expect": "planted", "required": ["duplicate"], "why": "The company behind Capsule CRM (A03): same company number, 06418281."},
+    "A09": {"name": "SeedLegals", "expect": "clean"},
+    "A10": {"name": "Wejo", "expect": "planted", "required": ["closed"], "why": "Wejo Limited is in administration, and wejo.com does not load."},
+    "A11": {"name": "Interact", "expect": "planted", "required": ["bought", "wrong-fit"], "forbidden": ["closed"], "why": "Its parent, Hasgrove Limited, has been controlled by Maia Bidco since 18 December 2025, and it sells an intranet to enterprises. Name trap: Interact Software Limited is an unrelated Aylesbury company."},
+    "A12": {"name": "CyberSmart", "expect": "clean"},
+    "A13": {"name": "Goodlord", "expect": "planted", "required": ["wrong-size"], "why": "318 employees across the group in the year to 31 August 2025 (277 in the company)."},
+    "A14": {"name": "Engager", "expect": "planted", "required": ["bought", "wrong-size"], "forbidden": ["closed"], "why": "Client Engager Online Limited: 3 employees, controlled by Malbec Bidco since 11 June 2025, and the site says it works with TaxCalc. Name trap: both Engager Ltd companies on Companies House are dissolved and unrelated."},
+    "A15": {"name": "Apron", "expect": "clean"},
+    "A16": {"name": "Mention Me", "expect": "planted", "required": ["competitor"], "why": "A referral and advocacy platform: what the seller sells."},
+    "A17": {"name": "Fiken", "expect": "planted", "required": ["not-in-country"], "why": "Fiken AS is a Norwegian company, registered in Oslo."},
+    "A18": {"name": "Commusoft", "expect": "clean"},
+    "A19": {"name": "Titania", "expect": "planted", "required": ["wrong-website"], "why": "titaniasecurity.com does not load. Titania's site is titania.com."},
+    "A20": {"name": "Crunch", "expect": "planted", "required": ["customer"], "why": "Named in the profile as an existing customer."}
+  }
+}

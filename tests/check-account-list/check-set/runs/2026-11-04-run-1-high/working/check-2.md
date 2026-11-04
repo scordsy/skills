@@ -1,0 +1,122 @@
+## A12 | CyberSmart
+- Website given: cybersmart.co.uk
+- Website: https://cybersmart.co.uk/ loads; this company (footer names CyberSmart Ltd); Cyber Essentials certification and device security software for small and medium-sized businesses
+- Registered: UK, Companies House, 10088945 (CyberSmart Ltd), active since 29 March 2016
+- Owner: independent; the register has held a statement since 16 March 2023 that there is no registrable person (founder Jamie Akhtar ceased on 30 December 2022), and the accounts to 31 December 2025 say there is no ultimate controlling party; venture backed
+- Size: 60 staff (CyberSmart Ltd, accounts to 31 December 2025; 55 in 2024)
+- Fit: security and certification software sold to small and medium-sized businesses and the IT providers that serve them, UK based; matches the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Active, independent, 60 staff, UK software sold to SMEs; nothing found to drop it.
+- Check notes: agreed: register shows no controlling person since 2023, accounts give 60 staff, site sells to SMEs; no takeover found on the site or the register
+- Evidence:
+  - C1 | website | https://cybersmart.co.uk/ | "2026 CyberSmart Ltd"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/10088945 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/10088945/persons-with-significant-control | "no registrable person or registrable relevant legal entity"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/10088945/filing-history/MzUzMzgwNjIxMWFkaXF6a2N4/document?format=pdf&download=0 | "no ultimate controlling party"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/10088945/filing-history/MzUzMzgwNjIxMWFkaXF6a2N4/document?format=pdf&download=0 | "during the year was 60"
+  - C6 | fit | https://cybersmart.co.uk/ | "Cyber Essentials and Cyber Security for SMEs"
+
+## A13 | Goodlord
+- Website given: goodlord.co
+- Website: redirects to https://www.goodlord.com/, the same company (footer names Oh Goodlord Limited); letting agent software, tenant referencing and insurance
+- Registered: UK, Companies House, 08933499 (Oh Goodlord Ltd), active since 11 March 2014
+- Owner: independent; the register has held a statement since 15 October 2020 that there is no registrable person (Finch Capital was a controlling person on 14 November 2018 only), and the accounts say there is no ultimate controlling party; venture backed
+- Size: 318 staff in the group, 277 in Oh Goodlord Ltd (group accounts to 31 August 2025; 323 and 288 in 2024)
+- Fit: software and services sold to letting agents, UK based; the product fits but the company is too big
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 318 staff in the group (277 in the company), above the 50 to 200 range.
+- Check notes: agreed: group accounts to 31 August 2025 give 318 group and 277 company staff
+- Evidence:
+  - C1 | website | https://www.goodlord.com/ | "Oh Goodlord Limited is an Appointed Representative"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08933499 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08933499/persons-with-significant-control | "no registrable person or registrable relevant legal entity"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/08933499/filing-history/MzUyMjE3MTc2OGFkaXF6a2N4/document?format=pdf&download=0 | "318 323 277 288"
+  - C5 | fit | https://www.goodlord.com/ | "Letting Agent Software, Tenant Referencing, Insurance"
+
+## A14 | Engager
+- Website given: engager.app
+- Website: https://engager.app/ loads; this company (footer names Client Engager Online Limited, 11652499) and says it is part of TaxCalc; practice management software for accountants and bookkeepers
+- Registered: UK, Companies House, 11652499 (Client Engager Online Limited), active since 31 October 2018
+- Owner: Malbec Bidco Limited since 11 June 2025 (owned through Malbec Midco Limited and Malbec Topco Limited, registered at the same Wokingham address the site gives); the site says Engager is part of TaxCalc, a trading software group; founder Andrew Wainwright ceased as a controlling person the same day
+- Size: 3 staff (Client Engager Online Limited, micro company accounts to 31 March 2025, before the takeover; 1 in 2024)
+- Fit: software sold to small UK accountancy practices; the product fits but the company is tiny and now part of TaxCalc
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-size
+- Reason: Bought on 11 June 2025 and now part of TaxCalc; the company had 3 staff.
+- Check notes: agreed: register shows Malbec Bidco as owner from 11 June 2025 and the site says it is part of TaxCalc; accounts give 3 staff. Added the TaxCalc owner from the site
+- Evidence:
+  - C1 | website | https://engager.app/ | "Engager.app is a trading name of Client Engager Online Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/11652499 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/11652499/persons-with-significant-control | "Malbec Bidco Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/11652499/persons-with-significant-control | "Notified on 11 June 2025"
+  - C5 | owner | https://engager.app/ | "and part of TaxCalc"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/11652499/filing-history/MzQ5NjAyMzMwNmFkaXF6a2N4/document?format=pdf&download=0 | "during the year was: 3"
+  - C7 | fit | https://engager.app/ | "cloud practice management software for UK accountants and bookkeepers"
+
+## A15 | Apron
+- Website given: getapron.com
+- Website: https://getapron.com/ loads; this company (footer names Apron Payments Ltd, CRN 13779960); bills, payroll and expense payments platform for small businesses and their accountants
+- Registered: UK, Companies House, 13779960 (Apron Payments Ltd, previously Hello Cash Ltd until 17 February 2023), active since 3 December 2021
+- Owner: independent; founder Bogdan Uzbekov holds 25% to 50% since 3 December 2021 and the accounts to 31 December 2025 name him as ultimate controlling party; venture backed
+- Size: 68 staff (Apron Payments Ltd, accounts to 31 December 2025: 66 staff and 2 directors; 34 in 2024)
+- Fit: payments and bookkeeping software sold to UK small businesses and accountants; matches the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Active, founder controlled, 68 staff, UK software sold to small businesses; nothing found to drop it.
+- Check notes: agreed: register and accounts show the founder in control, accounts give 68 staff, site sells to small businesses and accountants
+- Evidence:
+  - C1 | website | https://getapron.com/ | "is a company registered in England and Wales (CRN: 13779960)"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/13779960 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/13779960/persons-with-significant-control | "More than 25% but not more than 50%"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/13779960/filing-history/MzUzNjk5ODYzOGFkaXF6a2N4/document?format=pdf&download=0 | "considered to be the ultimate controlling party"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/13779960/filing-history/MzUzNjk5ODYzOGFkaXF6a2N4/document?format=pdf&download=0 | "Staff 66 33"
+  - C6 | fit | https://getapron.com/ | "Apron for business owners"
+  - C7 | fit | https://getapron.com/ | "Apron for accountants & bookkeepers"
+
+## A18 | Commusoft
+- Website given: commusoft.com
+- Website: redirects to https://www.commusoft.com/en-us/; this company (UK site at /en-gb/, terms name Commusoft Ltd as the provider); job management software for plumbing, heating, electrical and other trade businesses
+- Registered: UK, Companies House, 11611736 (Commusoft Limited, the only Commusoft company on the register), active since 9 October 2018
+- Owner: independent; founder Jason Morjaria holds 75% or more since 9 October 2018, and the accounts say the company was under his control
+- Size: 79 staff (Commusoft Limited, accounts to 31 December 2024; 76 in 2023); it also pays subsidiaries for services, which the figure does not include
+- Fit: software sold to small and medium-sized trade businesses, London based; matches the profile
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: Active, founder owned, 79 staff, UK software sold to trade businesses; nothing found to drop it.
+- Check notes: agreed: founder holds 75% or more, accounts give 79 staff; the CEO's latest open letter on the site is about AI, not a sale
+- Evidence:
+  - C1 | website | https://www.commusoft.com/en-gb/company/terms-conditions/ | "BETWEEN Commusoft Ltd."
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/11611736 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/11611736/persons-with-significant-control | "Ownership of shares - 75% or more"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/11611736/filing-history/MzQ4MzI1MDc0NGFkaXF6a2N4/document?format=pdf&download=0 | "under the control of the director by virtue of their shareholding"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/11611736/filing-history/MzQ4MzI1MDc0NGFkaXF6a2N4/document?format=pdf&download=0 | "during the year was 79"
+  - C6 | fit | https://www.commusoft.com/en-gb/ | "The All-in-One Plumbing & Heating Software"
+
+## A19 | Titania
+- Website given: titaniasecurity.com
+- Website: the given address does not resolve (checked 4 November 2026); the company's site is https://www.titania.com/ (privacy notice names Titania Limited at its registered office); network configuration security software (Nipper)
+- Registered: UK, Companies House, 06870498 (Titania Ltd, address matches the privacy notice), active since 6 April 2009
+- Owner: Titania Group Limited since 30 May 2017, a family holding company whose controlling persons are Nicola Michelle Whiting and Amy Rose Whiting (the accounts name I C Whiting and N M Whiting); not a takeover
+- Size: 47 staff in Titania Ltd (accounts to 30 April 2025; 51 in 2024) and 5 in Titania Group Limited (accounts to 30 April 2025), so 52 across the two; the group figure is inside the range
+- Fit: sells network security software to large enterprises, critical infrastructure, defence departments and government agencies, not to small and medium-sized businesses
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website, wrong-fit
+- Reason: Given address does not resolve and Titania sells to large enterprises and governments, not SMEs.
+- Check notes: removed wrong-size: Titania Ltd has 47 staff but its parent has 5 more, 52 in all, inside 50 to 200; the drop stands on wrong-website and wrong-fit. Controlling persons on the register are N M Whiting and A R Whiting
+- Evidence:
+  - C1 | website | https://www.titania.com/legal/privacy-notice | "refers to Titania Limited, 167-169 Great Portland Street"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06870498 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/06870498/persons-with-significant-control | "Titania Group Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/09803514/persons-with-significant-control | "Nicola Michelle Whiting"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/06870498/filing-history/MzQ5Njg2MTQ1NWFkaXF6a2N4/document?format=pdf&download=0 | "during the year was 47"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/09803514/filing-history/MzQ5Njg2MTQ1MmFkaXF6a2N4/document?format=pdf&download=0 | "during the year was 5"
+  - C7 | fit | https://www.titania.com/ | "secures the networks of the largest enterprises, service providers, and government organizations"
+  - C8 | fit | https://www.titania.com/ | "critical infrastructure providers, departments of defense"

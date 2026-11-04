@@ -148,3 +148,63 @@ _Avoid_: audit, review
 
 **Corrected draft**:
 `corrected.md`: each summary rewritten with removed text struck through, added text in bold, and the line number behind every change.
+
+## check-account-list
+
+**List**:
+The companies the user wants checked, as given: a paste, a CSV, an Excel sheet or a markdown table. Each company gets an ID, `A01` onwards.
+_Avoid_: leads, prospects, accounts (unless the user says so)
+
+**Profile**:
+The approved summary of the interview: what the user sells, their best customers and why, the hard limits, and who to drop on sight. Every check measures against it. Nothing is checked before the user approves it.
+_Avoid_: ICP, brief, persona
+
+**Best customer**:
+A customer the user wants the list to look like. One to three, named by the user.
+
+**Hard limits**:
+The parts of the profile a company must meet: countries, staff range, buyer, and whether a company owned by a larger group counts.
+
+**Check**:
+One of the six things looked at for every company: website, still trading, owner, size, fit, conflicts.
+_Avoid_: test, criterion
+
+**Primary source**:
+The company's own website, the official company register for its country, or the buyer's or company's own announcement of a takeover. The only evidence that counts.
+_Avoid_: source (a listing site is a source of leads, never of facts)
+
+**Evidence**:
+A primary source's web address and two or more words copied exactly from it, recorded against one check. The script confirms the words are on the page.
+_Avoid_: proof, citation
+
+**Record**:
+One company, in the record format: what each check found, the verdict, the problems, the reason and the evidence.
+
+**Verdict**:
+What the research, or the checker's re-check, concludes about a company. Exactly one of:
+- **keep**: every check passed, with evidence for website, still trading, owner, size and fit.
+- **drop**: at least one problem type, with evidence.
+- **check-by-hand**: the evidence is missing or contradicts itself, and no problem is proven.
+_Avoid_: status, score, valid
+
+**Unverified**:
+No primary source gives the fact. Never a problem on its own; a reason to check by hand.
+
+**Problem type**:
+Why a company is dropped. One or several of: **wrong-website**, **closed**, **bought**, **not-in-country**, **wrong-size**, **wrong-fit**, **competitor**, **customer**, **duplicate**. **Bought** means a takeover, merger or change of control in the last five years. When the profile does not want group-owned companies, it also covers a company owned by a trading group, however long ago. Ownership by an investor older than five years is noted but is not a problem. **Customer** includes a company owned by the same group as a best customer or an existing customer.
+_Avoid_: error, issue, flag
+
+**Name trap**:
+A company on a register with the same or a similar name as the one on the list, but unrelated. Caught by matching the website, address or directors, never the name alone.
+
+**Researcher**:
+Whatever writes the first records: a subagent per batch in Claude Code, the chat itself in Claude.ai.
+
+**Checker**:
+Whatever re-checks every keep and every drop the script could not confirm: a fresh subagent per batch in Claude Code, a fresh chat in Claude.ai. Sees the claims and verdicts, never the reasons or the evidence.
+
+**Re-check**:
+The stage where the checker tries to prove the first pass wrong. Not to be confused with a check, which is one of the six things looked at for every company.
+
+**Report**:
+`checks.md`, with `checked.csv` (every company) and `keepers.csv` (the keeps).

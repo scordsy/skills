@@ -45,6 +45,7 @@ BARE_MD = re.compile(r"`([a-z0-9-]+\.md)`")
 RUN_FILES = {
     "find-events": {"brief.md", "records.md", "shortlist.md"},
     "check-call-summary": {"transcript-lines.md", "key-facts.md", "check.md", "corrected.md"},
+    "check-account-list": {"companies.md", "web.md", "checks.md"},
 }
 TEXT_SUFFIXES = {".md", ".py", ".json", ".yml", ".yaml", ".txt", ""}
 
@@ -130,6 +131,18 @@ def check_skill(skill: Path, readme: str, problems: list[str]) -> None:
         problems.append(f"README.md: no link to {where}/")
 
 
+QUOTED = re.compile(r'"[^"]*"')
+
+
+def saved_output(rel: Path) -> bool:
+    """A real run kept as evidence: a check set's runs and a skill's example. Their quotes are copied
+    exactly from web pages, as the skills require, so the house style applies outside the quotes only."""
+    parts = rel.parts
+    in_runs = len(parts) > 3 and parts[0] == "tests" and parts[2] == "check-set" and parts[3] == "runs"
+    in_example = len(parts) > 2 and parts[:2] == ("docs", "examples") and rel.name != "README.md"
+    return in_runs or in_example
+
+
 def check_text(problems: list[str]) -> None:
     for path in tracked_files():
         if path.suffix not in TEXT_SUFFIXES:
@@ -139,12 +152,15 @@ def check_text(problems: list[str]) -> None:
         except UnicodeDecodeError:
             continue
         rel = path.relative_to(ROOT)
+        quoted_ok = saved_output(rel)
         for number, line in enumerate(text.splitlines(), start=1):
+            if EMAIL.search(line):
+                problems.append(f"{rel}:{number}: email address")
+            if quoted_ok:
+                line = QUOTED.sub('""', line)
             for char, label in BANNED_CHARACTERS.items():
                 if char in line:
                     problems.append(f"{rel}:{number}: {label}")
-            if EMAIL.search(line):
-                problems.append(f"{rel}:{number}: email address")
             if path.suffix == ".md" and HEDGED_NUMBER.search(line):
                 problems.append(f"{rel}:{number}: 'about' or 'around' before a number")
 

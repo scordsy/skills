@@ -35,3 +35,16 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 - **Many calls in one go.** One call per run.
 - **Transcripts in other languages.** Not tested, so not claimed.
 
+## check-account-list
+
+**In:** one list of up to 50 companies (15 in a chat), pasted or as `.csv`, `.xlsx`, `.md` or `.txt`, checked against a profile the user approves. A report and two CSVs.
+
+**Out, on purpose:**
+
+- **Building or extending a list.** It never adds a company or suggests a replacement. See [ADR 0015](docs/adr/0015-it-checks-lists-and-never-adds-to-them.md).
+- **Contacts, email addresses and enrichment.** It checks companies, not people.
+- **Ranking or scoring the keeps.** A keep fits the profile; which to call first is the user's call.
+- **Paid registers, register APIs that need a key or payment, and bulk reads.** Registers are read the way a person would, a few pages per company, and the script loads only the register pages a record cites, to check the quotes. Where a country's free register does not give a fact, it is marked unverified. See [ADR 0013](docs/adr/0013-any-country-registers-read-by-hand.md).
+- **Paid data sources, enrichment tools and API keys.**
+- **Reading or writing a CRM.**
+- **Agents other than Claude.** Not tested, so not claimed.

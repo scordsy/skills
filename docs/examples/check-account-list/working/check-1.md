@@ -1,0 +1,182 @@
+## A01 | Cezanne HR
+- Website given: cezannehr.com
+- Website: https://cezannehr.com/ loads; this company (footer names Cezanne HR Limited); cloud HR and payroll software
+- Registered: UK, Companies House, 08314801 (Cezanne HR Limited), active since 30 November 2012
+- Owner: Cezanne HR (Holding) Limited (08314700), 75% or more since 6 April 2016. Its only active controller is Northedge Capital SME GP I LLP, a private equity investor, with 25% to 50% since 21 March 2023. Earlier controllers (Alberto Enzo Gabbai, ceased 4 March 2025; the Bolton Cezanne Trust, ceased 24 August 2022) were people. The group accounts say there is no ultimate controlling party. An investor holding a minority stake, not a trading company, so not bought. Cezanne is itself the buyer in its recent deals (Staubbach Ltd in March 2025, Rise To Limited, trading as Learn Amp, on 1 April 2026)
+- Size: 126 staff (group figure, Cezanne HR (Holding) Limited group accounts to 31 December 2025; 116 in 2024). The Learn Amp purchase in April 2026 comes after these accounts and its staff are not yet in a filed figure
+- Fit: sells HR and payroll software to "mid-sized UK and global organisations", a UK software company selling to medium-sized businesses
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK HR software company, 126 staff, minority private equity investor only, sells to mid-sized organisations.
+- Check notes: agreed: Northedge holds 25% to 50% as an investor and the accounts name no controlling party; 126 staff in the 2025 group accounts. Worth a look at next year's accounts, as the Learn Amp purchase will add staff.
+- Evidence:
+  - C1 | website | https://cezannehr.com/ | "Cezanne HR Limited"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08314801 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08314801/persons-with-significant-control | "Cezanne Hr (Holding) Limited"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08314700/persons-with-significant-control | "Northedge Capital Sme Gp I Llp"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/08314700/filing-history/MzU0OTIxNzYyMmFkaXF6a2N4/document?format=pdf&download=0 | "The directors consider there to be no ultimate controlling party."
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/08314700/filing-history/MzU0OTIxNzYyMmFkaXF6a2N4/document?format=pdf&download=0 | "Total 126 116 7 6"
+  - C7 | fit | https://cezannehr.com/ | "the best HR software and payroll for mid-sized UK and global organisations"
+
+## A02 | Ciphr
+- Website given: ciphr.com
+- Website: https://www.ciphr.com/ loads; this company (footer gives Reg No 04616229); HR, payroll, learning and benefits software
+- Registered: UK, Companies House, 04616229 (Ciphr Limited), active since 12 December 2002
+- Owner: Ciphr Group Limited, under Ciphr Holdings Limited, owned since 18 December 2020 by the Bletchley companies. The Bletchley Topco Limited group accounts say it "is controlled by ECI Partners LLP", a private equity investor, since December 2020. Just under six years, and an investor, so noted, not a problem
+- Size: 233 staff (group figure, Bletchley Topco Limited group accounts to 31 December 2025; 241 in 2024)
+- Fit: sells HR and payroll software to UK organisations of 200 to 2,000 employees; its accounts say the group targets UK organisations "with over 150 employees". Larger than the small and medium-sized buyers in the profile
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size, wrong-fit
+- Reason: 233 staff in the group accounts, above the 50 to 200 range, and it sells to organisations of 200 to 2,000 employees.
+- Check notes: agreed: 233 staff in the 2025 group accounts and the site's own "200-2,000 employees" line.
+- Evidence:
+  - C1 | website | https://www.ciphr.com/ | "Reg No: 04616229"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/04616229 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/12963634/filing-history/MzU1MDM3MjU4N2FkaXF6a2N4/document?format=pdf&download=0 | "Bletchley Topco Limited is controlled by ECI Partners LLP"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/12963634/filing-history/MzU1MDM3MjU4N2FkaXF6a2N4/document?format=pdf&download=0 | "233 241"
+  - C5 | fit | https://www.ciphr.com/ | "Ideal for UK organisations with 200-2,000 employees"
+  - C6 | fit | https://find-and-update.company-information.service.gov.uk/company/12963634/filing-history/MzU1MDM3MjU4N2FkaXF6a2N4/document?format=pdf&download=0 | "mid-market organisations with over 150 employees"
+
+## A03 | Natural HR
+- Website given: naturalhr.com
+- Website: http://naturalhr.com/ loads a hosting company's error page ("no website installed on this domain"), not this company. https://www.naturalhr.com/ did not answer. No Natural HR site found
+- Registered: UK, Companies House, 08292934 (Natural HR Limited), active since 14 November 2012, registered office now at Moorepay's address in Bristol
+- Owner: Moorepay Limited (00891686), a payroll and HR company, since 8 March 2023; the accounts say "The Company was 100% acquired by Moorepay Limited". Moorepay sits in the Zellis group, which the accounts say was bought by funds advised by Apax on 13 August 2024 (ultimate parent Zorro EquityCo S.a r.l., Luxembourg, "ultimately controlled by Apax" Fund XI). Before 2023 the founders Jason and Sarah Dowzell held it
+- Size: 6 staff (Natural HR Limited, accounts to 30 April 2025; 46 the period before). The accounts say its employees were moved to Moorepay Limited in June 2024, so the business's staff now sit in Moorepay
+- Fit: unverified from its own site (the site is gone); now part of Moorepay's payroll and HR offer
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-website, bought, wrong-size
+- Reason: Bought by Moorepay (Zellis group, Apax-owned) in March 2023, staff moved to Moorepay, and the given website is a hosting placeholder.
+- Check notes: agreed: Moorepay owns 75% or more since 8 March 2023 and the domain shows a hosting error page. Added the top of the chain: Apax funds since 13 August 2024, from the Natural HR accounts.
+- Evidence:
+  - C1 | website | http://naturalhr.com/ | "there is no website installed on this domain yet"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08292934 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08292934/persons-with-significant-control | "Notified on 8 March 2023"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/08292934/filing-history/MzUwMjU1NzY4MGFkaXF6a2N4/document?format=pdf&download=0 | "The Company was 100% acquired by Moorepay Limited"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/08292934/filing-history/MzUwMjU1NzY4MGFkaXF6a2N4/document?format=pdf&download=0 | "ultimately controlled by Apax"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/08292934/filing-history/MzUwMjU1NzY4MGFkaXF6a2N4/document?format=pdf&download=0 | "employed by the Company during the period was 6"
+
+## A04 | CharlieHR
+- Website given: charliehr.com
+- Website: https://www.charliehr.com/ loads; this company; HR software and HR advice for UK small businesses. The site names the legal company as Charlie OS Limited, 9940754
+- Registered: UK, Companies House, 09940754 (Charlie OS Limited), active since 7 January 2016
+- Owner: Charlie HR Limited (09787589), 75% or more since 6 April 2016, controlled by its founders Benedict Gateley and Robert O'Donovan (25% to 50% each). Independent. Charlie HR Limited allotted new shares in July and October 2026, but its controllers have not changed
+- Size: 37 staff (Charlie OS Limited, accounts to 31 December 2025; 38 in 2024). The parent, Charlie HR Limited, employed nobody (accounts to 31 December 2025), so 37 is the whole business
+- Fit: sells HR software to UK small businesses, the profile's buyer type
+- Conflicts: none
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 37 staff in the 2025 accounts, below the 50 to 200 range; otherwise an independent UK software company selling to small businesses.
+- Check notes: agreed: 37 staff in Charlie OS Limited's accounts and none in the parent, so no larger group figure exists.
+- Evidence:
+  - C1 | website | https://www.charliehr.com/ | "Charlie OS Limited is a company registered in England and Wales number 9940754"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/09940754 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/09787589/persons-with-significant-control | "Mr Benedict James Robert Gateley"
+  - C4 | size | https://find-and-update.company-information.service.gov.uk/company/09940754/filing-history/MzUyOTIwNzEyNmFkaXF6a2N4/document?format=xhtml&download=1 | "Average number of employees, including directors, during the year was: 37"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/09787589/filing-history/MzUyOTE5NTA3MWFkaXF6a2N4/document?format=xhtml&download=1 | "during the year was: NIL"
+  - C6 | fit | https://www.charliehr.com/ | "Anyone else running a UK small business"
+
+## A05 | Rotageek
+- Website given: rotageek.com
+- Website: https://www.rotageek.com/ loads; this company; workforce scheduling software, with HR modules "powered by ELMO"
+- Registered: UK, Companies House, 06783810 (Rota Geek Limited), active since 6 January 2009
+- Owner: Elmo Software UK Holdings Limited (12843874), 75% or more since 30 May 2025. The Rotageek accounts name the ultimate controlling party as Elmo Software Holdings Pty Ltd (formerly Cookie Monster TopCo Pty Ltd), Australia. A trading software group, bought in the last five years
+- Size: 39 staff (Rota Geek Limited, accounts for the period to 30 June 2025; 43 in 2024)
+- Fit: sells scheduling software to large shift-based employers; the customer stories on its homepage are William Hill (5,000+ employees), The Entertainer and Sephora Middle East, not small businesses
+- Conflicts: same group as your best customer, Breathe. Breathe's own site gives its company number as 3020608 (Centurion Management Systems Limited), which Elmo Software UK Holdings Limited has owned since 7 October 2020
+- Verdict: drop
+- Problems: bought, wrong-size, wrong-fit, customer
+- Reason: Bought by ELMO in May 2025, the group that owns Breathe; 39 staff; sells to large chains.
+- Check notes: agreed: Elmo owns 75% or more since 30 May 2025. Corrected the Breathe link: breathehr.com names company 3020608 (Centurion Management Systems Limited), owned by Elmo Software UK Holdings since October 2020, not Breathe HR Ltd 13071896 as the first pass gave. Same conclusion. Added the top of the chain from the accounts.
+- Evidence:
+  - C1 | website | https://www.rotageek.com/ | "HR modules powered by ELMO"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06783810 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/06783810/persons-with-significant-control | "Notified on 30 May 2025"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/06783810/filing-history/MzUxNDEyMjI5MmFkaXF6a2N4/document?format=pdf&download=0 | "The ultimate controlling party is Elmo Software Holdings Pty Ltd"
+  - C5 | size | https://find-and-update.company-information.service.gov.uk/company/06783810/filing-history/MzUxNDEyMjI5MmFkaXF6a2N4/document?format=pdf&download=0 | "during the period was 39 (2024: 43)"
+  - C6 | fit | https://www.rotageek.com/ | "Retail Analytics Director, William Hill"
+  - C7 | fit | https://www.rotageek.com/ | "Trusted by ops teams managing thousands of shifts every week"
+  - C8 | conflict | https://www.breathehr.com/ | "Registered in England, Company Number 3020608"
+  - C9 | conflict | https://find-and-update.company-information.service.gov.uk/company/03020608/persons-with-significant-control | "Notified on 7 October 2020"
+
+## A06 | RotaCloud
+- Website given: rotacloud.com
+- Website: https://rotacloud.com/ loads; this company; online rota, time and attendance and HR software. Its terms name the company as Kettle and Keyboard Limited, trading as RotaCloud
+- Registered: UK, Companies House, 08625682 (Kettle and Keyboard Ltd), active since 26 July 2013, registered office in York
+- Owner: independent. Three personal holding companies, J Beverley Ltd, D W Brandon Ltd and Jel Holdings Ltd, each hold 25% to 50% since 19 May 2022, and each is 75% or more owned by one founder (Joel Beverley, David Brandon, James Lintern). Its about page says it has grown with "zero outside investment"
+- Size: 65 staff (Kettle and Keyboard Ltd, accounts to 31 July 2025; 63 in 2024)
+- Fit: sells rota software to businesses from care homes to cafes, "trusted by over 5,000 businesses"; a UK B2B software company selling to small and medium-sized businesses, like the best customer
+- Conflicts: none (not the same company as A05 Rotageek)
+- Verdict: keep
+- Problems: none
+- Reason: Founder-owned UK rota software company, 65 staff, selling to small and medium-sized businesses.
+- Check notes: agreed: the three holding companies each trace to one founder, and 65 staff in the 2025 accounts.
+- Evidence:
+  - C1 | website | https://rotacloud.com/terms/ | "We are Kettle and Keyboard Limited, T/A RotaCloud"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/08625682 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/08625682/persons-with-significant-control | "J Beverley Ltd"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/14026227/persons-with-significant-control | "Mr Joel Matthew Beverley"
+  - C5 | owner | https://rotacloud.com/about/ | "zero outside investment"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/08625682/filing-history/MzUxOTE3NDY1OWFkaXF6a2N4/document?format=xhtml&download=1 | "The average number of employees during the year was 65"
+  - C7 | fit | https://rotacloud.com/ | "Fuss-free rota planning software for your business"
+  - C8 | fit | https://rotacloud.com/ | "Trusted by over 5,000 businesses"
+
+## A07 | StaffCircle
+- Website given: staffcircle.com
+- Website: https://www.staffcircle.com/ returned 403 with a bot check to both curl and the built-in reader, so what it sells and to whom is unverified from its own site
+- Registered: UK, Companies House, 10691841 (StaffCircle Ltd), active since 27 March 2017, registered office in Leicester
+- Owner: Blackfinch Ventures Nominees Limited, a venture investor, 25% to 50% since 12 August 2021, plus one person with significant influence. An investor, not a trading company
+- Size: 23 staff (StaffCircle Ltd, accounts to 31 March 2025; 44 the year before)
+- Fit: unverified (site not readable)
+- Conflicts: none found
+- Verdict: drop
+- Problems: wrong-size
+- Reason: 23 staff in the 2025 accounts, below the 50 to 200 range.
+- Check notes: agreed: the accounts to 31 March 2025 give 23 staff.
+- Evidence:
+  - C1 | trading | https://find-and-update.company-information.service.gov.uk/company/10691841 | "Company status Active"
+  - C2 | owner | https://find-and-update.company-information.service.gov.uk/company/10691841/persons-with-significant-control | "Blackfinch Ventures Nominees Limited"
+  - C3 | size | https://find-and-update.company-information.service.gov.uk/company/10691841/filing-history/MzQ4MTU3MDA4NWFkaXF6a2N4/document?format=pdf&download=0 | "during the year was 23 (2024: 44)"
+
+## A08 | Eploy
+- Website given: eploy.co.uk
+- Website: redirects to https://www.eploy.com/, the same company's other domain; applicant tracking and recruitment software. The footer reads "2026 The Access Group"
+- Registered: UK, Companies House, 05369138 (Eploy Limited), active
+- Owner: Access UK Ltd (02343760), part of The Access Group, a trading software group, 75% or more since 1 August 2025. Before that the founders, including Paul Burgess, held it. The chain above Access UK Ltd was not traced
+- Size: unverified for the business (not rechecked; the drop does not rest on it)
+- Fit: sells recruitment software to the in-house talent acquisition teams of large employers (volume, multi-national and shared-service hiring); the homepage reviews are from enterprise users of over 1,000 staff
+- Conflicts: none
+- Verdict: drop
+- Problems: bought, wrong-fit
+- Reason: Bought by The Access Group on 1 August 2025, and sells to large employers' in-house recruitment teams.
+- Check notes: agreed: Access UK Ltd owns 75% or more since 1 August 2025 and the site footer names The Access Group.
+- Evidence:
+  - C1 | website | https://www.eploy.com/ | "© 2026 The Access Group"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/05369138 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/05369138/persons-with-significant-control | "Notified on 1 August 2025"
+  - C4 | fit | https://www.eploy.com/ | "Internal Talent Acqusition Manager, Enterprise ( > 1000 emp.)"
+  - C5 | fit | https://www.eploy.com/ | "Volume recruitment Multi-national"
+
+## A10 | Tribepad
+- Website given: tribepad.com
+- Website: https://tribepad.com/ loads; this company; recruitment and talent acquisition software. The footer names Tribepad Ltd, Reg No 6585098
+- Registered: UK, Companies House, 06585098 (Tribepad Ltd, formerly Talent On View Limited until January 2020), active since 6 May 2008, registered office in Sheffield
+- Owner: Tribepad Group Ltd (10199347), 75% or more since 20 June 2016, owned since 31 January 2023 by Tribepad Holdings Group Limited (14519473, formerly Troy Newco Limited). That top company is controlled by founder Dean Sadler (25% to 50%, since December 2022) and BGF GP Limited, a growth investor (25% to 50%, since 31 January 2023). Before 2023 Dean Sadler held the group directly. An investor, not a trading company
+- Size: 62 staff (group figure, Tribepad Holdings Group Ltd group accounts to 31 May 2025; 58 in 2024)
+- Fit: sells recruitment software to SMEs as well as large employers, with its own SME product line; a UK B2B software company with a small-business offer
+- Conflicts: none
+- Verdict: keep
+- Problems: none
+- Reason: UK recruitment software company, 62 staff, founder and BGF owned, with a product line for SMEs.
+- Check notes: agreed: BGF is an investor holding 25% to 50% alongside the founder, and 62 staff in the 2025 group accounts.
+- Evidence:
+  - C1 | website | https://tribepad.com/ | "Tribepad Ltd Reg No: 6585098"
+  - C2 | trading | https://find-and-update.company-information.service.gov.uk/company/06585098 | "Company status Active"
+  - C3 | owner | https://find-and-update.company-information.service.gov.uk/company/06585098/persons-with-significant-control | "Tribepad Group Ltd"
+  - C4 | owner | https://find-and-update.company-information.service.gov.uk/company/10199347/persons-with-significant-control | "Tribepad Holdings Group Limited"
+  - C5 | owner | https://find-and-update.company-information.service.gov.uk/company/14519473/persons-with-significant-control | "Bgf Gp Limited"
+  - C6 | size | https://find-and-update.company-information.service.gov.uk/company/14519473/filing-history/MzUwNzUzOTkyNmFkaXF6a2N4/document?format=xhtml&download=1 | "Number Number Number Number 62 58 3 3"
+  - C7 | fit | https://tribepad.com/ | "Supporting SMEs and small businesses to grow their teams."
