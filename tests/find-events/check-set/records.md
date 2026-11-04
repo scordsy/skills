@@ -29,12 +29,12 @@ Ten records for the checker, as a discovery lane might write them. Five are accu
 - Where: London, ExCeL London, UK
 - When: 12 to 13 May 2027
 - Listed price: Free to visit (organiser's home page). Exhibiting priced on enquiry
-- Your price: Visiting is for accounting and finance professionals only, so as a vendor the route in is exhibiting, priced on enquiry
+- Your price: £500 + VAT. Entry is free for accounting, finance and bookkeeping roles; non-exhibiting vendors pay £500 + VAT (organiser's terms of entry). Exhibiting is priced on enquiry
 - Meetings: none seen; exhibitors offer stand demos
 - Format: expo
 - Who's in the room: 17,200+ accountants, in-house finance professionals, bookkeepers and industry experts, and 300+ software and service suppliers, per the organiser's home page. Visitors are 63% in practice and 37% in industry, per its why-exhibit page
 - Why: An accounting and finance show co-located with The FD Show, which is aimed at senior in-house finance.
-- Gate: "A trade event for Accounting & Finance Professionals only" (organiser's useful information page)
+- Gate: "A trade event for Accounting & Finance Professionals only" (organiser's useful information page). Non-exhibiting vendors pay "£500 (+VAT)" and agree "Not to solicit business anywhere on the show floor" (organiser's terms of entry)
 - URL: https://www.accountex.co.uk/london/
 
 ## 4. CeBIT 2027  [pattern-estimate]  (lane: europe-trade-shows)

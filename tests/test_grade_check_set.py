@@ -59,7 +59,7 @@ class GraderTest(unittest.TestCase):
 
     def test_the_saved_run_passes_against_the_current_key(self) -> None:
         key = grader.json.loads((ROOT / "tests" / "find-events" / "check-set" / "answer-key.json").read_text(encoding="utf-8"))
-        run = ROOT / "tests" / "find-events" / "check-set" / "runs" / "2026-11-02-run-2-checked.md"
+        run = ROOT / "tests" / "find-events" / "check-set" / "runs" / "2026-11-04-run-7-checked.md"
         passed, lines = grader.grade(key, grader.records.read(run))
         self.assertTrue(passed, "\n".join(lines))
 

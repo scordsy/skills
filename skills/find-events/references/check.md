@@ -69,6 +69,8 @@ Track these seven types:
 
 Filling in a detail the record simply left out is not a correction, unless it is a gate (`gate-missed`) or the user's price (`price-wrong`). Say it in the check notes instead.
 
+**Not finding something is not the same as it being wrong.** A correction needs an organiser's page that says something different about the same thing. Organisers often run several similar services, such as a matchmaking programme and a separate delegation service, each with its own rules: a rule from one is not evidence against a record about the other. If you cannot find the page that supports a field, leave the field as it is, and say in the check notes that it is unverified and what you looked for.
+
 If a record is fine, say it is fine. **Inventing a correction to look diligent is the same failure as rubber-stamping**, pointed the other way.
 
 ## Output
