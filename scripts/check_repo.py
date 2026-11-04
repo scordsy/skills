@@ -161,7 +161,8 @@ def check_text(problems: list[str]) -> None:
             for char, label in BANNED_CHARACTERS.items():
                 if char in line:
                     problems.append(f"{rel}:{number}: {label}")
-            if path.suffix == ".md" and HEDGED_NUMBER.search(line):
+            # Saved check-set runs are a checker's own words, kept verbatim as evidence.
+            if path.suffix == ".md" and "runs" not in rel.parts and HEDGED_NUMBER.search(line):
                 problems.append(f"{rel}:{number}: 'about' or 'around' before a number")
 
 
