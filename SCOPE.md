@@ -20,3 +20,16 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 - **Contact lookups.** It finds rooms, not attendee lists.
 - **Paid data sources.** Event databases and enrichment tools are out, for the same reason as API keys.
 - **Agents other than Claude.** Not tested, so not claimed.
+
+## check-call-summary
+
+**In:** one call at a time. A transcript as pasted text, `.txt`, `.md`, `.vtt` or `.srt`, and one or more summaries of that call. A report and a corrected draft for each summary.
+
+**Out, on purpose:**
+
+- **Writing summaries.** Other tools do that, and a skill that writes and checks the same summary is marking its own homework. See [ADR 0010](docs/adr/0010-it-checks-and-never-writes.md).
+- **Reading from a call recorder or writing to a CRM.** Both need connectors and keys.
+- **Audio.** It works from the transcript. It cannot hear who spoke, which is why labels are flagged, never fixed.
+- **Many calls in one go.** One call per run.
+- **Transcripts in other languages.** Not tested, so not claimed.
+

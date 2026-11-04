@@ -1,7 +1,7 @@
 {
   "name": "stefancordery-skills",
-  "version": "0.1.0",
-  "description": "Stefan Cordery's skills for Claude, each built so you can check its work. First: find-events, a shortlist of events worth attending, every one checked against the organiser's own page.",
+  "version": "0.2.0",
+  "description": "Stefan Cordery's skills for Claude, each built so you can check its work. find-events: a shortlist of events worth attending, each checked against the organiser's own page. check-call-summary: an AI call summary checked claim by claim against the transcript before it goes in your CRM.",
   "author": {
     "name": "Stefan Cordery",
     "url": "https://www.linkedin.com/in/stefancordery/"
@@ -9,5 +9,14 @@
   "homepage": "https://github.com/scordsy/skills",
   "repository": "https://github.com/scordsy/skills",
   "license": "MIT",
-  "keywords": ["skills", "events", "conferences", "meetups", "research"]
+  "keywords": [
+    "skills",
+    "events",
+    "conferences",
+    "research",
+    "call-summary",
+    "transcripts",
+    "crm",
+    "sales"
+  ]
 }

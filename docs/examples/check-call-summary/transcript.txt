@@ -1,0 +1,104 @@
+Sam Okoro  00:00:04
+Hi Hannah, can you hear me okay?
+
+Hannah Price  00:00:07
+Yes, loud and clear. Raj is going to join us in a few minutes, he's just finishing a team huddle.
+
+Sam Okoro  00:00:13
+Perfect. Thanks for taking the call. I saw you'd downloaded our guide on quality assurance for contact centres, so I was keen to hear what's going on at Quillmarsh.
+
+Hannah Price  00:00:24
+Sure. So I run customer experience at Quillmarsh Home Insurance. We've got a claims line and a sales line, around two hundred and twenty agents in total across Leeds and Cardiff.
+
+Hannah Price  00:00:36
+At the moment our QA team listens to calls and scores them on a spreadsheet. They get through maybe two per cent of calls, if that.
+
+Sam Okoro  00:00:44
+And what's that costing you?
+
+Hannah Price  00:00:47
+The real problem is complaints. We had a spike in complaints last quarter and by the time QA found the calls behind them, weeks had gone by.
+
+Raj Mehta  00:01:58
+Sorry, I'm here. Hi both.
+
+Sam Okoro  00:02:01
+Hi Raj. Hannah was just explaining the complaints spike.
+
+Raj Mehta  00:02:05
+Yeah. I lead the QA team. Six of us, scoring calls by hand.
+
+Sam Okoro  00:02:10
+And how do you choose which calls to score?
+
+Raj Mehta  00:02:13
+Mostly random, plus anything a team leader flags.
+
+Raj Mehta  00:02:18
+Honestly, the thing I'd worry about with AI scoring is the agents. If they get marked down by a machine and can't see why, they won't trust it, and the union will be on us in a week.
+
+Sam Okoro  00:02:30
+That's fair. Every score in Larkspur links back to the moment in the call it's based on, so an agent can hear it for themselves.
+
+Raj Mehta  00:02:39
+That would help. I'd want to see that working on our calls, not a demo.
+
+Hannah Price  00:02:44
+And to be clear, Sam, if it can make Raj's team enjoy Monday mornings, I'll take ten licences on the spot.
+
+Raj Mehta  00:02:50
+Nothing makes my team enjoy Monday mornings.
+
+Sam Okoro  00:02:53
+I'll settle for helping with the other four days. Can I ask what you're using alongside the spreadsheet today?
+
+Hannah Price  00:03:01
+Nothing else. We did look at Callgrade last year, but it was too expensive for what it did.
+
+Sam Okoro  00:03:08
+Okay. And in terms of budget, is there something set aside for this?
+
+Hannah Price  00:03:12
+There's something in next year's plan, roughly thirty thousand, but it's not signed off. Finance will want a business case.
+
+Sam Okoro  00:03:20
+Understood. And who signs off the business case?
+
+Hannah Price  00:03:23
+That's me, with our COO for anything over twenty-five.
+
+Sam Okoro  00:03:28
+So Hannah, you and the COO for the full amount. Raj, how do you feel about the timing?
+
+Sam Okoro  00:03:33
+I'd rather not start anything before our April peak is over, to be honest.
+
+Hannah Price  00:03:38
+Yes, April's renewals season for us. Realistically a pilot would be May.
+
+Sam Okoro  00:03:44
+That works. What I'd suggest is we run a sample of your recorded calls through Larkspur so you can see the scoring on your own calls, like Raj said.
+
+Raj Mehta  00:03:52
+I'd need to check with compliance before we share any recordings. They're strict on call data leaving the building.
+
+Sam Okoro  00:04:00
+Of course. We can sign an NDA and a data processing agreement first. I'll send both over today, plus a case study from an insurer we work with.
+
+Hannah Price  00:04:09
+Great. And can you send pricing for two hundred and twenty seats?
+
+Sam Okoro  00:04:13
+I'll put that in a proposal once we've seen the sample results. It depends on which modules you'd use.
+
+Hannah Price  00:04:20
+Fine. Let's pick it up again in two weeks.
+
+Sam Okoro  00:04:23
+I'll send an invite for Thursday the twentieth at two. Raj, does that work for you?
+
+Raj Mehta  00:04:28
+Should be fine.
+
+Sam Okoro  00:04:30
+Great. Thanks both.

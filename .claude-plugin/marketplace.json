@@ -9,9 +9,18 @@
     {
       "name": "stefancordery-skills",
       "source": "./",
-      "description": "Skills for Claude, each built so you can check its work. First: find-events, a shortlist of events worth attending, every one checked against the organiser's own page.",
+      "description": "Skills for Claude, each built so you can check its work. find-events finds events worth attending, checked against the organiser's own page. check-call-summary checks an AI call summary against the transcript before it goes in your CRM.",
       "category": "productivity",
-      "keywords": ["skills", "events", "conferences", "meetups", "research"]
+      "keywords": [
+        "skills",
+        "events",
+        "conferences",
+        "research",
+        "call-summary",
+        "transcripts",
+        "crm",
+        "sales"
+      ]
     }
   ]
 }

@@ -41,8 +41,11 @@ EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]
 HEDGED_NUMBER = re.compile(r"\b(about|around)\s+[0-9]", re.IGNORECASE)
 REFERENCED_FILE = re.compile(r"\b((?:references|scripts)/[A-Za-z0-9_./-]+\.(?:md|py))\b")
 BARE_MD = re.compile(r"`([a-z0-9-]+\.md)`")
-# Files a run writes, named in the instructions but never part of the skill itself.
-RUN_FILES = {"brief.md", "records.md", "shortlist.md"}
+# Files a run writes, named in each skill's instructions but never part of the skill itself.
+RUN_FILES = {
+    "find-events": {"brief.md", "records.md", "shortlist.md"},
+    "check-call-summary": {"transcript-lines.md", "key-facts.md", "check.md", "corrected.md"},
+}
 TEXT_SUFFIXES = {".md", ".py", ".json", ".yml", ".yaml", ".txt", ""}
 
 
@@ -120,7 +123,7 @@ def check_skill(skill: Path, readme: str, problems: list[str]) -> None:
         for ref in sorted(set(REFERENCED_FILE.findall(source.read_text(encoding="utf-8")))):
             if not (skill / ref).is_file():
                 problems.append(f"{source.relative_to(ROOT)}: points to {ref}, which does not exist")
-        for name in sorted(set(BARE_MD.findall(source.read_text(encoding="utf-8"))) - RUN_FILES):
+        for name in sorted(set(BARE_MD.findall(source.read_text(encoding="utf-8"))) - RUN_FILES.get(skill.name, set())):
             if not (skill / "references" / name).is_file() and not (skill / name).is_file():
                 problems.append(f"{source.relative_to(ROOT)}: names {name}, which is not in the skill")
     if f"skills/{skill.name}/" not in readme:

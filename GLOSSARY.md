@@ -1,6 +1,6 @@
 # Glossary
 
-The words these skills use in their instructions, their output and their docs. One meaning each. When a skill's output uses one of these words, it means exactly this.
+The words these skills use in their instructions, their output and their docs. One meaning each within a skill. Where two skills share a word, such as verdict, each skill's section gives its meaning there. When a skill's output uses one of these words, it means exactly this.
 
 ## find-events
 
@@ -90,3 +90,61 @@ Events in the same city in the same week, grouped so one journey covers them.
 **Shortlist**:
 The hand-back: `shortlist.md`, ordered as the spec sets out.
 _Avoid_: report, calendar
+
+## check-call-summary
+
+**Transcript**:
+The record of what was said on the call, line by line, with speaker labels. The only source a claim is checked against.
+_Avoid_: recording (the skill never hears audio), notes
+
+**Summary**:
+Any written account of the call being checked: an AI summary, a CRM note, a follow-up email, meeting notes.
+_Avoid_: recap, minutes
+
+**Numbered transcript**:
+`transcript-lines.md`: the transcript with every line numbered, `[L42] 00:12:03 Priya: text`. Every quote cites these numbers.
+
+**Claim**:
+One fact from a summary. A summary line often holds several claims.
+_Avoid_: point, bullet, statement
+
+**Quote**:
+The words from the numbered transcript that a claim rests on, with the lines they are on and the speaker. Checked word for word by the script.
+_Avoid_: evidence (a quote is the evidence; say which)
+
+**Verdict**:
+What the check concludes about a claim. Exactly one of:
+- **said**: the transcript says it.
+- **inferred**: not said in so many words, but reasonably drawn from what was.
+- **not-in-transcript**: nothing in the transcript supports it.
+- **contradicted**: the transcript says otherwise.
+
+A verdict says where a claim comes from. Whether it went wrong is the failure type's job, so a claim can be inferred and overstated at once.
+
+**Failure type**:
+A way the claim went wrong. A claim carries none, one or several of: **wrong-speaker**, **tone-read-as-sincere**, **intention-as-done**, **owner-or-date-wrong**, **made-up-detail**, **overstated**. The seventh, **left-out**, belongs to a key fact the summary does not carry.
+_Avoid_: error, issue, correction
+
+**Key facts**:
+What a CRM record depends on, listed from the transcript by a reader that never sees the summary. Each is one kind: next-step, commitment, date, number, who-decides, objection, competitor.
+_Avoid_: highlights, takeaways, action items
+
+**Reader**:
+Whatever lists the key facts and doubtful labels: a subagent in Claude Code, the first part of the chat in Claude.ai. Never sees a summary before its list is written.
+
+**Checker**:
+Whatever splits a summary into claims and checks each one: a subagent per summary in Claude Code, the chat itself in Claude.ai.
+
+**Doubtful label**:
+A transcript line whose content argues with its speaker label. Flagged with who it more likely was and why, never corrected.
+_Avoid_: wrong label (the skill cannot hear the audio, so it cannot know)
+
+**Confirm list**:
+The part of the report to settle with someone who was on the call before saving: owners and dates of next steps and commitments, claims resting on a doubtful label, and claims flagged tone-read-as-sincere.
+
+**Report**:
+`check.md`: the counts, the confirm list, the doubtful labels, every claim and the key facts.
+_Avoid_: audit, review
+
+**Corrected draft**:
+`corrected.md`: each summary rewritten with removed text struck through, added text in bold, and the line number behind every change.

@@ -1,0 +1,25 @@
+{
+  "about": "Answer key for the check-call-summary check set, written by hand from call.vtt and summary.md before any checker ran. Line numbers are those the number command gives call.vtt. Never edit this to match a checker's output.",
+  "planted": [
+    {"line": "Tom raised concerns that drivers will not adopt a new app.", "failure": "wrong-speaker", "why": "The worry about drivers and apps is Priya's (L16), and L16's label is not doubtful."},
+    {"line": "Tom ready to sign if the tool cuts tyre costs.", "failure": "tone-read-as-sincere", "why": "L11 'I'll sign whatever you send me. In blood, if needed.' Priya laughs and says 'He won't' (L12), Tom agrees 'I won't' (L13)."},
+    {"line": "Budget of £40,000 set aside for this year.", "failure": "made-up-detail", "why": "No budget figure is said anywhere on the call."},
+    {"line": "Agreed to a 30-day pilot at Doncaster and Wakefield.", "failure": "overstated", "why": "Tom: 'A pilot could work. I'd want to see a proposal first' (L30). Priya: fine 'if the drivers actually use it' (L31). Nothing was agreed."},
+    {"line": "Priya has sent six months of maintenance logs.", "failure": "intention-as-done", "why": "Priya: 'I'll pull the last six months of maintenance logs together and send them over next week' (L39)."},
+    {"line": "Ben to send the pilot proposal by end of next week.", "failure": "owner-or-date-wrong", "why": "Ben: 'I'll get the pilot proposal over to you both by Thursday' (L40)."}
+  ],
+  "clean": [
+    "Attendees: Priya, Tom and Ben",
+    "Ostlund runs 140 vehicles across nine depots.",
+    "Maintenance is tracked in separate spreadsheets at each depot.",
+    "Main pains: unplanned breakdowns and a rising tyre bill.",
+    "Priya wants a say as the day-to-day user.",
+    "Garage maintenance contract renews 31 March; decision wanted before end of February.",
+    "Whatever is chosen has to work with the depot managers, not around them.",
+    "Pricing is per vehicle per month; the pilot is free.",
+    "Ben to send an invite for Tuesday 17th at 10:00."
+  ],
+  "doubtful_claim": {"line": "Tom signs off up to £25k a year; the board above that.", "doubtful_line": 20, "why": "L20 answers Ben's question in L19 but is labelled Ben. Its claims must be marked doubtful, and must not be called wrong-speaker, because nobody can say from the transcript who spoke."},
+  "doubtful_labels": {"20": "Labelled Ben, answers Ben's own question in L19: 'That's me up to twenty-five thousand pounds a year.' Tom is the finance voice on the call.", "35": "Labelled Ben: 'Thanks, Ben, that's really clear.' Ben is addressed by name in his own line."},
+  "left_out": {"lines": [26, 27], "kind": "competitor", "why": "The summary never mentions the Wheelrota demo booked for next Wednesday (L26, L27)."}
+}

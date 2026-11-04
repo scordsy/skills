@@ -4,14 +4,14 @@ The brief for any agent working in this repo. Read [`GLOSSARY.md`](GLOSSARY.md) 
 
 ## What this is
 
-Stefan Cordery's public Claude skills, shipped as one Claude Code plugin, `stefancordery-skills`, from this repo's own marketplace, `stefancordery`. One skill so far: [`find-events`](skills/find-events/SKILL.md).
+Stefan Cordery's public Claude skills, shipped as one Claude Code plugin, `stefancordery-skills`, from this repo's own marketplace, `stefancordery`. Two skills so far: [`find-events`](skills/find-events/SKILL.md) and [`check-call-summary`](skills/check-call-summary/SKILL.md).
 
 ## Commands
 
 ```bash
 python3 scripts/check_repo.py                 # structure and house style
 python3 -m unittest discover -s tests -v      # script tests, no network
-python3 scripts/package_skill.py find-events  # the Claude.ai zip, into dist/
+python3 scripts/package_skill.py <skill>       # the Claude.ai zip, into dist/
 claude plugin validate .                      # the official manifest check (needs Claude Code)
 ```
 
@@ -27,6 +27,7 @@ Run all four before every commit. CI runs the first three. The validator gives o
 | `skills/<name>/scripts/` | Standard-library Python the skill runs |
 | `skills/<name>/README.md` | For people browsing GitHub. Never read by the skill, left out of the zip |
 | `docs/specs/<name>.md` | The agreed design. Reviews check the skill against it |
+| `docs/examples/<name>/` | A real run, published as the skill's README example |
 | `docs/adr/` | One short record per decision a reader would question |
 | `tests/` | Script tests, plus each skill's check set |
 | `scripts/` | Repo tooling: checks and packaging |
@@ -38,7 +39,7 @@ Run all four before every commit. CI runs the first three. The validator gives o
 - **Frontmatter is `name`, `description` and `license` only.** Claude.ai rejects most other keys. Descriptions stay under 200 characters until an upload proves the real limit.
 - **Every skill gets a line in the top-level `README.md`** linking to its folder.
 - **Version.** Bump `version` in `plugin.json` for every release, and tag the release `v` plus that version. Installed copies only update when it changes, and the release workflow refuses a tag that does not match.
-- **Before a release,** re-confirm each skill's check set against the organisers' pages and run it again (see [`tests/find-events/README.md`](tests/find-events/README.md)).
+- **Before a release,** run each skill's check set again and record the result in its README: [`tests/find-events/`](tests/find-events/README.md) (re-confirm its records against the organisers' pages first) and [`tests/check-call-summary/`](tests/check-call-summary/README.md).
 - **Writing.** UK English. No em-dashes, en-dashes or curly quotes. No "about" or "around" before a number: state it, or say where it comes from. Plain words over jargon.
 - **No email address anywhere**, metadata included. LinkedIn is the contact route.
-- **Expected values in tests come from outside the code.** The check set's answer key is written from the organisers' own pages, never from a checker's output.
+- **Expected values in tests come from outside the code.** A check set's answer key is written by hand from its source (the organisers' own pages for find-events, the made-up call for check-call-summary), never from a checker's output.

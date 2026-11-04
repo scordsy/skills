@@ -3,3 +3,5 @@ __pycache__/
 .DS_Store
 # Local test runs of find-events write here.
 /find-events/
+# Local test runs of check-call-summary write here.
+/check-call-summary/

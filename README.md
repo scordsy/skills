@@ -10,6 +10,7 @@ My skills for Claude. Each one does a single job, and each one is built so you c
 | Skill | What it does |
 |---|---|
 | [**find-events**](skills/find-events/) | A shortlist of events worth attending to meet the people you want, with every event checked against the organiser's own page before you see it. |
+| [**check-call-summary**](skills/check-call-summary/) | An AI summary of a call, checked claim by claim against the transcript before it goes in your CRM. Every claim traced to a quote, with speaker mix-ups, jokes taken literally and missed next steps flagged. |
 
 ## Install
 
@@ -35,7 +36,7 @@ Then run a skill by name, for example `/find-events` (or `/stefancordery-skills:
 1. Download the skill's zip from the [latest release](https://github.com/scordsy/skills/releases/latest), for example `find-events.zip`.
 2. Make sure **Code execution and file creation** is on, under **Settings**, then **Capabilities**.
 3. Go to **Customize**, then **Skills**, then **+**, **Create skill**, **Upload a skill**, and choose the zip.
-4. Turn on web search in the chat where you use it.
+4. For find-events, turn on web search in the chat where you use it.
 
 Each skill's own page says what works differently outside Claude Code.
 
