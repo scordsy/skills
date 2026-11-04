@@ -87,6 +87,7 @@ The last two lines are added by the checker. Prices stay in the organiser's curr
 - Verdicts: confirmed, pattern-estimate, dead, unverifiable.
 - Correction types: date-wrong, price-wrong, dead-not-caught, gate-missed, room-overstated, name-wrong, and detail-wrong for any other stated fact that was wrong (a place, a time, a quote, a figure that is not the price or the room). Filling in a detail the record left out is not a correction, except a missed gate or a missing price for the user's category. See [ADR 0007](../adr/0007-a-seventh-correction-type.md).
 - Every correction is stated, never made silently. Inventing a correction to look diligent is the same failure as rubber-stamping.
+- A correction needs an organiser's page that says something different about the same thing. A field the checker cannot confirm is left as it is and noted as unverified in the check notes, never corrected from a page about a different service. Added for 0.3.1 after the v0.3.0 release check, where the checker twice replaced a matchmaking rule with a different service's rule.
 - A dead verdict is re-checked under the organiser's domain before it stands, because events get renamed.
 
 ## Stage 4: Score
