@@ -1,6 +1,6 @@
 # 10. It checks summaries, never writes them, and never touches a CRM
 
-**Status:** accepted, 4 November 2026
+**Status:** accepted, 4 November 2026. A later version may read a call through a connected recorder: see [ADR 0012](0012-it-reads-from-a-connected-call-recorder.md), proposed. A connector the user connects is not a key the skill asks for, so the reason given below for leaving recorders out applies to keys, not to connectors.
 
 ## Context
 

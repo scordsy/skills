@@ -20,8 +20,8 @@ Anyone who puts AI summaries of calls into a CRM, or relies on them: sales, cust
 
 ## What it takes in
 
-- **A transcript.** Pasted text, or a `.txt`, `.md`, `.vtt` or `.srt` file. Without a transcript there is nothing to check against, so the skill says so and stops.
-- **One or more summaries of the same call.** Any written account counts: an AI summary, a CRM note, a follow-up email, meeting notes. With two or more, each is checked and the counts are shown side by side, so the user can see which tool summarises their calls best.
+- **A transcript.** Pasted text, or a `.txt`, `.md`, `.vtt`, `.srt`, `.docx` or `.json` file. Without a transcript there is nothing to check against, so the skill says so and stops. PDF is refused with a way round it (another format, or a paste), because it cannot be read reliably with the standard library.
+- **One or more summaries of the same call.** Any written account counts: an AI summary, a CRM note, a follow-up email, meeting notes, or the recorder's own summary, copied or exported. With two or more, each is checked and the counts are shown side by side, so the user can see which tool summarises their calls best.
 
 English transcripts only. Other languages are not tested, so not claimed.
 
@@ -34,6 +34,8 @@ English transcripts only. Other languages are not tested, so not claimed.
 ## Stage 1: Number
 
 `scripts/transcript.py number` reads the transcript and writes `transcript-lines.md`: one numbered line per cue or turn, `[L42] 00:12:03 Priya: text`. It prints the line count and each speaker with their line count, which the skill shows the user so a wrongly parsed file is caught at once.
+
+It reads WebVTT and SRT captions (voice tags, `Name:` prefixes, several turns in one caption), Word files, JSON (a list of turns with text and, where given, a speaker and a time), and plain-text layouts: a time then a name (`[00:01:23] Priya:`, or a range `[00:05 - 00:08] Priya:` as the Fireflies connector gives it), a name then a time (`Priya (00:01:23):`), a name alone (`Priya:`), and a name and time on a line of their own with the words below (Otter, Rev). Lines it cannot attribute are labelled `unlabelled`, never guessed.
 
 ## Stage 2: Key facts
 
@@ -128,12 +130,13 @@ In Claude.ai and Desktop, the report and the corrected draft as one document in 
 
 ## Not in v1
 
-Writing summaries, reading from a call recorder or CRM (that needs connectors and keys), audio, checking many calls in one go, and transcripts in languages other than English.
+Writing summaries, reading from a call recorder through a connector (proposed for a later version in [ADR 0012](../adr/0012-it-reads-from-a-connected-call-recorder.md)), reading from or writing to a CRM, audio, checking many calls in one go, and transcripts in languages other than English.
 
 ## Tests
 
 - **Script tests** for every transcript format, the quote check, the coverage check and the counts.
 - **Check set.** A made-up 20-minute call with three speakers, as a `.vtt` file, with two lines carrying a planted mislabel, and one summary carrying one planted failure of each type plus clean lines. It passes when all 7 are caught with the right type, both mislabels are flagged as doubtful labels and no other line is, and no clean line gets a failure. The answer key is written by hand before any run.
+- **Formats.** Every layout above has a made-up sample in the script tests. The README claims a recorder's export only where its layout was confirmed from a cited source or a real export.
 - **Live run.** A separate made-up discovery call between two fictional companies, with two summaries in different styles, run end to end and published as the README example.
 
 ## Privacy

@@ -5,9 +5,11 @@ from __future__ import annotations
 import contextlib
 import importlib.util
 import io
+import json
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -178,8 +180,7 @@ class Numbering(unittest.TestCase):
         for phrase in ("So the real question for us is: what next?", "So the thing is: we have no budget.", "Note to self: chase."):
             with self.subTest(phrase):
                 lines = transcript.number(f"Priya: Here is the thing.\n{phrase}\n")
-                self.assertEqual(lines[1].speaker, "Priya")
-                self.assertEqual(lines[1].text, phrase)
+                self.assertEqual((lines[1].speaker, lines[1].text), (transcript.UNLABELLED, phrase))
 
     def test_a_spoken_time_is_not_a_heading(self) -> None:
         lines = transcript.number("Priya Shah  00:00:01\nCan we meet again?\nShall we say 2:30\nBen  00:00:09\nWorks for me.\n")
@@ -208,6 +209,99 @@ class Numbering(unittest.TestCase):
             with self.subTest(text):
                 lines = transcript.number(text)
                 self.assertEqual([l.speaker for l in lines], ["Priya", "Dan"])
+
+    def test_a_time_range_before_the_speaker(self) -> None:
+        lines = transcript.number("[00:05 - 00:08] Priya Shah: Hello there.\n[01:12 - 01:15] Ben: Hi.\n")
+        self.assertEqual([l.render() for l in lines], ["[L1] 00:00:05 Priya Shah: Hello there.", "[L2] 00:01:12 Ben: Hi."])
+
+    def test_json_in_the_shapes_recorders_use(self) -> None:
+        cases = {
+            "sentences, seconds": {"sentences": [{"speaker_name": "Priya", "start_time": 5.2, "text": "Hello."}]},
+            "speaker object, clock": [{"speaker": {"display_name": "Priya"}, "timestamp": "00:00:05", "text": "Hello."}],
+            "milliseconds": {"items": [{"speaker": "Priya", "startTime": 5000, "text": "Hello."}, {"speaker": "Ben", "startTime": 90000, "text": "Hi."}]},
+        }
+        for label, data in cases.items():
+            with self.subTest(label):
+                lines = transcript.number(json.dumps(data))
+                self.assertEqual(lines[0].render(), "[L1] 00:00:05 Priya: Hello.")
+
+    def test_an_unparsed_line_is_unlabelled_not_given_to_the_last_speaker(self) -> None:
+        lines = transcript.number("[00:05 - 00:08] Priya Shah: Hello.\n[00:09 - 00:12] dan_acme: We will sign by Friday.\n")
+        self.assertEqual(lines[1].speaker, transcript.UNLABELLED)
+
+    def test_an_en_dash_range_and_an_agenda_line(self) -> None:
+        lines = transcript.number("09:00 - 09:30 Intro: welcome and context\n[00:05 \u2013 00:08] Priya: Hello.\n")
+        self.assertEqual([(l.speaker, l.text) for l in lines], [(transcript.UNLABELLED, "09:00 - 09:30 Intro: welcome and context"), ("Priya", "Hello.")])
+
+    def test_connector_metadata_above_the_call_is_skipped(self) -> None:
+        lines = transcript.number("Title: Weekly\nOrganizer: someone\nDuration: 32 minutes\n[00:05 - 00:08] Priya: Hello.\n")
+        self.assertEqual([l.speaker for l in lines], ["Priya"])
+
+    def test_json_picks_the_conversation_not_the_summary(self) -> None:
+        data = {
+            "action_items": [{"text": "Dan to send pricing by Friday"}],
+            "summary": {"bullets": [{"content": "Pricing discussed"}]},
+            "words": [{"text": "Hello.", "start": 1.0, "speaker": "Priya"}, {"text": "Hi.", "start": 2.0, "speaker": "Ben"}],
+            "transcript": [{"speaker": "Priya", "start": 1.0, "text": "Hello there."}, {"speaker": "Ben", "start": 2.0, "text": "Hi, good to see you."}],
+        }
+        lines = transcript.number(json.dumps(data))
+        self.assertEqual([(l.speaker, l.text) for l in lines], [("Priya", "Hello there."), ("Ben", "Hi, good to see you.")])
+
+    def test_json_paragraphs_keep_every_sentence_and_speaker(self) -> None:
+        data = {"paragraphs": [
+            {"speaker": "Priya", "sentences": [{"text": "Hello.", "start": 1}, {"text": "Welcome.", "start": 2}]},
+            {"speaker": "Ben", "sentences": [{"text": "Hi.", "start": 3}]},
+        ]}
+        lines = transcript.number(json.dumps(data))
+        self.assertEqual([(l.speaker, l.text) for l in lines], [("Priya", "Hello."), ("Priya", "Welcome."), ("Ben", "Hi.")])
+
+    def test_json_times_in_milliseconds_on_a_short_call_and_clock_time(self) -> None:
+        short = [{"speaker": "Priya", "start": 5000, "text": "Hello."}, {"speaker": "Ben", "start": 9000, "text": "Hi."}]
+        epoch = [{"speaker": "Priya", "start": 1762250000, "text": "Hello."}, {"speaker": "Ben", "start": 1762250065, "text": "Hi."}]
+        self.assertEqual([l.time for l in transcript.number(json.dumps(short))], ["00:00:05", "00:00:09"])
+        self.assertEqual([l.time for l in transcript.number(json.dumps(epoch))], ["00:00:00", "00:01:05"])
+
+    def test_json_holding_the_transcript_as_one_string(self) -> None:
+        lines = transcript.number(json.dumps({"transcript": "[00:05 - 00:08] Priya: Hello.\n[00:09 - 00:12] Ben: Hi."}))
+        self.assertEqual([l.speaker for l in lines], ["Priya", "Ben"])
+
+    def test_json_without_speakers_is_unlabelled_not_lost(self) -> None:
+        lines = transcript.number(json.dumps({"data": [{"text": "Hello."}]}))
+        self.assertEqual((lines[0].speaker, lines[0].text), (transcript.UNLABELLED, "Hello."))
+
+    def test_word_files_are_read(self) -> None:
+        xml = (
+            '<w:document xmlns:w="w"><w:body>'
+            '<w:p><w:r><w:t>Priya Shah  00:00:01</w:t></w:r></w:p>'
+            '<w:p><w:r><w:t xml:space="preserve">Hello </w:t></w:r><w:r><w:t>there &amp; welcome.</w:t></w:r></w:p>'
+            '<w:p/>'
+            '<w:p><w:r><w:t>Ben: Hi</w:t></w:r><w:r><w:br w:type="textWrapping"/><w:t>there, I don&#8217;t mind</w:t></w:r></w:p>'
+            '<w:p><w:moveFrom><w:r><w:t>moved away</w:t></w:r></w:moveFrom><w:r><w:t>Ben: co</w:t><w:noBreakHyphen/><w:t>operate.</w:t></w:r></w:p>'
+            '</w:body></w:document>'
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "call.docx"
+            with zipfile.ZipFile(path, "w") as archive:
+                archive.writestr("word/document.xml", xml)
+            lines = transcript.number(transcript.read_transcript(path))
+        self.assertEqual(
+            [(l.speaker, l.text) for l in lines],
+            [("Priya Shah", "Hello there & welcome."), ("Ben", "Hi"), (transcript.UNLABELLED, "there, I don\u2019t mind"), ("Ben", "co-operate.")],
+        )
+
+    def test_a_text_file_starting_with_pk_is_text(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "call.txt"
+            path.write_text("PK: Thanks for joining.\n", encoding="utf-8")
+            self.assertEqual(transcript.number(transcript.read_transcript(path))[0].speaker, "PK")
+
+    def test_pdf_is_refused_with_a_way_round(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "call.pdf"
+            path.write_bytes(b"%PDF-1.7 rest")
+            with self.assertRaises(transcript.FormatError) as caught:
+                transcript.read_transcript(path)
+        self.assertIn("Export the transcript as", str(caught.exception))
 
     def test_a_sound_tag_is_kept_and_never_a_speaker(self) -> None:
         lines = transcript.number("WEBVTT\n\n00:00:01.000 --> 00:00:02.000\n[laughs] Ha, I wish.\n")

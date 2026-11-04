@@ -32,7 +32,7 @@ The [full run is here](../../docs/examples/check-call-summary/): the [transcript
 
 ## How it works
 
-1. **Number.** The transcript (pasted, or a `.txt`, `.md`, `.vtt` or `.srt` file) becomes numbered lines: `[L42] 00:12:03 Priya: ...`.
+1. **Number.** The transcript (pasted, or an exported file) becomes numbered lines: `[L42] 00:12:03 Priya: ...`.
 2. **Key facts.** A reader that never sees the summary lists what a CRM record depends on: next steps and their owners, commitments, dates, numbers, who decides, objections and competitors. It also flags any line whose words argue with its speaker label. Reading blind stops the summary deciding what mattered.
 3. **Check.** Each summary is split into claims, one fact each. Every claim gets a verdict (said, inferred, not in the transcript, or contradicted), the quote it rests on, and any of these failure types:
    - **wrong-speaker**: credited to the wrong person
@@ -50,6 +50,27 @@ It never decides who really spoke or what someone meant by a joke. A transcript 
 ## Compare tools on your own calls
 
 Give it two or more summaries of the same call, from different tools or from a tool and a person, and it checks each and shows the counts side by side. One call is not enough to choose a tool on, but a handful of your own calls will tell you more than any vendor's demo.
+
+## What it reads
+
+Pasted text, or a `.txt`, `.md`, `.vtt`, `.srt`, `.docx` or `.json` file. Not PDF: export another format, or paste.
+
+| Recorder | How to get the transcript in | Layout checked against |
+|---|---|---|
+| Microsoft Teams | the `.vtt` download | [Microsoft's documentation](https://github.com/microsoftgraph/microsoft-graph-docs-contrib/blob/main/api-reference/v1.0/api/calltranscript-get.md) |
+| Otter | the `.txt` export | [an Otter export in a published script](https://gist.github.com/th0rgall/d627140fc072725d098363604d239923) |
+| Rev | the `.txt` export | [a published Rev transcript](https://www.rev.com/transcripts/tren-de-aragua-press-conference) |
+| Zoom | the cloud recording `.vtt` | standard captions, not yet a real Zoom file |
+| Fireflies | the `.docx`, `.srt` or `.json` export | not yet a real file |
+| Fathom, tl;dv | copy the transcript and paste it | not yet a real copy |
+| Google Meet | download the transcript Doc as `.txt` | not yet a real file |
+| Gong, Grain, Avoma, Read.ai, Granola | a `.txt`, `.vtt` or `.docx` export where offered | not yet a real file |
+
+Where a layout is not yet checked against a real file, it will usually still work, because it shares a shape with one that is. If it doesn't, the first stage shows you straight away: it prints each speaker and how many lines they have, and marks any line it could not put a name to as `unlabelled` rather than guessing.
+
+## Next
+
+Reading the call straight from your call recorder through its Claude connector, so it can check the recorder's own summary against the recorder's own transcript with nothing to export. It is designed but not in this version, because it has not yet been run on a real call.
 
 ## Install
 

@@ -23,12 +23,14 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 
 ## check-call-summary
 
-**In:** one call at a time. A transcript as pasted text, `.txt`, `.md`, `.vtt` or `.srt`, and one or more summaries of that call. A report and a corrected draft for each summary.
+**In:** one call at a time. A transcript as pasted text, `.txt`, `.md`, `.vtt`, `.srt`, `.docx` or `.json`, and one or more summaries of that call, including the recorder's own, copied or exported. A report and a corrected draft for each summary.
 
 **Out, on purpose:**
 
 - **Writing summaries.** Other tools do that, and a skill that writes and checks the same summary is marking its own homework. See [ADR 0010](docs/adr/0010-it-checks-and-never-writes.md).
-- **Reading from a call recorder or writing to a CRM.** Both need connectors and keys.
+- **Reading from a call recorder through a connector.** The strongest candidate for the next version, proposed in [ADR 0012](docs/adr/0012-it-reads-from-a-connected-call-recorder.md). Not in v1 because it has not been run on a real call.
+- **Writing to a recorder or a CRM, or reading a CRM.**
+- **PDF.** It cannot be read reliably with the standard library. Export another format, or paste.
 - **Audio.** It works from the transcript. It cannot hear who spoke, which is why labels are flagged, never fixed.
 - **Many calls in one go.** One call per run.
 - **Transcripts in other languages.** Not tested, so not claimed.

@@ -9,8 +9,11 @@ Standard library only, so it runs wherever Python 3.10 or later does.
 
 from __future__ import annotations
 
+import html
+import json
 import re
 import sys
+import zipfile
 from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -56,9 +59,14 @@ SOUNDS = {
 EXPORT_HEADERS = {
     "date", "time", "title", "meeting", "attendees", "participants", "duration", "location",
     "recording", "transcript", "subject", "agenda", "speakers", "created", "host",
+    "organizer", "organiser", "owner", "id", "meeting id", "url", "link", "language",
 }
 # Plain-text turns, tried in order.
-STAMP_FIRST = re.compile(rf"^[\[(]?({STAMP})[\])]?\s+({NAME}){ORG}\s*:\s+(.+)$")
+# "[00:01:23]", "(00:01:23)", or a range such as "[00:05 - 00:08]" as the Fireflies connector gives it.
+# A range only counts inside brackets, so an agenda line such as "09:00 - 09:30 Intro: ..." is not a turn.
+STAMP_FIRST = re.compile(
+    rf"^(?:[\[(]({STAMP})(?:\s*[-\u2013]\s*{STAMP})?[\])]|({STAMP}))\s+({NAME}){ORG}\s*:\s+(.+)$"
+)
 NAME_STAMP = re.compile(rf"^({NAME}){ORG}\s*[\[(]({STAMP})[\])]\s*:\s*(.*)$")
 NAME_ONLY = re.compile(rf"^({NAME}){ORG}\s*:\s+(.+)$")
 # Exports that put the speaker and time on a line of their own, with the words below.
@@ -142,6 +150,7 @@ def parse_plain(text: str) -> list[tuple[str, str, str]]:
     entries: list[tuple[str, str, str]] = []
     speaker, time = "", ""
     heading_time = ""  # a heading's time goes on the first paragraph under it
+    under_heading = False  # only words under a speaker heading take that speaker
     for raw in text.splitlines():
         line = unemphasise(raw.strip())
         if not line:
@@ -150,42 +159,209 @@ def parse_plain(text: str) -> list[tuple[str, str, str]]:
             label = line.split(":", 1)[0].strip().lower()
             if ":" in line and label in EXPORT_HEADERS:
                 continue  # "Date: 4 March 2026" above the first turn
-        for pattern, order in ((STAMP_FIRST, "tsx"), (NAME_STAMP, "stx")):
-            match = pattern.match(line)
-            if match:
-                values = dict(zip(order, match.groups()))
-                speaker, time = values["s"].strip(), clock(values["t"])
-                if values["x"].strip():
-                    entries.append((time, speaker, values["x"].strip()))
-                else:
-                    heading_time = time  # "Speaker 1 (00:00:05):" on a line of its own
-                break
-        else:
-            heading = HEADING.match(line)
-            if heading:
-                speaker, time = heading.group(1).strip(), clock(heading.group(2))
-                heading_time = time
-                continue
-            match = NAME_ONLY.match(line)
-            if match:
-                speaker, time = match.group(1).strip(), ""
-                entries.append(("", speaker, match.group(2).strip()))
-                continue
-            bracketed = BRACKETED.match(line)
-            if bracketed and not is_sound(bracketed.group(1)):
-                speaker = bracketed.group(1).strip()
-                entries.append(("", speaker, bracketed.group(2).strip()))
-                continue
-            # A paragraph under a heading, or one that carries on the last speaker's turn.
-            entries.append((heading_time, speaker, line))
-            heading_time = ""
+        first = STAMP_FIRST.match(line)
+        named = NAME_STAMP.match(line)
+        if first or named:
+            if first:
+                stamp, speaker, words = first.group(1) or first.group(2), first.group(3), first.group(4)
+            else:
+                speaker, stamp, words = named.group(1), named.group(2), named.group(3)
+            speaker, time, under_heading = speaker.strip(), clock(stamp), False
+            if words.strip():
+                entries.append((time, speaker, words.strip()))
+            else:
+                heading_time, under_heading = time, True  # "Speaker 1 (00:00:05):" on a line of its own
+            continue
+        heading = HEADING.match(line)
+        if heading:
+            speaker, time = heading.group(1).strip(), clock(heading.group(2))
+            heading_time, under_heading = time, True
+            continue
+        match = NAME_ONLY.match(line)
+        if match:
+            speaker, under_heading = match.group(1).strip(), False
+            entries.append(("", speaker, match.group(2).strip()))
+            continue
+        bracketed = BRACKETED.match(line)
+        if bracketed and not is_sound(bracketed.group(1)):
+            speaker, under_heading = bracketed.group(1).strip(), False
+            entries.append(("", speaker, bracketed.group(2).strip()))
+            continue
+        # Words under a speaker heading belong to that speaker. Anywhere else, a line the script
+        # cannot attribute stays unlabelled: guessing the last speaker is how mislabels are made.
+        entries.append((heading_time, speaker if under_heading else "", line))
+        heading_time = ""
     return entries
+
+
+# JSON exports and connector responses name the same three things in different ways.
+JSON_TEXT = ("text", "sentence", "raw_text", "content", "transcript_text")
+JSON_SPEAKER = ("speaker_name", "speakerName", "speaker", "display_name", "name", "participant")
+JSON_TIME = ("start_time", "startTime", "timestamp", "start", "time", "start_ms", "offset")
+
+
+GROUPS = ("sentences", "utterances", "segments")
+
+
+def expand_groups(items: list[dict]) -> list[dict]:
+    """Paragraphs that hold their sentences in a list: one turn per sentence, keeping the speaker."""
+    turns = []
+    for item in items:
+        inner = next((item[key] for key in GROUPS if isinstance(item.get(key), list)), None)
+        if inner and not any(isinstance(item.get(key), str) for key in JSON_TEXT):
+            for sentence in inner:
+                if isinstance(sentence, dict):
+                    turns.append({**{k: v for k, v in item.items() if k not in GROUPS}, **sentence})
+        else:
+            turns.append(item)
+    return turns
+
+
+def candidate_lists(data: object) -> list[list[dict]]:
+    found = []
+    if isinstance(data, list) and data and all(isinstance(item, dict) for item in data):
+        found.append(expand_groups(data))
+    children = data.values() if isinstance(data, dict) else data if isinstance(data, list) else []
+    for child in children:
+        found.extend(candidate_lists(child))
+    return found
+
+
+def json_turns(data: object) -> list[dict] | None:
+    """The list of turns in a JSON document: the list whose items carry text with a speaker or a
+    time, and are more than single words. A summary's list of bullets or action items carries text
+    but neither speakers nor times, so it never wins over the conversation."""
+
+    def score(items: list[dict]) -> tuple[int, int]:
+        texts = [next((i[k] for k in JSON_TEXT if isinstance(i.get(k), str)), "") for i in items]
+        with_text = [t for t in texts if t.strip()]
+        if not with_text:
+            return (-1, 0)
+        attributed = sum(
+            1 for i, t in zip(items, texts) if t.strip() and (json_speaker(i) or any(k in i for k in JSON_TIME))
+        )
+        single_words = sum(1 for t in with_text if len(t.split()) <= 1) > len(with_text) / 2
+        return (attributed * (0 if single_words else 1), len(with_text))
+
+    lists = [items for items in candidate_lists(data) if score(items)[1]]
+    return max(lists, key=score) if lists else None
+
+
+def json_speaker(item: dict) -> str:
+    for key in JSON_SPEAKER:
+        value = item.get(key)
+        if isinstance(value, dict):
+            value = value.get("display_name") or value.get("name")
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    return ""
+
+
+def json_clock(item: dict, in_ms: bool, origin: float = 0) -> str:
+    for key in JSON_TIME:
+        value = item.get(key)
+        if isinstance(value, str) and re.fullmatch(STAMP, value.strip()):
+            return clock(value.strip())
+        if is_number(value):
+            value -= origin
+            seconds = int(value / 1000 if in_ms or key.endswith("_ms") else value)
+            return f"{seconds // 3600:02d}:{seconds % 3600 // 60:02d}:{seconds % 60:02d}"
+    return ""
+
+
+def parse_json(data: object) -> list[tuple[str, str, str]]:
+    """JSON exports and API responses: a list of turns, each with text and usually a speaker and a time."""
+    turns = json_turns(data)
+    if turns is None:
+        # A connector may return the whole transcript as one string: read the longest one as text.
+        strings = [s for s in all_strings(data) if "\n" in s or ":" in s]
+        text = max(strings, key=len, default="")
+        return parse_text(text) if text.strip() else []
+    times = [
+        next(item[key] for key in JSON_TIME if is_number(item.get(key)))
+        for item in turns
+        if any(is_number(item.get(key)) for key in JSON_TIME)
+    ]
+    origin = min(times) if times and min(times) > 1e9 else 0  # clock time since 1970: count from the start
+    relative = [t - origin for t in times]
+    gaps = sorted(b - a for a, b in zip(relative, relative[1:]) if b > a)
+    # Milliseconds give away no unit. No call runs past a day of seconds, and turns a second or more
+    # apart in milliseconds are a thousand or more apart.
+    in_ms = bool(relative) and (
+        max(relative) > 86400 or (all(float(t).is_integer() for t in relative) and bool(gaps) and gaps[len(gaps) // 2] >= 1000)
+    )
+    entries = []
+    for item in turns:
+        text = next((item[key] for key in JSON_TEXT if isinstance(item.get(key), str)), "")
+        if text.strip():
+            entries.append((json_clock(item, in_ms, origin), json_speaker(item), text.strip()))
+    return entries
+
+
+def is_number(value: object) -> bool:
+    return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+
+def all_strings(data: object) -> list[str]:
+    if isinstance(data, str):
+        return [data]
+    children = data.values() if isinstance(data, dict) else data if isinstance(data, list) else []
+    return [s for child in children for s in all_strings(child)]
+
+
+WORD_PARAGRAPH = re.compile(r"<w:p[ >].*?</w:p>|<w:p/>", re.DOTALL)
+WORD_PIECE = re.compile(r"<w:t(?: [^>]*)?>([^<]*)</w:t>|<w:(tab|br|cr|noBreakHyphen)\b[^>]*/>")
+# Text Word keeps twice (a moved passage's old place, a drawing's fallback) or outside the paragraph flow.
+WORD_SKIP = re.compile(
+    r"<w:moveFrom\b.*?</w:moveFrom>|<mc:Fallback\b.*?</mc:Fallback>|<w:txbxContent\b.*?</w:txbxContent>", re.DOTALL
+)
+
+
+def docx_text(path: Path) -> str:
+    """The text of a Word file, one paragraph per line, read with the standard library."""
+    try:
+        with zipfile.ZipFile(path) as archive:
+            raw = archive.read("word/document.xml")
+        xml = raw.decode("utf-16") if raw[:2] in (b"\xff\xfe", b"\xfe\xff") else raw.decode("utf-8")
+    except (zipfile.BadZipFile, KeyError, UnicodeDecodeError) as error:
+        raise FormatError(f"{path}: not a Word file this script can read ({error})") from error
+    lines = []
+    for paragraph in WORD_PARAGRAPH.findall(WORD_SKIP.sub("", xml)):
+        pieces = []
+        for words, mark in WORD_PIECE.findall(paragraph):
+            pieces.append(words if not mark else {"tab": "\t", "noBreakHyphen": "-"}.get(mark, "\n"))
+        lines.append(html.unescape("".join(pieces)))
+    return "\n".join(lines)
+
+
+TEXT_SUFFIXES = {".txt", ".md", ".vtt", ".srt", ".json", ".csv"}
+
+
+def read_transcript(path: Path) -> str:
+    """Any transcript file as text. Word files are unpacked; PDF is refused with a way round it."""
+    head = path.read_bytes()[:5]
+    if path.suffix.lower() == ".pdf" or head.startswith(b"%PDF"):
+        raise FormatError(f"{path}: PDF can't be read reliably. Export the transcript as .txt, .docx, .vtt or .srt, or paste it.")
+    if path.suffix.lower() == ".docx" or (head.startswith(b"PK\x03\x04") and path.suffix.lower() not in TEXT_SUFFIXES):
+        return docx_text(path)
+    return path.read_text(encoding="utf-8-sig", errors="replace")
+
+
+def parse_text(text: str) -> list[tuple[str, str, str]]:
+    looks_like_cues = text.lstrip().startswith("WEBVTT") or any(TIMING.match(line) for line in text.splitlines()[:20])
+    return parse_cues(text) if looks_like_cues else parse_plain(text)
 
 
 def number(text: str) -> list[Line]:
     text = text.lstrip("\ufeff").replace("\r\n", "\n").replace("\r", "\n")
-    looks_like_cues = text.lstrip().startswith("WEBVTT") or any(TIMING.match(line) for line in text.splitlines()[:20])
-    entries = parse_cues(text) if looks_like_cues else parse_plain(text)
+    entries: list[tuple[str, str, str]] | None = None
+    if text.lstrip()[:1] in ("{", "["):
+        try:
+            entries = parse_json(json.loads(text))
+        except json.JSONDecodeError:
+            entries = None  # "[00:05 - 00:08] Name:" lines also start with "["
+    if entries is None:
+        entries = parse_text(text)
     return [
         Line(index, time, speaker or UNLABELLED, re.sub(r"\s+", " ", spoken))
         for index, (time, speaker, spoken) in enumerate(entries, start=1)
@@ -626,7 +802,7 @@ def main(argv: list[str]) -> int:
     try:
         if command == "number" and len(args) == 2:
             source, out = Path(args[0]), Path(args[1])
-            lines = number(source.read_text(encoding="utf-8-sig", errors="replace"))
+            lines = number(read_transcript(source))
             if not lines:
                 print(f"error: no transcript lines found in {source}", file=sys.stderr)
                 return 1
