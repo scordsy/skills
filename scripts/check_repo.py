@@ -133,17 +133,31 @@ def check_skill(skill: Path, readme: str, problems: list[str]) -> None:
 
 QUOTED = re.compile(r'"[^"]*"')
 
+# Test inputs and evidence kept exactly as they are, so the house style cannot apply to them. Only
+# the email check runs on these. Each entry says why it is exempt.
+KEPT_VERBATIM = {
+    "tests/check-call-summary/check-set-2/notetaker-2.md": (
+        "a planted summary: its 'Around 25 users' line is the made-up detail the check set tests"
+    ),
+    "tests/check-call-summary/check-set-2/runs/2026-11-19-claude-ai/corrected.md": (
+        "the skill's own output from a Claude.ai run, kept exactly as downloaded"
+    ),
+}
+
 
 def saved_output(rel: Path) -> bool:
     """A real run kept as evidence: a check set's runs and a skill's example. Their quotes are copied
     exactly from web pages, as the skills require, so the house style applies outside the quotes only."""
     parts = rel.parts
-    in_runs = len(parts) > 3 and parts[0] == "tests" and parts[2] == "check-set" and parts[3] == "runs"
+    in_runs = len(parts) > 3 and parts[0] == "tests" and parts[2].startswith("check-set") and parts[3] == "runs"
     in_example = len(parts) > 2 and parts[:2] == ("docs", "examples") and rel.name != "README.md"
     return in_runs or in_example
 
 
 def check_text(problems: list[str]) -> None:
+    for name in sorted(KEPT_VERBATIM):
+        if not (ROOT / name).is_file():
+            problems.append(f"check_repo.py: KEPT_VERBATIM names {name}, which does not exist")
     for path in tracked_files():
         if path.suffix not in TEXT_SUFFIXES:
             continue
@@ -156,6 +170,8 @@ def check_text(problems: list[str]) -> None:
         for number, line in enumerate(text.splitlines(), start=1):
             if EMAIL.search(line):
                 problems.append(f"{rel}:{number}: email address")
+            if rel.as_posix() in KEPT_VERBATIM:
+                continue
             if quoted_ok:
                 line = QUOTED.sub('""', line)
             for char, label in BANNED_CHARACTERS.items():

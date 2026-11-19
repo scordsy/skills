@@ -27,8 +27,10 @@ English transcripts only. Other languages are not tested, so not claimed.
 
 ## Where it runs
 
-- **Claude Code** is the full version. The key facts pass is a fresh subagent (never a fork) that reads only the numbered transcript, from a folder that holds nothing else. Each summary gets its own fresh checker subagent, run in parallel.
-- **Claude.ai and Claude Desktop** need code execution on. The skill asks for the transcript first, numbers it, and lists the key facts and doubtful labels before it asks for the summary, so the summary cannot steer what counts as a key fact. If the user gives the summary anyway, it is not read until the check, and the hand-back says the key facts were not fully independent of it. It then checks the claims in the same chat and says so; see [ADR 0011](../adr/0011-in-a-chat-the-check-runs-in-the-same-chat.md).
+- **First, on every route**, the skill runs its own script with no arguments, which prints how to use it. If it cannot open its files or run the script, it tells the user it cannot run in this chat, that it needs a normal chat (not an incognito one) with Create and edit files on, and stops. See [ADR 0017](../adr/0017-a-skill-stops-when-it-cannot-open-its-files.md).
+- **The route follows what the chat can do**, not the app ([ADR 0019](../adr/0019-the-route-follows-what-the-chat-can-do.md)).
+- **The subagent route** is the full version, wherever subagents can be launched: always in Claude Code, and in some Claude.ai and Claude Desktop chats. The key facts pass is a fresh subagent (never a fork) that reads only the numbered transcript, from a folder that holds nothing else. Each summary gets its own fresh checker subagent, run in parallel.
+- **The chat route**, in a chat that cannot launch subagents, needs code execution, which the first step has already shown. The skill asks for the transcript first, numbers it, and lists the key facts and doubtful labels before it asks for the summary, so the summary cannot steer what counts as a key fact. If the user gives the summary anyway, it is not read until the check, and the hand-back says the key facts were not fully independent of it. It then checks the claims in the same chat and says so; see [ADR 0011](../adr/0011-in-a-chat-the-check-runs-in-the-same-chat.md).
 - **Other agents** are not tested and not claimed.
 
 ## Stage 1: Number
@@ -39,7 +41,7 @@ It reads WebVTT and SRT captions (voice tags, `Name:` prefixes, several turns in
 
 ## Stage 2: Key facts
 
-The reader gets the numbered transcript and nothing else, in a folder that holds nothing else, and writes its list into that folder. In Claude Code the summaries are not saved anywhere until the reader has finished. It writes `key-facts.md` with two lists.
+The reader gets the numbered transcript and nothing else, in a folder that holds nothing else, and writes its list into that folder. On the subagent route the summaries are not saved anywhere until the reader has finished. It writes `key-facts.md` with two lists.
 
 **Key facts.** What a CRM record depends on, each with its quote:
 
@@ -119,14 +121,14 @@ Then the skill writes `corrected.md`: each summary rewritten with removed text s
 
 ## Files
 
-In Claude Code, a folder `check-call-summary/<YYYY-MM-DD>-<short-name>/` in the working directory:
+On either route, a folder `check-call-summary/<YYYY-MM-DD>-<short-name>/` in the working directory:
 
 - `transcript-lines.md`, `key-facts.md`, `check.md` and `corrected.md`.
 - `summaries/`, each summary saved as given.
 - `reader-in/`, holding only the numbered transcript the reader reads, and the list it writes.
 - `working/`, each checker's file.
 
-In Claude.ai and Desktop, the report and the corrected draft as one document in the chat.
+On the chat route, the report and the corrected draft as one document in the chat, as well as the files.
 
 ## Not in v1
 
@@ -135,7 +137,8 @@ Writing summaries, reading from a call recorder through a connector (proposed fo
 ## Tests
 
 - **Script tests** for every transcript format, the quote check, the coverage check and the counts.
-- **Check set.** A made-up 20-minute call with three speakers, as a `.vtt` file, with two lines carrying a planted mislabel, and one summary carrying one planted failure of each type plus clean lines. It passes when all 7 are caught with the right type, both mislabels are flagged as doubtful labels and no other line is, and no clean line gets a failure. The answer key is written by hand before any run.
+- **Check set.** A made-up call of 48 lines across 20 minutes, with three speakers, as a `.vtt` file, with two lines carrying a planted mislabel, and one summary carrying one planted failure of each type plus clean lines. It passes when all 7 are caught with the right type, both mislabels are flagged as doubtful labels and no other line is, and no clean line gets a failure. The answer key is written by hand before any run.
+- **Second check set**, added in 0.3.2. A made-up follow-up call of 48 lines across 9 minutes 38 seconds, with four speakers, as a plain-text export, with no mislabels and four lines that only look like them, and two summaries: one carrying a new planted failure of each type plus clean lines, and one fully accurate, so any failure on it is a false alarm. It passes when all 6 planted failures are caught with the right type, no clean line and no line of the accurate summary gets a failure, the audit committee rule is marked missing or carried wrongly, and no line is flagged as a doubtful label. The answer key was written by hand before any run. Graded by hand until a run is saved with its working files.
 - **Formats.** Every layout above has a made-up sample in the script tests. The README claims a recorder's export only where its layout was confirmed from a cited source or a real export.
 - **Live run.** A separate made-up discovery call between two fictional companies, with two summaries in different styles, run end to end and published as the README example.
 

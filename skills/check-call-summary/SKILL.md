@@ -24,14 +24,15 @@ Read each reference file when its stage begins, not before. They are in this ski
 
 ## Before you start
 
-- **Work out where you are running.**
-  - **Claude Code**, where you can launch subagents with the Agent tool and run Python: the full version below.
-  - **A chat** (Claude.ai or Claude Desktop): follow the "In a chat" notes at each stage. The run needs code execution, because the quote check is a script. If you cannot run Python, say so and stop: a check whose quotes nobody verified is the problem this skill exists to catch.
+- **Check you can open this skill's files and run its script.** Every stage runs on them, not on this page, and the quote check is the script. Run `python3 "${CLAUDE_SKILL_DIR}/scripts/transcript.py"` now, with nothing after it: it prints how to use it. Knowing the script's name from this page is not the same as running it. If you have no tool that runs code or opens files, or the script does not run, stop here and tell the user, in one message, that this chat cannot open the skill's files or run its script, so the skill cannot run in it, and that it needs a normal chat (not an incognito one) with **Create and edit files** turned on, under **Settings**, then **Capabilities**. Check nothing by hand instead: a check whose quotes nobody verified is the problem this skill exists to catch.
+- **Work out which route you are on.** It depends on what you can do, not on which app you are in.
+  - **The subagent route**, where you can launch subagents with the Agent tool and run Python: always in Claude Code, and in some Claude.ai and Claude Desktop chats. The full version below.
+  - **The chat route**, in a chat that cannot launch subagents: follow the "In a chat" notes at each stage.
 - **Get the transcript.** A file (`.txt`, `.md`, `.vtt`, `.srt`, `.docx` or `.json`) or pasted text. No transcript, no check: say there is nothing to check against, and stop. A PDF cannot be read reliably: ask for one of the other formats or a paste. The skill reads English transcripts only; for another language, say it is not tested and stop.
 - **Not from a connector, in this version.** If the user asks to pull the call from a connected call recorder, say this version works from an exported file or a paste, and ask for one of those. Reading through a connector is planned for a later version.
-- **In Claude Code, also get the summaries now.** One or more written accounts of the same call: an AI summary, a CRM note, a follow-up email, meeting notes. Ask for a short name for each (the tool or the person, such as `tool-a` or `rep-note`), used to label its column in the report. A recorder's own AI summary counts, copied or exported from the recorder like any other.
-- **In a chat, ask for the transcript only,** and say why in one line: the key facts are listed before the summary is read, so the summary cannot decide what mattered. If the user has already given a summary with the transcript, do not read it until Stage 3, and put one line at the top of the hand-back: "The key facts were listed with the summary already in the chat, so they are not fully independent of it."
-- **Make the run folder:** `check-call-summary/<YYYY-MM-DD>-<short-name>/` under the current working directory, with `summaries/`, `reader-in/` and `working/` inside. Save a pasted transcript to `working/transcript-raw.txt`. In Claude Code, use absolute paths whenever you brief a subagent, and **do not save the summaries until the reader has finished** (Stage 2): until then nothing the reader could reach holds a summary.
+- **On the subagent route, also get the summaries now.** One or more written accounts of the same call: an AI summary, a CRM note, a follow-up email, meeting notes. Ask for a short name for each (the tool or the person, such as `tool-a` or `rep-note`), used to label its column in the report. A recorder's own AI summary counts, copied or exported from the recorder like any other.
+- **On the chat route, ask for the transcript only,** and say why in one line: the key facts are listed before the summary is read, so the summary cannot decide what mattered. If the user has already given a summary with the transcript, do not read it until Stage 3, and put one line at the top of the hand-back: "The key facts were listed with the summary already in the chat, so they are not fully independent of it."
+- **Make the run folder:** `check-call-summary/<YYYY-MM-DD>-<short-name>/` under the current working directory, with `summaries/`, `reader-in/` and `working/` inside. Save a pasted transcript to `working/transcript-raw.txt`. On the subagent route, use absolute paths whenever you brief a subagent, and **do not save the summaries until the reader has finished** (Stage 2): until then nothing the reader could reach holds a summary.
 - **Tell the user what to expect** in one line: the transcript is numbered, read for key facts, then each summary is checked claim by claim.
 
 ## Stage 1: Number
@@ -88,7 +89,7 @@ Do not launch further agents.
 Reply with one line only: the counts of verdicts and failure types.
 ```
 
-Never check a summary yourself in Claude Code. You have seen every summary and talked to the user about them, and a checker should come to each one cold.
+Never check a summary yourself on the subagent route. You have seen every summary and talked to the user about them, and a checker should come to each one cold.
 
 **In a chat:** save each summary to `summaries/<n>-<name>.md`, read `references/checker.md`, and check each summary in turn, writing `working/check-<n>-<name>.md` for each. Tell the user which summary you are on. This check runs in the same chat that has seen everything, which is weaker than a fresh checker: say so in one line at the top of the hand-back. It is accepted here because the evidence is a fixed transcript and the script checks every quote, so the judgement is what the chat could bend, not the facts.
 

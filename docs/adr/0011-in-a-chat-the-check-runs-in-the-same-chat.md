@@ -1,6 +1,6 @@
 # 11. In a chat, the check runs in the same chat
 
-**Status:** accepted, 4 November 2026
+**Status:** accepted, 4 November 2026. Amended 19 November 2026: this covers the chat route, a chat that cannot launch subagents. A Claude.ai or Claude Desktop chat that can launch them runs fresh checkers, as Claude Code does ([ADR 0019](0019-the-route-follows-what-the-chat-can-do.md)).
 
 ## Context
 

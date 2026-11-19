@@ -50,11 +50,12 @@ Then run a skill by name, for example `/find-events` (or `/stefancordery-skills:
 ### Claude.ai and Claude Desktop
 
 1. Download the skill's zip from the [latest release](https://github.com/scordsy/skills/releases/latest), for example `find-events.zip`.
-2. Make sure **Code execution and file creation** is on, under **Settings**, then **Capabilities**.
+2. Make sure **Create and edit files** is on, under **Settings**, then **Capabilities**. In the older Settings layout it is called **Code execution and file creation**. The skills open their own files and run small scripts, so they need it.
 3. Go to **Customize**, then **Skills**, then **+**, **Create skill**, **Upload a skill**, and choose the zip.
 4. For find-events and check-account-list, turn on web search in the chat where you use it.
+5. **Use a normal chat, not an incognito one.** An incognito chat can't open a skill's files, so the skill tells you it can't run there and stops. The one exception is the block find-events and check-account-list may ask you to paste into a fresh chat for their check. It carries its own instructions, so an incognito chat is fine for that, and best, because it can't see the chat that did the research.
 
-Each skill's own page says what works differently outside Claude Code.
+Some Claude.ai and Claude Desktop chats can run subagents, as Claude Code does, and a skill then runs its full version. A chat that can't gets a version without them, and the skill says what is different. Each skill's own page says which version its tests covered.
 
 ## About
 

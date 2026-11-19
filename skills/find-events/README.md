@@ -35,7 +35,7 @@ See the [install steps](../../README.md#install). Then run `/find-events`, or as
 
 **In Claude Code** the lanes and the check run as separate subagents, in parallel.
 
-**In a Claude.ai or Claude Desktop chat** there are no subagents, so the lanes run one after another. For the check it gives you a block to paste into a new chat, and you paste the answer back. That one paste is what keeps the check honest. Turn on web search in both chats.
+**In a Claude.ai or Claude Desktop chat** it depends on the chat. Use a normal chat with **Create and edit files** on, not an incognito one, which can't open the skill's files. A chat that can run subagents runs the same full version as Claude Code: on 19 November 2026 Claude.ai did, on my account. A chat that can't runs the lanes one after another, and for the check gives you a block to paste into a new chat, and you paste the answer back. That one paste is what keeps the check honest. Turn on web search in both chats. That second way has not yet been run end to end in a chat that could open the skill's files.
 
 ## What a run costs
 
@@ -43,11 +43,25 @@ The example run used 8 subagents: 4 to search and 4 to check. Together they used
 
 ## Tested
 
-A fixed set of 10 event records, 5 accurate and 5 with one planted error each: last year's date, a listing site's price shown as the organiser's, a dead event shown as alive, a missed supplier gate, and an old event name. The checker passes only if it catches all 5 errors with the right type and invents no correction on the accurate 5.
+**The check set.** A fixed set of 10 event records, 5 accurate and 5 with one planted error each: last year's date, a listing site's price shown as the organiser's, a dead event shown as alive, a missed supplier gate, and an old event name. The checker passes only if it catches all 5 errors with the right type and invents no correction on the accurate 5.
 
-On its first run it caught all 5, and it also corrected 3 of the records I had written as accurate. I checked those 3 against the organisers' own pages, and the checker was right every time. One record called a show "the largest" for in-house finance teams when the organiser's own split is 63% accountants in practice. One missed that a free logistics show asks non-exhibitors not to sell on the floor. One missed that only exhibitors can book buyer meetings. I fixed the records, and on the second run it caught all 5 planted errors and changed nothing on the 5 accurate ones.
+It has been run 7 times, and every run is published:
 
-The set, its answer key, the facts behind both and the two runs are in [`tests/find-events/`](../../tests/find-events/).
+- **Run 1, 2 November 2026.** It caught all 5, and it also corrected 3 of the records I had written as accurate. I checked those 3 against the organisers' own pages, and the checker was right every time. One record called a show "the largest" for in-house finance teams when the organiser's own split is 63% accountants in practice. One missed that a free logistics show asks non-exhibitors not to sell on the floor. One missed that only exhibitors can book buyer meetings. I fixed the records.
+- **Run 2, 2 November.** Passed: all 5 caught, nothing changed on the 5 accurate records.
+- **The release check for v0.3.0, 4 November.** I re-read every organiser's page first. Nine events were unchanged, and one now publishes a price for vendors, so I updated the facts behind it.
+  - **Run 3** was not a fair run. An edit I had made to one record put its supplier gate into the record, so there was no missing gate left to catch. I reverted the edit.
+  - **Run 4** caught all 5 and made two corrections on accurate records. One was right: Infosecurity Europe's own 2026 news post shows a GBP 49 fee once free registration closes, so I fixed that record. One was wrong: it replaced HANNOVER MESSE's matchmaking rule, "three or more people", with a 12-person rule that belongs to a different service.
+  - **Run 5 failed.** It caught all 5 planted errors, then made the same wrong HANNOVER MESSE correction again, saying it found no three-person threshold anywhere on the organiser's site. Not finding a rule is not the same as the rule being wrong: it should have left the field as it was and said it could not confirm it. That weakness had been in the check instructions since 2 November.
+- **The fix, 0.3.1.** The check instructions now say a correction needs an organiser's page about the same thing, and a field that cannot be confirmed is left as it is and marked unverified.
+  - **Run 6** left HANNOVER MESSE alone. It also found a gate my records had missed since 2 November: Accountex charges non-exhibiting vendors GBP 500 + VAT. I confirmed it and fixed the record, so run 6 fails against the fixed key, as it should.
+  - **Run 7** passed: all 5 caught, nothing invented on the 5 accurate records.
+
+The set, its answer key, the facts behind both and all 7 runs are in [`tests/find-events/`](../../tests/find-events/).
+
+**On Claude.ai, 19 November 2026.** I ran it as a stranger would, in a normal chat with memory off, playing a made-up UK seller of staff-survey software. It asked all 8 interview questions in order, one per message, pushed back once on a vague answer, drafted the vendor category and said why it matters, marked the dates I wasn't sure of as assumptions, and searched nothing before I said go. That chat could run subagents, so it took the same route as Claude Code: 2 search lanes (I asked for 2 of the 4 it proposed) and 2 fresh checkers, briefed word for word as the skill says. It found 17 events, and the checker corrected 3. Nothing was planted in that run, so it tests the flow, not the accuracy. The check set tests the accuracy.
+
+Earlier chats that day found the gaps fixed in 0.3.2. In chats with my memory on, it twice asked two questions in one message. In an incognito chat, which can't open files, it ran without its own instructions: it asked 3 of its 8 questions, left the category out of the brief and proposed 5 lanes where the cap is 4. It now opens its own files first, and stops and says so if it can't.
 
 ## Read it with care
 

@@ -7,7 +7,7 @@ The agreed design for `check-account-list`, settled in two design rounds on 4 No
 Checks every company on a target account list against the user's own profile, with evidence, before anyone spends money or time on the list.
 
 1. **Profile.** An interview builds the profile: what the user sells, their best customers and why, the hard limits, and who to drop on sight. The user approves it.
-2. **Load.** A script reads the list, loads every website, records where each one lands, and splits the list into batches of 10.
+2. **Load.** The skill asks for the list, and a script reads it, loads every website, records where each one lands, and splits the list into batches of 10.
 3. **Research.** A fresh subagent per batch checks each company for six things, from primary sources, and writes a record with evidence.
 4. **Verify.** The script loads every page cited and confirms each quote is on it, word for word.
 5. **Re-check.** A separate checker re-checks every keep and every drop whose evidence the script could not confirm, without seeing the first pass's reasons or evidence.
@@ -25,12 +25,12 @@ Anyone about to work a list of target companies: sales, marketing, founders, age
 
 ## What it takes in
 
-- **A list.** Pasted, or a `.csv`, `.xlsx`, `.md` or `.txt` file. A company name per row is the minimum. A website column is used when present, matched by header (website, domain, url and similar). Up to 50 companies a run in Claude Code and 15 in a chat; longer lists are run in parts.
+- **A list.** Asked for once the profile is approved, never alongside a profile question ([ADR 0018](../adr/0018-the-list-comes-after-the-profile.md)). Pasted, or a `.csv`, `.xlsx`, `.md` or `.txt` file. A company name per row is the minimum. A website column is used when present, matched by header (website, domain, url and similar). Up to 50 companies a run on the subagent route and 15 on the chat route; longer lists are run in parts.
 - **The interview's answers**, which become `profile.md`.
 
 ## The profile
 
-From `references/profile.md`: one question at a time, a draft offered before each question, "not sure" always accepted with a stated default. It asks what the user sells (reading their site), one to three best customers (reading theirs, looking up each one's owner on its register, and drafting what they have in common), why they are the best customers, the hard limits (countries, staff range, buyer, whether group-owned companies count), and competitors and existing customers to drop. Nothing is checked before the user approves the profile.
+From `references/profile.md`: one question at a time (each message asks one numbered question and nothing else, with a question's own parts in one list), a draft offered before each question, "not sure" always accepted with a stated default. It asks what the user sells (reading their site), one to three best customers (reading theirs, looking up each one's owner on its register, and drafting what they have in common), why they are the best customers, the hard limits (countries, staff range, buyer, whether group-owned companies count), and competitors and existing customers to drop. Named competitors and existing customers come only from the user's answers, or from the user's own site with the user's yes, never from the list being checked: a company named from the list is caught because it was named, not because the check worked ([ADR 0018](../adr/0018-the-list-comes-after-the-profile.md)). Nothing is checked before the user approves the profile.
 
 ## The six checks
 
@@ -73,8 +73,10 @@ Primary sources only: the company's own site, the official company register for 
 
 ## Where it runs
 
-- **Claude Code** is the full version: a fresh researcher subagent per batch, all in parallel, and a fresh checker subagent per batch that sees only the profile and the stripped records.
-- **Claude.ai and Claude Desktop**: up to 15 companies. The research runs in the chat, the script runs where code execution can reach the web, and the check is handed to a fresh chat as one block to paste, because research that checks itself marks its own homework (the fallback an earlier test of these skills settled on, and [ADR 0002](../adr/0002-the-checker-never-sees-the-research.md)'s reasoning). If the user declines, the report and the closing message say at the top that no verdict was re-checked.
+- **First, on every route**, the skill opens `references/profile.md` with a real tool. If it cannot open its own files, it tells the user it cannot run in this chat, that it needs a normal chat (not an incognito one) with Create and edit files on, and stops ([ADR 0017](../adr/0017-a-skill-stops-when-it-cannot-open-its-files.md)).
+- **The route follows what the chat can do**, not the app ([ADR 0019](../adr/0019-the-route-follows-what-the-chat-can-do.md)).
+- **The subagent route** is the full version, wherever subagents can be launched: always in Claude Code, and in some Claude.ai and Claude Desktop chats. A fresh researcher subagent per batch, all in parallel, and a fresh checker subagent per batch that sees only the profile and the stripped records.
+- **The chat route**, in a chat that cannot launch subagents: up to 15 companies. The research runs in the chat, the script runs where code execution can reach the web, and the check is handed to a fresh chat as one block to paste, because research that checks itself marks its own homework (the fallback an earlier test of these skills settled on, and [ADR 0002](../adr/0002-the-checker-never-sees-the-research.md)'s reasoning). If the user declines, the report and the closing message say at the top that no verdict was re-checked.
 - **Other agents** are not tested and not claimed.
 
 ## The checker

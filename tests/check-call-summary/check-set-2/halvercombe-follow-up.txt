@@ -1,0 +1,145 @@
+Title: Halvercombe Homes follow-up
+Date: 12 November 2026
+Participants: Joe Ferris, Dana Whitlock, Raj Sandhu, Gemma Okafor
+
+Joe Ferris  00:00:05
+Morning all. Thanks for making time again. Dana, I think Raj is with you?
+
+Dana Whitlock  00:00:15
+He is, yeah, we're in the same room today. Gemma's going to try and join later, she's in another meeting till half past.
+
+Raj Sandhu  00:00:29
+Morning.
+
+Joe Ferris  00:00:33
+Morning Raj. So last time we mostly talked about the problem, so today I wanted to get into the detail, the IT side and what a rollout would look like. Is that okay?
+
+Dana Whitlock  00:00:51
+Yeah, that's perfect.
+
+Joe Ferris  00:00:56
+Great. Can you just remind me of the size of things? Homes, contracts, that sort of thing.
+
+Dana Whitlock  00:01:07
+So at Halvercombe Homes we manage three thousand two hundred homes across the district.
+And on the contracts side, um, it's about four hundred live contracts at any one time. Repairs, grounds maintenance, lifts, gas servicing, all of that.
+
+Joe Ferris  00:01:28
+And where do those live today?
+
+Dana Whitlock  00:01:34
+Spreadsheets. One master spreadsheet, in theory, and then everyone's got their own copy, in practice.
+
+Raj Sandhu  00:01:44
+Which is the problem.
+
+Dana Whitlock  00:01:49
+Which is the problem, yes. [laughs]
+
+Joe Ferris  00:01:55
+And what's that actually cost you? Last time you mentioned notice dates.
+
+Dana Whitlock  00:02:04
+Yeah. So we had three contracts roll over last year because nobody caught the notice date in time. One of those was the lift maintenance contract, which we really wanted to retender.
+
+Joe Ferris  00:02:47
+Ouch. Okay.
+
+Raj Sandhu  00:02:51
+Honestly, I'd pay double just to never open that spreadsheet again.
+
+Dana Whitlock  00:02:59
+Don't tell him that, Raj. [laughs]
+
+Raj Sandhu  00:03:05
+Ha, yeah, scrap that. Strike it from the record.
+
+Joe Ferris  00:03:13
+I didn't hear a thing. [laughs] Raj, can I move on to the IT side? What do you need from us?
+
+Raj Sandhu  00:03:26
+Two things really. Single sign-on is non-negotiable, we're all on Microsoft, so it has to work with that. And then there's the security questionnaire.
+
+Joe Ferris  00:03:40
+Sure. SSO with Microsoft is standard for us, so that's fine. And the questionnaire, did you get the one I sent over?
+
+Raj Sandhu  00:03:53
+I did. I'll get the security questionnaire back to you, but it has to go past our DPO first, so give it a couple of weeks.
+
+Joe Ferris  00:04:08
+That's fine. And to scope the import, it would really help to see the contract register as it is today.
+
+Raj Sandhu  00:04:46
+I can send you an export of the contract register, that's easy. I'll do it tomorrow.
+
+Joe Ferris  00:04:57
+Great, so Raj, the export tomorrow. Thanks, Raj, that's helpful.
+
+Dana Whitlock  00:05:05
+And just so you know, Raj will be the one supporting it day to day, so it needs to be something he can live with.
+
+Raj Sandhu  00:05:20
+Dana's being polite. The spreadsheets are a nightmare, anything is better.
+
+Joe Ferris  00:05:28
+Understood. On timing, what are you working towards?
+
+Dana Whitlock  00:05:35
+Ideally we'd want to be live before the summer. Our licence for the old document system runs out then as well, so it would be nice to do it all at once.
+
+Joe Ferris  00:06:18
+Okay, that's doable if we start the import in the new year. Oh, I think someone's joining.
+
+Gemma Okafor  00:06:29
+Sorry, Gemma here, I've just joined. Ran over.
+
+Joe Ferris  00:06:36
+No problem at all, Gemma. We've just been through the IT side and timings. I was about to get onto price.
+
+Gemma Okafor  00:06:49
+Good timing then. [laughs]
+
+Joe Ferris  00:06:54
+So for four hundred contracts and your size, I'd say somewhere around thirty-eight thousand a year. But don't hold me to that until I've seen the register.
+
+Gemma Okafor  00:07:35
+Okay. If the business case stacks up I don't see a problem. But it's not my call alone. Anything above fifty thousand goes to the audit committee.
+
+Joe Ferris  00:07:51
+Is that fifty thousand a year, or over the whole contract?
+
+Gemma Okafor  00:07:59
+Over the whole contract. So if we're talking three years, it goes to committee.
+
+Joe Ferris  00:08:09
+Understood. When does the committee next meet?
+
+Gemma Okafor  00:08:16
+January. Then not again until March.
+
+Joe Ferris  00:08:22
+Okay. So if we want to be live before the summer, January is the one to aim for.
+
+Dana Whitlock  00:08:34
+That makes sense to me.
+
+Joe Ferris  00:08:40
+Right. So let me play back next steps. Raj, you're sending the register export tomorrow, and the security questionnaire once your DPO's seen it.
+
+Raj Sandhu  00:08:54
+Yep.
+
+Joe Ferris  00:08:58
+I'll send a revised proposal on Friday, with a firmer price once I've seen the register. And Gemma, would it help if I put together a one-page business case for the committee?
+
+Gemma Okafor  00:09:16
+That would help, yes. Send it to Dana and she can shape it.
+
+Joe Ferris  00:09:25
+Will do. Anything I've missed?
+
+Dana Whitlock  00:09:31
+No, I think that's it. Thanks, Joe.
+
+Joe Ferris  00:09:38
+Thanks all. Speak soon.
