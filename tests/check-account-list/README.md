@@ -89,4 +89,6 @@ After the two reviews, the key's lists of allowed extra problem types were taken
 
 In the profile interview it asked for the list and its first question in the same message, and after seeing the list it added Feefo to the named competitors. That would have given away the test of catching Feefo by the kind of product, so it was taken out before the profile was approved. Both are fixed in 0.3.2 ([ADR 0018](../../docs/adr/0018-the-list-comes-after-the-profile.md)): the list is asked for only once the profile is approved, and nothing in the profile comes from it.
 
+**19 November 2026, release 0.3.2: not rerun, on Stefan's call.** 0.3.2 changes how each skill starts (it opens its own files first, and stops if it can't), the interview wording, and when check-account-list asks for the list. None of the instructions, reference files or scripts this check set exercises (the research and checker instructions, their briefs and the script) changed, so the set was not run again, and its answer key was not re-confirmed against Companies House and the companies' own sites. The changed behaviour is to be retested on Claude.ai instead.
+
 A unit test grades every passing saved run against the current key, so CI fails if the key and the evidence drift apart.
