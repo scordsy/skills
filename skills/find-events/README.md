@@ -61,7 +61,7 @@ The set, its answer key, the facts behind both and all 7 runs are in [`tests/fin
 
 **On Claude.ai, 19 November 2026.** I ran it as a stranger would, in a normal chat with memory off, playing a made-up UK seller of staff-survey software. It asked all 8 interview questions in order, one per message, pushed back once on a vague answer, drafted the vendor category and said why it matters, marked the dates I wasn't sure of as assumptions, and searched nothing before I said go. That chat could run subagents, so it took the same route as Claude Code: 2 search lanes (I asked for 2 of the 4 it proposed) and 2 fresh checkers, briefed word for word as the skill says. It found 17 events, and the checker corrected 3. Nothing was planted in that run, so it tests the flow, not the accuracy. The check set tests the accuracy.
 
-Earlier chats that day found the gaps fixed in 0.3.2. In chats with my memory on, it twice asked two questions in one message. In an incognito chat, which can't open files, it ran without its own instructions: it asked 3 of its 8 questions, left the category out of the brief and proposed 5 lanes where the cap is 4. It now opens its own files first, and stops and says so if it can't.
+Earlier chats that day found the gaps fixed in 0.3.2. In chats with my memory on, it twice asked two questions in one message. In an incognito chat, which can't open files, it ran without its own instructions: it asked 3 of its 8 questions, left the category out of the brief and proposed 5 lanes where the cap is 4. It now opens its own files first, and stops and says so if it can't, and the one-question rule is spelled out. Neither change has been re-run on Claude.ai yet.
 
 ## Read it with care
 

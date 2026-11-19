@@ -15,7 +15,7 @@ python3 scripts/package_skill.py <skill>       # the Claude.ai zip, into dist/
 claude plugin validate .                      # the official manifest check (needs Claude Code)
 ```
 
-Run all four before every commit. CI runs the first three. The validator gives one expected warning: this `CLAUDE.md` sits at the plugin root because the repo is the plugin. It is for working on the repo and is not shipped as context, which is what the warning says.
+Run all four before every commit. CI runs the first three. The validator gives one expected warning: this `CLAUDE.md` sits at the plugin root because the repo is the plugin. It is for working on the repo and is not shipped as context, which is what the warning says. Since November 2026 its plugin directory checks also warn that the plugin has no icon. That does not change the result.
 
 ## Layout
 
@@ -39,7 +39,7 @@ Run all four before every commit. CI runs the first three. The validator gives o
 - **Frontmatter is `name`, `description` and `license` only.** Claude.ai rejects most other keys. Descriptions stay under 200 characters until an upload proves the real limit.
 - **Every skill gets a line in the top-level `README.md`** linking to its folder.
 - **Version.** Bump `version` in `plugin.json` for every release, and tag the release `v` plus that version. Installed copies only update when it changes, and the release workflow refuses a tag that does not match.
-- **Before a release,** run each skill's check set again and record the result in its README: [`tests/find-events/`](tests/find-events/README.md) (re-confirm its records against the organisers' pages first), [`tests/check-call-summary/`](tests/check-call-summary/README.md), and [`tests/check-account-list/`](tests/check-account-list/README.md) (re-confirm its answer key against Companies House and the companies' own sites first).
+- **Before a release,** run each skill's check set again and record the result in its README: [`tests/find-events/`](tests/find-events/README.md) (re-confirm its records against the organisers' pages first), [`tests/check-call-summary/`](tests/check-call-summary/README.md) and its [second set](tests/check-call-summary/check-set-2/README.md), and [`tests/check-account-list/`](tests/check-account-list/README.md) (re-confirm its answer key against Companies House and the companies' own sites first).
 - **Writing.** UK English. No em-dashes, en-dashes or curly quotes. No "about" or "around" before a number: state it, or say where it comes from. Plain words over jargon.
 - **No email address anywhere**, metadata included. LinkedIn is the contact route.
-- **Expected values in tests come from outside the code.** A check set's answer key is written by hand from its source (the organisers' own pages for find-events, the made-up call for check-call-summary, Companies House and the companies' own sites for check-account-list), never from a checker's output.
+- **Expected values in tests come from outside the code.** A check set's answer key is written by hand from its source (the organisers' own pages for find-events, the made-up calls for check-call-summary, Companies House and the companies' own sites for check-account-list), never from a checker's output.
