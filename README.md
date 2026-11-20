@@ -1,3 +1,5 @@
+![Claude skills for B2B sales and marketing teams. You already use AI day to day. Check its work before you act on it. By Stefan Cordery.](docs/assets/banner.png)
+
 # Skills
 
 [![CI](https://github.com/scordsy/skills/actions/workflows/ci.yml/badge.svg)](https://github.com/scordsy/skills/actions/workflows/ci.yml)
