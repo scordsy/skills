@@ -4,7 +4,7 @@ The goal is a brief good enough that a researcher who has never met this person 
 
 ## How to ask
 
-- **One question per message.** Wait for the answer.
+- **One question per message.** A message asks one numbered question below and nothing else: no second question, no question from later in the list, and no question this file does not have. Where a question has parts (question 6), they go in that one message as one list. A draft offered for a yes is the question, not an extra one. Wait for the answer.
 - **Draft before you ask.** Wherever you can guess the answer, offer the guess to confirm: "From your site it looks like you sell to HR directors at firms of 200 to 2,000 staff. Right?" Correcting a draft is much easier than writing an answer, and people who would stall at a blank question keep going.
 - **Push back once on a vague answer**, with an example of a sharper one. "Marketers" becomes which marketers, at what size of company, doing what. If it is still vague, accept it and mark it as an assumption.
 - **"Not sure" is always a fine answer.** Use the default given below, tell them what you used, and mark it as an assumption in the brief.
@@ -48,13 +48,13 @@ Default if not sure: "not stated".
 
 Draft it from "who you sell to or work with" in question 1, and **always ask for an explicit yes**. A website shows who a company markets to, which is not always who its people want to meet in a room, and this answer counts double in the score.
 
-Push for: job titles, company type and size, sector, and region. Ask whether there is a second group worth meeting (for example, the sales team alongside marketing).
+Push for: job titles, company type and size, sector, and region. In the same question, ask whether there is a second group worth meeting (for example, the sales team alongside marketing).
 
 Default if not sure: the people drafted in question 1. Say that is the default and still ask for a yes to it. If it is assumed, put it first in the brief's Assumptions.
 
 ### 4. What a good event looks like
 
-Offer the options rather than a blank question: small rooms where people talk, big conferences with an expo floor, one-to-one matchmaking, talks they would learn from, or a mix. Ask what has worked for them before, if anything.
+Offer the options rather than a blank question: small rooms where people talk, big conferences with an expo floor, one-to-one matchmaking, talks they would learn from, or a mix. In the same question, ask what has worked for them before, if anything.
 
 Default if not sure: "rooms where you can actually talk to them". A meetup of 60 of the right people talking beats a conference of 2,000 watching a stage.
 
@@ -66,7 +66,7 @@ Default if not sure: wrong crowd, and events they cannot get into.
 
 ### 6. Budget and travel
 
-Ask, together:
+Ask for these in one message, as one list:
 
 - Ticket budget for the whole window, and the currency.
 - Where they travel from.

@@ -18,13 +18,15 @@ Anyone choosing which events to attend to meet a particular kind of person. The 
 
 ## Where it runs
 
-- **Claude Code** is the full version. Lanes run as parallel subagents. The checker is a separate, fresh subagent (never a fork) that never sees how a record was found: it reads only its own records file, from a folder that holds nothing else.
-- **Claude.ai and Claude Desktop** get a fallback. Lanes run one after another in the same chat. At the check stage the skill hands over a prompt for the user to paste into a fresh chat, because a check in the same chat is the research marking its own homework. The user pastes the checked records back for scoring. If the user declines the check, the shortlist is marked unchecked at the top and carries no check counts.
+- **First, on every route**, the skill opens `references/interview.md` with a real tool. If it cannot open its own files, it tells the user it cannot run in this chat, that it needs a normal chat (not an incognito one) with Create and edit files on, and stops. It never runs from `SKILL.md` alone. See [ADR 0017](../adr/0017-a-skill-stops-when-it-cannot-open-its-files.md).
+- **The route follows what the chat can do**, not the app ([ADR 0019](../adr/0019-the-route-follows-what-the-chat-can-do.md)).
+- **The subagent route** is the full version, wherever subagents can be launched: always in Claude Code, and in some Claude.ai and Claude Desktop chats. Lanes run as parallel subagents. The checker is a separate, fresh subagent (never a fork) that never sees how a record was found: it reads only its own records file, from a folder that holds nothing else.
+- **The chat route** is the fallback, in a chat that cannot launch subagents. Lanes run one after another in the same chat. At the check stage the skill hands over a prompt for the user to paste into a fresh chat, because a check in the same chat is the research marking its own homework. The user pastes the checked records back for scoring. If the user declines the check, the shortlist is marked unchecked at the top and carries no check counts.
 - **Other agents** are not tested and not claimed.
 
 ## Stage 1: Interview
 
-One question at a time. Push back on vague answers ("marketers" becomes which marketers, at what size of company, doing what). Where an answer can be drafted, offer the draft to confirm rather than a blank question: correcting is easier than writing. "Not sure" is always a valid answer. The skill then uses a sensible default and marks it as an assumption.
+One question at a time: each message asks one of the numbered questions below and nothing else, with a question's own parts in one list. Push back on vague answers ("marketers" becomes which marketers, at what size of company, doing what). Where an answer can be drafted, offer the draft to confirm rather than a blank question: correcting is easier than writing. "Not sure" is always a valid answer. The skill then uses a sensible default and marks it as an assumption.
 
 The questions, in order:
 
@@ -120,13 +122,13 @@ Score = 2R + A + V + L + B, out of 15. **Book** at 12 or more, **consider** at 9
 
 ## Files
 
-In Claude Code, a folder `find-events/<YYYY-MM-DD>-<short-name>/` in the working directory:
+On the subagent route, a folder `find-events/<YYYY-MM-DD>-<short-name>/` in the working directory:
 
 - `brief.md`, `records.md` (every record after the check) and `shortlist.md`.
 - `working/`, holding the raw lane files and the check files, so every correction can be traced.
 - `check-in/`, holding only the stripped records each checker reads.
 
-In Claude.ai and Desktop, the same three as one document in the chat.
+On the chat route, the same three as one document in the chat.
 
 Every fact on the shortlist comes from `records.md`. Nothing checks the hand-back, so it adds nothing the records do not say.
 

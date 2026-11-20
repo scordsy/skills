@@ -18,20 +18,21 @@ Five stages, in order. Each needs the one before, so never skip ahead.
 4. **Score.** Every open event is scored out of 15.
 5. **Hand-back.** A shortlist with the organiser's link on every line.
 
-Read each reference file when its stage begins, not before. They are in this skill's folder, `${CLAUDE_SKILL_DIR}` (in a chat, the folder this file is in).
+Read each reference file when its stage begins, not before, apart from the first check below. They are in this skill's folder, `${CLAUDE_SKILL_DIR}` (in a chat, the folder this file is in).
 
 ## Before you start
 
+- **Check you can open this skill's files.** Every stage runs on them, not on this page. Open `references/interview.md` now with a tool that reads files. Stage 1 needs it next. Knowing its name from this page is not the same as opening it. If you have no tool that opens files, or it will not open, stop here and tell the user, in one message, that this chat cannot open the skill's files, so the skill cannot run in it, and that it needs a normal chat (not an incognito one) with **Create and edit files** turned on, under **Settings**, then **Capabilities**. Run nothing from this page alone.
 - **Find today's date.** Every date window is worked out from it. If you are not sure of it, ask.
-- **Work out where you are running.**
-  - **Claude Code**, where you can launch subagents with the Agent tool and write files: the full version below.
-  - **A chat** (Claude.ai or Claude Desktop), with no subagents: follow the "In a chat" notes at each stage. The run needs web search. If you cannot search the web, say so and stop.
-- **In Claude Code, the run folder** is `find-events/<YYYY-MM-DD>-<short-name>/` under the current working directory, with `working/` and `check-in/` folders inside it. Create it once the brief has a short name. Use absolute paths whenever you brief a subagent.
+- **Work out which route you are on.** It depends on what you can do, not on which app you are in.
+  - **The subagent route**, where you can launch subagents with the Agent tool and write files: always in Claude Code, and in some Claude.ai and Claude Desktop chats. The full version below.
+  - **The chat route**, in a chat that cannot launch subagents: follow the "In a chat" notes at each stage. The run needs web search. If you cannot search the web, say so and stop.
+- **On the subagent route, the run folder** is `find-events/<YYYY-MM-DD>-<short-name>/` under the current working directory, with `working/` and `check-in/` folders inside it. Create it once the brief has a short name. Use absolute paths whenever you brief a subagent.
 - **Tell the user what to expect** in one line: a few minutes of questions, then the search and the check, which take a while.
 
 ## Stage 1: Interview
 
-Read `references/interview.md` and follow it: one question per message, drafts before questions, "not sure" always accepted.
+Follow `references/interview.md`: one numbered question per message and nothing else in it, drafts before questions, "not sure" always accepted.
 
 End by writing `brief.md` in the run folder and showing it. Wait for the user to approve or edit it. **Search nothing before approval**, apart from reading the user's own website in the first question.
 

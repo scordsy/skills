@@ -21,27 +21,31 @@ Six stages, in order. Each needs the one before, so never skip ahead.
 5. **Re-check.** A separate checker re-checks every keep, and every drop the script could not confirm.
 6. **Hand-back.** A report and two CSV files.
 
-Read each reference file when its stage begins, not before. They are in this skill's folder, `${CLAUDE_SKILL_DIR}` (in a chat, the folder this file is in).
+Read each reference file when its stage begins, not before, apart from the first check below. They are in this skill's folder, `${CLAUDE_SKILL_DIR}` (in a chat, the folder this file is in).
 
 ## Before you start
 
+- **Check you can open this skill's files.** Every stage runs on them, not on this page. Open `references/profile.md` now with a tool that reads files. Stage 1 needs it next. Knowing its name from this page is not the same as opening it. If you have no tool that opens files, or it will not open, stop here and tell the user, in one message, that this chat cannot open the skill's files, so the skill cannot run in it, and that it needs a normal chat (not an incognito one) with **Create and edit files** turned on, under **Settings**, then **Capabilities**. Run nothing from this page alone.
 - **Find today's date.** "Bought in the last five years" is worked out from it.
 - **Any country.** The checks are the same everywhere. How much can be proven depends on each country's free company register, listed in `references/registers.md`.
-- **Work out where you are running.**
-  - **Claude Code**, where you can launch subagents with the Agent tool and run Python: the full version below.
-  - **A chat** (Claude.ai or Claude Desktop): follow the "In a chat" notes at each stage. The run needs web search. If you cannot search the web, say so and stop.
-- **Get the list.** A `.csv`, `.xlsx`, `.md` or `.txt` file, or a paste. A company name per row is enough; a website column helps. For `.xls`, `.numbers` or PDF, ask for a `.csv` or `.xlsx` export, or a paste.
-- **Size.** Up to 50 companies a run in Claude Code, 15 in a chat. For more, say so and offer to run it in parts.
-- **Make the run folder** once the profile has a short name: `check-account-list/<YYYY-MM-DD>-<short-name>/` under the current working directory, with `working/` and `check-in/` inside. Save a pasted list to `working/list.txt`. Use absolute paths whenever you brief a subagent.
-- **Tell the user what to expect** in one line: a few questions to build the profile, then the checks, which take a while. From the tests, each batch of 10 companies takes a researcher 10 minutes or more.
+- **Work out which route you are on.** It depends on what you can do, not on which app you are in.
+  - **The subagent route**, where you can launch subagents with the Agent tool and run Python: always in Claude Code, and in some Claude.ai and Claude Desktop chats. The full version below.
+  - **The chat route**, in a chat that cannot launch subagents: follow the "In a chat" notes at each stage. The run needs web search. If you cannot search the web, say so and stop.
+- **The list comes after the profile.** Ask for it at Stage 2, once the profile is approved, never alongside a profile question. The profile is built from the user's answers alone. If the user has already given the list, say you will check it once the profile is agreed, and take nothing from it for the profile: no competitor, no customer, no draft.
+- **Make the run folder** once the profile has a short name: `check-account-list/<YYYY-MM-DD>-<short-name>/` under the current working directory, with `working/` and `check-in/` inside. Use absolute paths whenever you brief a subagent.
+- **Tell the user what to expect** in one line: a few questions to build the profile, then the list (up to 50 companies on the subagent route, 15 on the chat route), then the checks, which take a while. From the tests, each batch of 10 companies takes a researcher 10 minutes or more.
 
 ## Stage 1: Profile
 
-Read `references/profile.md` and follow it: one question per message, drafts before questions, "not sure" always accepted. End with `profile.md` in the run folder, shown to the user. **Check nothing before the user approves it.**
+Follow `references/profile.md`: one numbered question per message and nothing else in it, drafts before questions, "not sure" always accepted, and competitors and customers only from the user's answers. End with `profile.md` in the run folder, shown to the user. **Check nothing before the user approves it.**
 
 **In a chat:** show the profile in your reply instead of writing a file.
 
 ## Stage 2: Load
+
+**Get the list**, in a message of its own, unless the user has already given it. A `.csv`, `.xlsx`, `.md` or `.txt` file, or a paste. A company name per row is enough; a website column helps. For `.xls`, `.numbers` or PDF, ask for a `.csv` or `.xlsx` export, or a paste. Save a pasted list to `working/list.txt`.
+
+**Size.** Up to 50 companies a run on the subagent route, 15 on the chat route. For more, say so and offer to run it in parts.
 
 ```
 python3 "${CLAUDE_SKILL_DIR}/scripts/accounts.py" load "<list file>" "<run folder>/companies.md"
@@ -123,7 +127,7 @@ Then verify the checkers' files the same way as Stage 4, with `working/check-*.m
 
 > You are the checker in a check-account-list run. Do not start the check-account-list skill or any other skill. Follow only the instructions below.
 
-Then the full text of `references/checker.md`, `references/research.md`, `references/registers.md` and `references/record-format.md`, then the profile and any customers list, then the records that need a re-check (every keep, and every drop resting on evidence you could not confirm), with the claims only and no reasons or evidence. With code execution, run `verify` and `strip` as in Claude Code and paste the `to-check` file; without it, copy the claim lines by hand. Tell the user: "Open a new chat with web search on (an incognito chat is best, so it cannot see this one), paste everything in the box below, and paste its answer back here. A check in this chat would be me marking my own homework." When the answer comes back, count its records against the number you sent and ask for any missing ones. If you can create files, save it as `working/check-1.md` and run `verify` on it as in Claude Code. If the user declines the re-check, carry on, and follow the "Unchecked" rule in `references/hand-back.md`.
+Then the full text of `references/checker.md`, `references/research.md`, `references/registers.md` and `references/record-format.md`, then the profile and any customers list, then the records that need a re-check (every keep, and every drop resting on evidence you could not confirm), with the claims only and no reasons or evidence. With code execution, run `verify` and `strip` as on the subagent route and paste the `to-check` file; without it, copy the claim lines by hand. Tell the user: "Open a new chat with web search on (an incognito chat is best, so it cannot see this one), paste everything in the box below, and paste its answer back here. A check in this chat would be me marking my own homework." When the answer comes back, count its records against the number you sent and ask for any missing ones. If you can create files, save it as `working/check-1.md` and run `verify` on it as on the subagent route. If the user declines the re-check, carry on, and follow the "Unchecked" rule in `references/hand-back.md`.
 
 ## Stage 6: Hand-back
 

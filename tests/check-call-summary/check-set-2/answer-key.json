@@ -1,0 +1,71 @@
+{
+  "about": "Answer key for a second, made-up check-call-summary test, written by hand with the call and summaries on 19 Nov 2026, before any checker ran. Line numbers are those the number command gives halvercombe-follow-up.txt. Halvercombe Homes and everyone named are fictional; the company name was searched and no match found. Fixed before any run: the company name was put into a spoken line (L7), and 'Ideally' kept on the go-live lines in both summaries.",
+  "doubtful_labels": {},
+  "doubtful_label_traps": {
+    "25": "Joe: 'Thanks, Raj, that's helpful.' Correctly labelled: Joe thanks Raj.",
+    "27": "Raj: 'Dana's being polite.' Correctly labelled: Raj talks about Dana.",
+    "31": "Gemma: 'Sorry, Gemma here, I've just joined.' Correctly labelled: she names herself.",
+    "47": "Dana: 'Thanks, Joe.' Correctly labelled."
+  },
+  "summaries": {
+    "notetaker-2": {
+      "planted": [
+        {
+          "line": "Dana said single sign-on with Microsoft is a must-have.",
+          "failure": "wrong-speaker",
+          "why": "Raj says it (L20), and L20's label is not doubtful."
+        },
+        {
+          "line": "Raj would pay a premium to replace the spreadsheets.",
+          "failure": "tone-read-as-sincere",
+          "why": "L16 'I'd pay double just to never open that spreadsheet again.' Dana: 'Don't tell him that, Raj. [laughs]' (L17). Raj: 'scrap that. Strike it from the record.' (L18)."
+        },
+        {
+          "line": "Around 25 users will need logins.",
+          "failure": "made-up-detail",
+          "why": "No number of users is said anywhere on the call."
+        },
+        {
+          "line": "Gemma has approved the budget.",
+          "failure": "overstated",
+          "why": "Gemma: 'If the business case stacks up I don't see a problem. But it's not my call alone.' (L35). Nothing was approved."
+        },
+        {
+          "line": "Raj has completed the security questionnaire.",
+          "failure": "intention-as-done",
+          "why": "Raj: 'I'll get the security questionnaire back to you, but it has to go past our DPO first, so give it a couple of weeks.' (L22)."
+        },
+        {
+          "line": "Dana to send the contract register export tomorrow.",
+          "failure": "owner-or-date-wrong",
+          "why": "Raj: 'I can send you an export of the contract register... I'll do it tomorrow.' (L24); Joe confirms 'Raj, the export tomorrow' (L25, L42). Wrong owner."
+        }
+      ],
+      "clean": [
+        "**Attendees:** Dana Whitlock, Raj Sandhu, Gemma Okafor, Joe Ferris",
+        "Halvercombe Homes manages 3,200 homes.",
+        "Roughly 400 live contracts, tracked in spreadsheets.",
+        "Three contracts auto-renewed last year after notice dates were missed, including lift maintenance.",
+        "Ideally live before the summer.",
+        "Indicative price around £38k a year, to be firmed up once Joe has seen the register.",
+        "Joe to send a revised proposal on Friday.",
+        "Joe to draft a one-page business case and send it to Dana."
+      ],
+      "left_out": {
+        "lines": [
+          35,
+          37
+        ],
+        "kind": "who-decides",
+        "why": "Anything above fifty thousand over the whole contract goes to the audit committee. The summary never says so.",
+        "accept": "missing, or carried wrongly against the 'Gemma has approved the budget' claim. Either is right."
+      }
+    },
+    "rep-note": {
+      "planted": [],
+      "clean": "every line",
+      "why": "A terse but accurate rep note. Number conversions (3,200, c.400, £38k/yr, £50k) and short forms (SSO, Jan, Mar, Fri) are fair. Any failure on any claim is a false alarm."
+    }
+  },
+  "pass_rule": "Every quote verifies. All 6 planted failures in notetaker-2 caught with the right type. No failure on any clean line of notetaker-2 or any line of rep-note. The audit committee rule listed as a who-decides key fact and marked missing, or carried wrongly against the approved-budget claim, for notetaker-2. No line flagged as a doubtful label. Extra failure types on a planted line and extra left-out key facts are notes, not failures."
+}

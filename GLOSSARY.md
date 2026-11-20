@@ -2,6 +2,16 @@
 
 The words these skills use in their instructions, their output and their docs. One meaning each within a skill. Where two skills share a word, such as verdict, each skill's section gives its meaning there. When a skill's output uses one of these words, it means exactly this.
 
+## Every skill
+
+**Subagent route**:
+The full version of a skill, where fresh subagents do the separate jobs. Taken wherever subagents can be launched: always in Claude Code, and in some Claude.ai and Claude Desktop chats.
+_Avoid_: Claude Code version (the route follows what the chat can do, not the app)
+
+**Chat route**:
+The version for a chat that cannot launch subagents: the "In a chat" notes at each stage.
+_Avoid_: Claude.ai version
+
 ## find-events
 
 **Brief**:
@@ -53,7 +63,7 @@ The stage where a separate pass tries to prove each record wrong against the org
 _Avoid_: verification, review, QA
 
 **Checker**:
-Whatever runs the check: a subagent in Claude Code, a fresh chat in Claude.ai. Never the same context that found the record.
+Whatever runs the check: a fresh subagent on the subagent route, a fresh chat the user pastes into on the chat route. Never the same context that found the record.
 
 **Verdict**:
 What the check concludes about a record. Exactly one of:
@@ -130,10 +140,10 @@ What a CRM record depends on, listed from the transcript by a reader that never 
 _Avoid_: highlights, takeaways, action items
 
 **Reader**:
-Whatever lists the key facts and doubtful labels: a subagent in Claude Code, the first part of the chat in Claude.ai. Never sees a summary before its list is written.
+Whatever lists the key facts and doubtful labels: a fresh subagent on the subagent route, the first part of the chat on the chat route. Never sees a summary before its list is written.
 
 **Checker**:
-Whatever splits a summary into claims and checks each one: a subagent per summary in Claude Code, the chat itself in Claude.ai.
+Whatever splits a summary into claims and checks each one: a fresh subagent per summary on the subagent route, the chat itself on the chat route.
 
 **Doubtful label**:
 A transcript line whose content argues with its speaker label. Flagged with who it more likely was and why, never corrected.
@@ -198,10 +208,10 @@ _Avoid_: error, issue, flag
 A company on a register with the same or a similar name as the one on the list, but unrelated. Caught by matching the website, address or directors, never the name alone.
 
 **Researcher**:
-Whatever writes the first records: a subagent per batch in Claude Code, the chat itself in Claude.ai.
+Whatever writes the first records: a fresh subagent per batch on the subagent route, the chat itself on the chat route.
 
 **Checker**:
-Whatever re-checks every keep and every drop the script could not confirm: a fresh subagent per batch in Claude Code, a fresh chat in Claude.ai. Sees the claims and verdicts, never the reasons or the evidence.
+Whatever re-checks every keep and every drop the script could not confirm: a fresh subagent per batch on the subagent route, a fresh chat the user pastes into on the chat route. Sees the claims and verdicts, never the reasons or the evidence.
 
 **Re-check**:
 The stage where the checker tries to prove the first pass wrong. Not to be confused with a check, which is one of the six things looked at for every company.

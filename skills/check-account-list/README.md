@@ -45,8 +45,8 @@ The [full run is here](../../docs/examples/check-account-list/): the [list](../.
 
 ## How it works
 
-1. **Profile.** A short interview, one question at a time, with a draft to correct before each one: what you sell, one to three best customers and why, the hard limits (countries, staff range, who buys, whether a company owned by a larger group counts), and competitors and existing customers to drop. You approve it before anything is checked.
-2. **Load.** A script reads the list (a paste, `.csv`, `.xlsx`, `.md` or `.txt`), loads every website and records where it lands. A redirect to another company's domain is often the first sign of a takeover.
+1. **Profile.** A short interview, one question at a time, with a draft to correct before each one: what you sell, one to three best customers and why, the hard limits (countries, staff range, who buys, whether a company owned by a larger group counts), and competitors and existing customers to drop, taken from your answers and never from the list. You approve it before anything is checked.
+2. **Load.** Only then does it ask for your list. A script reads it (a paste, `.csv`, `.xlsx`, `.md` or `.txt`), loads every website and records where it lands. A redirect to another company's domain is often the first sign of a takeover.
 3. **Research.** Batches of 10, each researched by its own fresh subagent. Six checks for every company: website, still trading, owner (followed up to the top company), size, fit and conflicts. Only primary sources count: the company's own site, the free official register for its country, and the buyer's or company's own announcement. Never LinkedIn, a database or a listing site.
 4. **Verify.** The script loads every page cited and confirms each quote is on it, word for word. A quote it cannot find goes back to a researcher.
 5. **Re-check.** A separate checker that never sees how the first pass reached its answers tries to prove every keep wrong, and re-checks every drop whose evidence the script could not confirm (most often a PDF of accounts).
@@ -66,7 +66,7 @@ See the [install steps](../../README.md#install). Then run `/check-account-list`
 
 **In Claude Code**, the full version: up to 50 companies a run, a researcher subagent per batch of 10 and a separate checker per batch, all in parallel.
 
-**In a Claude.ai or Claude Desktop chat**, up to 15 companies, with web search on and, for the quote check, code execution. The research runs in the chat. For the re-check it builds one block for you to paste into a fresh chat, because research that checks itself marks its own homework. If you skip that, the report says at the top that nothing was re-checked. The chat version has not been run end to end yet.
+**In a Claude.ai or Claude Desktop chat**, turn on web search and **Create and edit files**, and use a normal chat, not an incognito one: the skill opens its own files, and the quote check is a script. A chat that can run subagents runs the same full version as Claude Code: on 19 November 2026 Claude.ai did, on my account. A chat that can't takes up to 15 companies and researches them in the chat. For the re-check it builds one block for you to paste into a fresh chat, because research that checks itself marks its own homework. If you skip that, the report says at the top that nothing was re-checked. That second way has not been run end to end yet.
 
 ## What a run costs
 
@@ -88,6 +88,10 @@ It took three runs at each effort to get here, and all three are published:
 | high | passed | 767,178 | 26 min 0 s |
 
 Time is the longest researcher plus the longest checker. Every run, the answer key and its sources are in [`tests/check-account-list/`](../../tests/check-account-list/).
+
+**On Claude.ai, 19 November 2026**, in a normal chat with memory off, I played the made-up seller through the profile interview, then gave it 12 of the 20 check-set companies, covering every problem type and all three name traps. Payescape, the unsettled one, was left out. That chat could run subagents, so it took the same route as Claude Code: 2 research batches and separate checkers. Every verdict matched the key: 3 kept, 9 dropped with every required problem type and none forbidden, and nothing sent to check by hand. The script confirmed 128 quotes, and 11 were in PDFs, which the checker reviewed. The checker re-checked 9 companies and changed nothing. It was graded by hand, and the run's files are not in the repo.
+
+The profile interview showed two slips, both fixed in 0.3.2. It asked for the list and its first question in the same message. And after seeing the list, it added Feefo, a company on it, to my named competitors, which would have given away the test of catching a competitor by the kind of product. I had it taken out before approving the profile. The skill now asks for the list only once the profile is approved, and never takes a competitor or customer from it. It also now opens its own files first, and stops and says so if it can't, as find-events does. These changes have not been re-run on Claude.ai yet.
 
 ## Read it with care
 

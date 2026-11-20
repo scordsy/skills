@@ -6,7 +6,7 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 
 - Small skills that do one job you can check.
 - Skills that run on the assistant's own tools. No API keys, no paid services, no accounts to create.
-- Claude Code first. Claude.ai and Claude Desktop where the skill can work honestly without subagents, with the difference stated.
+- Claude Code first. Claude.ai and Claude Desktop too: a chat that can launch subagents runs the full version, and one that cannot runs a version that works honestly without them, with the difference stated. A chat that cannot open the skill's files, such as an incognito chat, gets a clear stop, never a quiet run from the summary.
 
 ## find-events
 
@@ -37,7 +37,7 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 
 ## check-account-list
 
-**In:** one list of up to 50 companies (15 in a chat), pasted or as `.csv`, `.xlsx`, `.md` or `.txt`, checked against a profile the user approves. A report and two CSVs.
+**In:** one list of up to 50 companies (15 on the chat route), pasted or as `.csv`, `.xlsx`, `.md` or `.txt`, checked against a profile the user approves. A report and two CSVs.
 
 **Out, on purpose:**
 

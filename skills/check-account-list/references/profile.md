@@ -4,10 +4,11 @@ The goal is a profile sharp enough that someone who has never met this person co
 
 ## How to ask
 
-- **One question per message.** Wait for the answer.
+- **One question per message.** A message asks one numbered question below and nothing else: no second question, no question this file does not have, and never a request for the list being checked, which comes after the profile is approved. Where a question has parts (questions 4 and 5), they go in that one message as one list. A draft offered for a yes is the question, not an extra one. Wait for the answer.
 - **Draft before you ask.** Wherever you can guess, offer the guess to confirm: "From Breathe's site it looks like a UK software company selling HR tools to small businesses. Is that what makes it a good customer?" Correcting a draft is easier than writing an answer.
 - **"Not sure" is always a fine answer.** Use the default given below, say what you used, and mark it as an assumption.
 - **Never ask what you already know.** If an earlier answer covered a later question, offer it as a draft.
+- **Build it from the user's answers, never from the list.** The profile is what the list is checked against, so nothing in it may come from the list. If the user has already given the list, take no competitor, customer or draft from it.
 - Keep it to a few minutes.
 
 ## The questions, in order
@@ -39,10 +40,12 @@ Draft these from the answers so far and ask for a yes or a change to each:
 
 ### 5. Who to drop on sight
 
-Ask for:
+Ask for both, in one message:
 
-- **Your competitors**, by name. Suggest any you can see from their site, and include the kind of product as well as the names ("any review or referral platform").
+- **Your competitors**, by name. Suggest any you can see on the user's own site, and include the kind of product as well as the names ("any review or referral platform").
 - **Your existing customers**, optionally, as names or a file. Say why in one line: a list built to look like your customers will contain some of them.
+
+Every name here comes from the user's answer, or from the user's own site with the user's yes. **Never add a company from the list being checked**, even one you have seen and are sure of. Finding competitors and customers on the list is the check's job, and a name added here from the list hides whether the check can catch it by the kind of product.
 
 ## The profile file
 
@@ -63,8 +66,8 @@ Write `profile.md` in the run folder, in exactly this shape, and show it. Wait f
 - Staff range: <from> to <to>, or no limit
 - Buyer: <who buys from the user>
 - Owned by a larger group: not wanted | fine
-- Competitors to drop: <names and kinds of product>, or none given
-- Existing customers to drop: <names, or "file: customers.csv">, or none given
+- Competitors to drop: <names and kinds of product, from the user's answers>, or none given
+- Existing customers to drop: <names from the user's answers, or "file: customers.csv">, or none given
 - Assumptions: <each answer filled in by a default>, or none
 ```
 
