@@ -28,6 +28,7 @@ Run all four before every commit. CI runs the first three. The validator gives o
 | `skills/<name>/README.md` | For people browsing GitHub. Never read by the skill, left out of the zip |
 | `docs/specs/<name>.md` | The agreed design. Reviews check the skill against it |
 | `docs/examples/<name>/` | A real run, published as the skill's README example |
+| `docs/assets/` | Images the READMEs show, such as the banner at the top of `README.md` |
 | `docs/adr/` | One short record per decision a reader would question |
 | `tests/` | Script tests, plus each skill's check set |
 | `scripts/` | Repo tooling: checks and packaging |
