@@ -1,23 +1,23 @@
-![Claude skills for B2B sales and marketing teams. You already use AI day to day. Check its work before you act on it. By Stefan Cordery.](docs/assets/banner.png)
+![Claude skills for B2B sales and marketing teams. Every finding checked before you rely on it. By Stefan Cordery.](docs/assets/banner.png)
 
 # Skills
 
 [![CI](https://github.com/scordsy/skills/actions/workflows/ci.yml/badge.svg)](https://github.com/scordsy/skills/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Claude skills for B2B sales and marketing teams who already use AI day to day, and need to trust what it gives them before they act on it.
+Claude skills for B2B sales and marketing teams. Each one does an everyday job, and every finding is checked before you rely on it.
 
 ## Why these exist
 
-AI makes everyday sales and marketing jobs fast: a list of target accounts, a summary of a sales call, a shortlist of events. The output looks right, so it goes straight into the CRM, the outbound sequence or the events budget. Often it is quietly wrong.
+AI makes everyday sales and marketing jobs fast: a list of target accounts, a summary of a sales call. The output looks right, so it goes straight into the CRM or the outbound sequence. Often it is quietly wrong.
 
 When I asked ChatGPT for "50 companies like our best customer" and checked a sample (15), only 1 was usable. None were made up. They were real companies, just the wrong ones: some had been taken over, some were too big or too small, some sold to a different kind of customer, and some were direct competitors of the company asking for the list.
 
 ChatGPT even told me to check the list before using it: confirm each company's headcount, confirm where it's based, check it actually sells its own software. Good advice. It just didn't do any of it. That checking is the slow, tedious part that gets skipped when you're busy, and it's the part these skills do for you.
 
-Each skill here does one of those everyday jobs and checks the work before you rely on it:
+Two of the skills here check work you already have: a target account list, or an AI summary of a call. The third, find-events, does the research for you: a structured search for the events worth attending to meet the people you want. All three work the same way:
 
-- **It starts from something you already have**: a list, a call transcript, the people you want to meet.
+- **It starts from what you give it**: a list, a call transcript, the people you want to meet.
 - **Every finding comes with its source**: a link and the exact words, so you can see why without taking it on trust.
 - **The part that does the work never checks it.** A separate checker tries to prove each finding wrong.
 - **No API keys, no paid tools, no accounts to create.** Install it and run it.
