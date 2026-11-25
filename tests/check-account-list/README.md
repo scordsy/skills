@@ -93,4 +93,6 @@ In the profile interview it asked for the list and its first question in the sam
 
 **25 November 2026, release 0.4.0: not rerun, on Stefan's call.** 0.4.0 adds a fourth skill, check-claims, and changes nothing in this skill's instructions, reference files or script. So this check set was not run again and its answer key was not re-confirmed.
 
+**25 November 2026, release 0.4.1: not rerun, on Stefan's call.** 0.4.1 changes only the wording of check-claims' description, in the skill, the plugin and the marketplace entry. No instruction, reference file or script changed in any skill, so no check set was run again and no answer key was re-confirmed.
+
 A unit test grades every passing saved run against the current key, so CI fails if the key and the evidence drift apart.

@@ -45,5 +45,6 @@ The companies in the call were first written as Ostlund Haulage and Cartwheel. C
 
 - **19 November 2026, release 0.3.2: not rerun, on Stefan's call.** 0.3.2 changes how each skill starts (it opens its own files first, and stops if it can't), the interview wording, and when check-account-list asks for the list. None of the instructions, reference files or scripts these check sets exercise (the reader and checker instructions, their briefs and the transcript script) changed, so neither set was run again. The changed behaviour is to be retested on Claude.ai instead.
 - **25 November 2026, release 0.4.0: not rerun, on Stefan's call.** 0.4.0 adds a fourth skill, check-claims, and changes nothing in this skill's instructions, reference files or script. So this check set was not run again and its answer key was not re-confirmed.
+- **25 November 2026, release 0.4.1: not rerun, on Stefan's call.** 0.4.1 changes only the wording of check-claims' description, in the skill, the plugin and the marketplace entry. No instruction, reference file or script changed in any skill, so no check set was run again and no answer key was re-confirmed.
 
 A unit test grades every saved run against the current key, so CI fails if the key and the evidence drift apart. Set 2's README says how its one run is graded.

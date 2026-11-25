@@ -27,7 +27,7 @@ Three of the skills here check work you already have: a target account list, an 
 | Skill | For | What it does |
 |---|---|---|
 | [**check-account-list**](skills/check-account-list/) | Sales and marketing | Every company on a target account list checked before you spend on it: website, still trading, bought, size, fit and competitors, each with evidence you can click. Checks companies in any country, as far as each country's free register allows. |
-| [**check-claims**](skills/check-claims/) | Marketing and sales | Every fact in a draft traced to whoever first published it, before you publish or send it: still current, rightly credited or not found, each with a link and the exact words. |
+| [**check-claims**](skills/check-claims/) | Marketing and sales | Every fact in your article, whitepaper or sales email traced to whoever first published it, before you publish or send it. A statistic the publisher has since replaced, or a case study credited to the wrong company, is flagged with a link and the exact words. |
 | [**check-call-summary**](skills/check-call-summary/) | Sales and customer success | An AI summary of a call, checked claim by claim against the transcript before it goes in your CRM. Every claim traced to a quote, with speaker mix-ups, jokes taken literally and missed next steps flagged. |
 | [**find-events**](skills/find-events/) | Marketing and sales | A shortlist of events worth attending to meet the people you want, with every event checked against the organiser's own page before you see it. |
 

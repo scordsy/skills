@@ -1,6 +1,6 @@
 ---
 name: check-claims
-description: Check every fact in a draft before you publish or send it. Each claim is traced to its first publisher and marked current, out of date, wrongly credited or not found. Use on AI-written drafts.
+description: Check every fact in an article, whitepaper or sales email before you publish or send it. Each is traced to its first publisher and marked current, stale or wrongly credited. Use on AI-written drafts.
 license: MIT
 ---
 

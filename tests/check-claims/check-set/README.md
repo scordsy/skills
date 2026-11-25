@@ -126,6 +126,10 @@ Two lines went into every brief that are not part of the skill, because of where
 
 The skill's instructions have the assistant write `marked.md` by hand. In these runs I wrote it with a short helper that follows the rules in `references/hand-back.md`: a mark after each claim's draft words, then the record's words to use and its link. Each saved one was then checked the way that file asks: one mark for every claim, and with the marks taken out, the draft exactly as given. The closing message to the user that the same file sets out was not written, because there was no user in these runs.
 
+### Release 0.4.1
+
+**25 November 2026, release 0.4.1: not rerun, on Stefan's call.** 0.4.1 changes only the wording of check-claims' description, in the skill, the plugin and the marketplace entry. No instruction, reference file or script changed in any skill, so no check set was run again and no answer key was re-confirmed.
+
 ### Not covered
 
 - **A real sign-up form.** No run met one. The one form in the set had an open file behind it, and the claim that replaced it sits behind a client login.
