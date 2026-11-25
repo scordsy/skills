@@ -1,0 +1,37 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Skills repo banner</title>
+<style>
+/* Fonts are not kept in this repo. To render, put the brand's four .woff2 files in a fonts/ folder beside this file. */
+@font-face{font-family:'FC';src:url(fonts/400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:'FC';src:url(fonts/600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'FC';src:url(fonts/700.woff2) format('woff2');font-weight:700}
+:root{--bg:#161616;--muted:#878787;--lime:#98e024;--orange:#fd971f;--cyan:#58d1eb;--pink:#f4005f}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1600px;background:var(--bg)}
+body{font-family:'FC',monospace;color:#d9d9d9;font-variant-ligatures:none}
+.banner{position:relative;width:1600px;height:500px;overflow:hidden;background-color:var(--bg);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' shape-rendering='crispEdges'%3E%3Crect x='10' y='10' width='2' height='2' fill='%232a2a2a'/%3E%3C/svg%3E");
+  background-size:22px 22px}
+.abs{position:absolute;left:96px;white-space:pre;line-height:1}
+.prompt{top:58px;font-size:28px;color:var(--muted)}
+.prompt .d{color:var(--lime);font-weight:700}
+.ls{top:104px;font-size:27px;font-weight:600}
+.H{left:94px;font-size:68px;font-weight:700;letter-spacing:-0.04em;color:#ececec}
+.sub{top:351px;font-size:26px;color:#a8a8a8}
+.foot{top:428px;font-size:23px;color:var(--muted)}
+.stripe{position:absolute;left:0;bottom:0;width:1600px;height:12px;display:flex}
+.stripe div{flex:1}
+.cur{display:inline-block;background:var(--lime);vertical-align:top}
+</style></head>
+<body>
+<section class="banner">
+  <div class="abs prompt"><span class="d">$</span> ls skills/</div>
+  <div class="abs ls"><span style="color:var(--lime)">check-account-list/</span>   <span style="color:var(--orange)">check-call-summary/</span>   <span style="color:var(--cyan)">check-claims/</span>   <span style="color:var(--pink)">find-events/</span></div>
+  <div class="abs H" style="top:169px">Claude skills for B2B</div>
+  <div class="abs H" style="top:243px">sales and marketing teams<span class="cur" style="width:28px;height:53px;margin-left:10px;margin-top:6px"></span></div>
+  <div class="abs sub">Every finding checked before you rely on it.</div>
+  <div class="abs foot">Stefan Cordery</div>
+  <div class="stripe"><div style="background:var(--lime)"></div><div style="background:var(--orange)"></div><div style="background:var(--cyan)"></div><div style="background:var(--pink)"></div></div>
+</section>
+<script>document.fonts.ready.then(()=>{window.READY=true;});</script>
+</body></html>
