@@ -218,3 +218,70 @@ The stage where the checker tries to prove the first pass wrong. Not to be confu
 
 **Report**:
 `checks.md`, with `checked.csv` (every company) and `keepers.csv` (the keeps).
+
+## check-claims
+
+**Draft**:
+The text being checked, as given: an article, a report, the text of a deck, a sales email. Pasted, or a `.txt`, `.md` or `.docx` file.
+_Avoid_: document, copy, content
+
+**Numbered draft**:
+`draft-lines.md`: the draft with every sentence numbered, `[S12] text`. Every claim cites these numbers.
+
+**Claim**:
+One checkable fact from the draft. A sentence often holds several, and a story is split into its parts. Each is one kind: statistic, quotation, company-fact, event or citation.
+_Avoid_: point, statement, fact (a claim is what the draft says; whether it is a fact is what the check finds)
+
+**First publisher**:
+The organisation or person that produced the figure or made the statement, on their own page or in their own document. A page that repeats someone else's figure is never the first publisher, however well known it is. A news outlet is the first publisher of its own reporting and of nothing it relays.
+_Avoid_: source (a page that repeats a figure is a source of leads, never of facts), original source, primary source (that is check-account-list's word)
+
+**Evidence**:
+A first publisher's web address and the exact words copied from it, recorded against one claim. The script confirms the words are on the page.
+_Avoid_: proof, citation (a citation is a kind of claim)
+
+**Verdict**:
+What the trace, or the checker's re-check, concludes about a claim. Exactly one of:
+- **supported**: the first publisher's page says what the draft says.
+- **differs**: the first publisher's page says something else.
+- **no-source**: no first publisher was found. Never a statement that the source was made up.
+- **could-not-open**: a first publisher was found, but its page could not be read.
+_Avoid_: true, false, verified, status
+
+**Problem type**:
+A way a claim, or the source it rests on, has gone wrong. A claim carries none, one or several of: **second-hand**, **number-wrong**, **base-dropped**, **wrong-subject**, **strength-changed**, **source-mislabelled**, **misquoted**, **out-of-date**, **publisher-disagrees**, **page-gone**. Four are about the source and can sit on a supported claim: second-hand, out-of-date, publisher-disagrees and page-gone. The other six say the draft departs from the page.
+- **second-hand**: the draft credits a page that repeats the claim, not the first publisher.
+- **number-wrong**: the figure is not the one the first publisher gives.
+- **base-dropped**: the figure is right but who it counts has gone or changed.
+- **wrong-subject**: the figure or fact is about a different group or thing, or is true of one of several subjects the draft pins it on.
+- **strength-changed**: a plan, a hedge, a range or a single case made firm, or a qualifier dropped. It works both ways.
+- **source-mislabelled**: the source is described wrongly: who published it, or how the study was done.
+- **misquoted**: the quoted words are not the words on the page.
+- **out-of-date**: the first publisher has since published a newer figure, or the fact has since changed.
+- **publisher-disagrees**: the first publisher gives two figures for the same thing over the same period.
+- **page-gone**: a page the claim rests on is no longer there.
+_Avoid_: error, issue, failure type (that is check-call-summary's word)
+
+**Confirm list**:
+The part of the report to settle with a person: claims about the user's own company, claims about a named person, every could-not-open, and every supported claim whose quote the script looked for and did not find.
+
+**Reader**:
+Whatever lists the claims: a fresh subagent on the subagent route, the chat itself on the chat route. Never checks a claim.
+
+**Researcher**:
+Whatever traces the claims and writes the first records: a fresh subagent per batch on the subagent route, the chat itself on the chat route.
+
+**Checker**:
+Whatever re-checks every supported claim, and every claim whose evidence the script could not confirm: a fresh subagent per batch on the subagent route, a fresh chat the user pastes into on the chat route. Sees the claims and the verdicts, never the first publisher, the evidence, the reasons or the problem types.
+
+**Re-check**:
+The stage where the checker tries to prove the first pass wrong. Its record replaces the first pass's in the report.
+_Avoid_: verification (verify is the script's stage), review, QA
+
+**Report**:
+`check.md`: what to do, least work first, then every claim with its evidence, then how the check was done.
+_Avoid_: audit, review
+
+**Marked draft**:
+`marked.md`: the draft with a verdict beside every claim, and the words to use instead in bold where there are any. The prose is otherwise untouched.
+_Avoid_: corrected draft (that is check-call-summary's, and this skill never rewrites)

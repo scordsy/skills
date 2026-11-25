@@ -9,7 +9,7 @@
     {
       "name": "stefancordery-skills",
       "source": "./",
-      "description": "Skills for Claude, each built so you can check its work. find-events finds events worth attending, checked against the organiser's own page. check-call-summary checks an AI call summary against the transcript before it goes in your CRM. check-account-list checks every company on a target account list, with evidence, before you spend on it.",
+      "description": "Skills for Claude, each built so you can check its work. find-events finds events worth attending, checked against the organiser's own page. check-call-summary checks an AI call summary against the transcript before it goes in your CRM. check-account-list checks every company on a target account list, with evidence, before you spend on it. check-claims traces every fact in a draft to whoever first published it, before you publish or send it.",
       "category": "productivity",
       "keywords": [
         "skills",
@@ -21,7 +21,8 @@
         "crm",
         "sales",
         "account-lists",
-        "prospecting"
+        "prospecting",
+        "fact-checking"
       ]
     }
   ]

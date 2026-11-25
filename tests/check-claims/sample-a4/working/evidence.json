@@ -1,0 +1,16 @@
+{
+ "check-1.md|C08|E1": "pdf",
+ "check-1.md|C08|E2": "pdf",
+ "check-1.md|C08|E3": "could-not-load",
+ "check-1.md|C08|E4": "could-not-load",
+ "research-1.md|C01|E1": "could-not-load",
+ "research-1.md|C01|E2": "could-not-load",
+ "research-1.md|C02|E1": "could-not-load",
+ "research-1.md|C02|E2": "could-not-load",
+ "research-1.md|C05|E1": "could-not-load",
+ "research-1.md|C06|E1": "could-not-load",
+ "research-1.md|C07|E1": "could-not-load",
+ "research-1.md|C07|E2": "could-not-load",
+ "research-1.md|C08|E1": "could-not-load",
+ "research-1.md|C08|E2": "could-not-load"
+}

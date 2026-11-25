@@ -1,0 +1,16 @@
+## C08
+- Verdict: no-source
+- Problems: none
+- First publisher: GumGum, Inc. (publisher of the comic). No first publisher was found for the parts about John Legere, his being a Batman fan, or the aim of winning T-Mobile as a customer.
+- Published: November 2016 (the comic's own small print). GumGum's sponsored Adweek piece announcing it shows no date on the page read.
+- Finding: GumGum's own pages say it published a comic, T-Man and Gums in The Data Knight, about a superhero helping 'a major mobile carrier', and the comic itself names T-Mobile; nothing read on them names John Legere or Batman or says he was a Batman fan, whereas the draft says GumGum learned Legere was a Batman fan and made a comic starring him.
+- Searches:
+  - GumGum T-Mobile comic book "T-Man and Gums" John Legere Batman
+  - GumGum "T-Man and Gums" comic T-Mobile Legere Batman fan account-based marketing Ben Plomion
+  - GumGum comic book T-Mobile John Legere Batman tweeted Som Puangladda OR "Phil Schraeder" OR "Ophir Tanz" interview
+  - "GumGum" "Legere" comic book "T-Man" Batman fan Plomion said account-based marketing T-Mobile won
+- Evidence:
+  - E1 | page | https://insights.gumgum.com/hubfs/T-Man_and_Gums_The_Data_Knight_Comic_Book.pdf | "GUMGUM PRESENTS: T-MAN AND GUMS, November 2016. Published by GumGum, Inc., 1314 7th St. Floor 5, Santa Monica, California 90401."
+  - E2 | page | https://insights.gumgum.com/hubfs/T-Man_and_Gums_The_Data_Knight_Comic_Book.pdf | "Oh. I switched to T-Mobile. I saw they did unlimited data on an ad when I was checking out reviews of the new Natural Disasters album."
+  - E3 | page | https://www.adweek.com/sponsored/gumgum-3-ways-make-visual-marketing-your-x-ray-computer-vision-174649/ | "It tells the story of a super hero helping a major mobile carrier win big with GumGum's solutions."
+  - E4 | page | https://webflow.gumgum.com/guides/computer-vision-comic-book | "This comic book tells the story of how image recognition could help a major mobile carrier win big"

@@ -15,9 +15,9 @@ When I asked ChatGPT for "50 companies like our best customer" and checked a sam
 
 ChatGPT even told me to check the list before using it: confirm each company's headcount, confirm where it's based, check it actually sells its own software. Good advice. It just didn't do any of it. That checking is the slow, tedious part that gets skipped when you're busy, and it's the part these skills do for you.
 
-Two of the skills here check work you already have: a target account list, or an AI summary of a call. The third, find-events, does the research for you: a structured search for the events worth attending to meet the people you want. All three work the same way:
+Three of the skills here check work you already have: a target account list, an AI summary of a call, or a draft with facts in it. The fourth, find-events, does the research for you: a structured search for the events worth attending to meet the people you want. All four work the same way:
 
-- **It starts from what you give it**: a list, a call transcript, the people you want to meet.
+- **It starts from what you give it**: a list, a call transcript, a draft, the people you want to meet.
 - **Every finding comes with its source**: a link and the exact words, so you can see why without taking it on trust.
 - **The part that does the work never checks it.** A separate checker tries to prove each finding wrong.
 - **No API keys, no paid tools, no accounts to create.** Install it and run it.
@@ -27,6 +27,7 @@ Two of the skills here check work you already have: a target account list, or an
 | Skill | For | What it does |
 |---|---|---|
 | [**check-account-list**](skills/check-account-list/) | Sales and marketing | Every company on a target account list checked before you spend on it: website, still trading, bought, size, fit and competitors, each with evidence you can click. Checks companies in any country, as far as each country's free register allows. |
+| [**check-claims**](skills/check-claims/) | Marketing and sales | Every fact in a draft traced to whoever first published it, before you publish or send it: still current, rightly credited or not found, each with a link and the exact words. |
 | [**check-call-summary**](skills/check-call-summary/) | Sales and customer success | An AI summary of a call, checked claim by claim against the transcript before it goes in your CRM. Every claim traced to a quote, with speaker mix-ups, jokes taken literally and missed next steps flagged. |
 | [**find-events**](skills/find-events/) | Marketing and sales | A shortlist of events worth attending to meet the people you want, with every event checked against the organiser's own page before you see it. |
 
@@ -54,8 +55,8 @@ Then run a skill by name, for example `/find-events` (or `/stefancordery-skills:
 1. Download the skill's zip from the [latest release](https://github.com/scordsy/skills/releases/latest), for example `find-events.zip`.
 2. Make sure **Create and edit files** is on, under **Settings**, then **Capabilities**. In the older Settings layout it is called **Code execution and file creation**. The skills open their own files and run small scripts, so they need it.
 3. Go to **Customize**, then **Skills**, then **+**, **Create skill**, **Upload a skill**, and choose the zip.
-4. For find-events and check-account-list, turn on web search in the chat where you use it.
-5. **Use a normal chat, not an incognito one.** An incognito chat can't open a skill's files, so the skill tells you it can't run there and stops. The one exception is the block find-events and check-account-list may ask you to paste into a fresh chat for their check. It carries its own instructions, so an incognito chat is fine for that, and best, because it can't see the chat that did the research.
+4. For find-events, check-account-list and check-claims, turn on web search in the chat where you use it.
+5. **Use a normal chat, not an incognito one.** An incognito chat can't open a skill's files, so the skill tells you it can't run there and stops. The one exception is the block find-events, check-account-list and check-claims may ask you to paste into a fresh chat for their check. It carries its own instructions, so an incognito chat is fine for that, and best, because it can't see the chat that did the research.
 
 Some Claude.ai and Claude Desktop chats can run subagents, as Claude Code does, and a skill then runs its full version. A chat that can't gets a version without them, and the skill says what is different. Each skill's own page says which version its tests covered.
 
