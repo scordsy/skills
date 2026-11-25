@@ -46,6 +46,7 @@ RUN_FILES = {
     "find-events": {"brief.md", "records.md", "shortlist.md"},
     "check-call-summary": {"transcript-lines.md", "key-facts.md", "check.md", "corrected.md"},
     "check-account-list": {"companies.md", "web.md", "checks.md"},
+    "check-claims": {"draft-lines.md", "claims.md", "check.md", "marked.md"},
 }
 TEXT_SUFFIXES = {".md", ".py", ".json", ".yml", ".yaml", ".txt", ""}
 
@@ -142,6 +143,12 @@ KEPT_VERBATIM = {
     "tests/check-call-summary/check-set-2/runs/2026-11-19-claude-ai/corrected.md": (
         "the skill's own output from a Claude.ai run, kept exactly as downloaded"
     ),
+    "tests/check-claims/problem-test/drafts/A1.md": (
+        "an AI-written draft kept exactly as given: its 'around 11 members' line is a claim the test checks"
+    ),
+    "tests/check-claims/problem-test/drafts/A2.md": (
+        "an AI-written draft kept exactly as given: its 'around 70% of their week' line is a claim the test checks"
+    ),
 }
 
 
@@ -177,8 +184,11 @@ def check_text(problems: list[str]) -> None:
             for char, label in BANNED_CHARACTERS.items():
                 if char in line:
                     problems.append(f"{rel}:{number}: {label}")
-            # Saved check-set runs are a checker's own words, kept verbatim as evidence.
-            if path.suffix == ".md" and "runs" not in rel.parts and HEDGED_NUMBER.search(line):
+            # Saved check-set runs are a checker's own words, kept verbatim as evidence. So is the
+            # check-claims example: its draft says "around 11 members", and the skill's output
+            # repeats the draft's words and the publishers' own.
+            kept_run = "runs" in rel.parts or rel.parts[:3] == ("docs", "examples", "check-claims") and quoted_ok
+            if path.suffix == ".md" and not kept_run and HEDGED_NUMBER.search(line):
                 problems.append(f"{rel}:{number}: 'about' or 'around' before a number")
 
 

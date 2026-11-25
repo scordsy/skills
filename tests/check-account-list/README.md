@@ -91,4 +91,6 @@ In the profile interview it asked for the list and its first question in the sam
 
 **19 November 2026, release 0.3.2: not rerun, on Stefan's call.** 0.3.2 changes how each skill starts (it opens its own files first, and stops if it can't), the interview wording, and when check-account-list asks for the list. None of the instructions, reference files or scripts this check set exercises (the research and checker instructions, their briefs and the script) changed, so the set was not run again, and its answer key was not re-confirmed against Companies House and the companies' own sites. The changed behaviour is to be retested on Claude.ai instead.
 
+**25 November 2026, release 0.4.0: not rerun, on Stefan's call.** 0.4.0 adds a fourth skill, check-claims, and changes nothing in this skill's instructions, reference files or script. So this check set was not run again and its answer key was not re-confirmed.
+
 A unit test grades every passing saved run against the current key, so CI fails if the key and the evidence drift apart.

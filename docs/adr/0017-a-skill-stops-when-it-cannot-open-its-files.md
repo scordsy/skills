@@ -14,6 +14,8 @@ Before anything else, every skill opens one of its own files with a real tool: f
 
 The paste-in check that find-events and check-account-list hand to a fresh chat is not a skill run. The block carries its own instructions, so it still works in an incognito chat, which is still the best place for it, because that chat cannot see the one that did the research.
 
+check-claims, added on 25 November 2026, follows the same rule: it runs its script with no arguments, as check-call-summary does, and stops if the script does not run.
+
 ## Why
 
 A skill that quietly runs from its summary looks like a working run and is not one: the questions, limits and checker instructions it drops are the ones the method depends on. Stopping costs the user one switch of chat. Asking for a real open, rather than a statement that the files are there, matters because the incognito chat listed the skill's files from their names in `SKILL.md` without opening any.
