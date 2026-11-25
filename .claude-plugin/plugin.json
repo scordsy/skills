@@ -1,7 +1,7 @@
 {
   "name": "stefancordery-skills",
-  "version": "0.4.0",
-  "description": "Stefan Cordery's skills for Claude, each built so you can check its work. find-events: a shortlist of events worth attending, each checked against the organiser's own page. check-call-summary: an AI call summary checked claim by claim against the transcript before it goes in your CRM. check-account-list: every company on a target account list checked with evidence before you spend on it. check-claims: every fact in a draft traced to whoever first published it before you publish or send it.",
+  "version": "0.4.1",
+  "description": "Stefan Cordery's skills for Claude, each built so you can check its work. find-events: a shortlist of events worth attending, each checked against the organiser's own page. check-call-summary: an AI call summary checked claim by claim against the transcript before it goes in your CRM. check-account-list: every company on a target account list checked with evidence before you spend on it. check-claims: every fact in your article, whitepaper or sales email traced to whoever first published it before you publish or send it.",
   "author": {
     "name": "Stefan Cordery",
     "url": "https://www.linkedin.com/in/stefancordery/"
