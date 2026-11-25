@@ -34,6 +34,8 @@ The first publisher's own page or document is the only evidence. Search results,
 
 Use only your built-in web search and page reading, plus `curl` in a shell. Do not use third-party search, scraping or enrichment tools, even if they are connected. No logins, no sign-up forms, no API keys.
 
+**A file the publisher hosts openly may be read.** Some reports sit behind a form on one page while the publisher also hosts the file at an address of its own, which a search or the publisher's own pages lead to. That file is the first publisher's own document. Read it, and fill in no form to get it.
+
 **One address, two tries, then stop.** If the built-in reader is turned away, try the same address once with `curl -sL` and a normal browser user agent. That is the same page by a second tool, and it is allowed. If that fails too, the page could not be opened. Do not go round it: no web archive, no cached copy, no other site's copy of the document, no sign-up, and never past a bot check. A person will open it in one visit, and you tell them what to look for.
 
 ## Verdicts
