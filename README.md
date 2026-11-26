@@ -5,31 +5,24 @@
 [![CI](https://github.com/scordsy/skills/actions/workflows/ci.yml/badge.svg)](https://github.com/scordsy/skills/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Claude skills for B2B sales and marketing teams. Each one does an everyday job, and every finding is checked before you rely on it.
+**Four Claude skills for B2B sales and marketing teams. Every finding is checked before you rely on it.**
 
-## Why these exist
+| Skill | What it does |
+|---|---|
+| [**check-account-list**](skills/check-account-list/) | Checks every company on a target account list before you spend on it. |
+| [**check-call-summary**](skills/check-call-summary/) | Checks an AI call summary against the transcript before it goes in your CRM. |
+| [**check-claims**](skills/check-claims/) | Traces every fact in your article or sales email to whoever first published it. |
+| [**find-events**](skills/find-events/) | Finds the events worth attending to meet the people you want. |
 
-AI makes everyday sales and marketing jobs fast: a list of target accounts, a summary of a sales call. The output looks right, so it goes straight into the CRM or the outbound sequence. Often it is quietly wrong.
+## How to use one
 
-When I asked ChatGPT for "50 companies like our best customer" and checked a sample (15), only 1 was usable. None were made up. They were real companies, just the wrong ones: some had been taken over, some were too big or too small, some sold to a different kind of customer, and some were direct competitors of the company asking for the list.
+In Claude.ai or the Claude Desktop app:
 
-ChatGPT even told me to check the list before using it: confirm each company's headcount, confirm where it's based, check it actually sells its own software. Good advice. It just didn't do any of it. That checking is the slow, tedious part that gets skipped when you're busy, and it's the part these skills do for you.
+1. **Turn on Create and edit files**, under **Settings**, then **Capabilities**.
+2. **Add the skill.** Paste this page's link into a chat and ask for the skill you want. Claude fetches the zip and shows you where to upload it, under **Customize**, then **Skills**.
+3. **Ask for what you need**, in your own words, in a normal chat: "check this call summary against the transcript before I put it in the CRM".
 
-Three of the skills here check work you already have: a target account list, an AI summary of a call, or a draft with facts in it. The fourth, find-events, does the research for you: a structured search for the events worth attending to meet the people you want. All four work the same way:
-
-- **It starts from what you give it**: a list, a call transcript, a draft, the people you want to meet.
-- **Every finding comes with its source**: a link and the exact words, so you can see why without taking it on trust.
-- **The part that does the work never checks it.** A separate checker tries to prove each finding wrong.
-- **No API keys and no paid tools.** It runs on Claude's own web search and page reading, so all you need is Claude. Upload it and run it.
-
-## The skills
-
-| Skill | For | What it does |
-|---|---|---|
-| [**check-account-list**](skills/check-account-list/) | Sales and marketing | Every company on a target account list checked before you spend on it: website, still trading, bought, size, fit and competitors, each with evidence you can click. Checks companies in any country, as far as each country's free register allows. |
-| [**check-claims**](skills/check-claims/) | Marketing and sales | Every fact in your article, whitepaper or sales email traced to whoever first published it, before you publish or send it. A statistic the publisher has since replaced, or a case study credited to the wrong company, is flagged with a link and the exact words. |
-| [**check-call-summary**](skills/check-call-summary/) | Sales and customer success | An AI summary of a call, checked claim by claim against the transcript before it goes in your CRM. Every claim traced to a quote, with speaker mix-ups, jokes taken literally and missed next steps flagged. |
-| [**find-events**](skills/find-events/) | Marketing and sales | A shortlist of events worth attending to meet the people you want, with every event checked against the organiser's own page before you see it. |
+The [full steps](#claudeai-and-claude-desktop) cover downloading a zip yourself and turning on web search. In Claude Code it takes [two commands](#claude-code).
 
 ## Install
 
@@ -66,9 +59,24 @@ Or in one step:
 claude plugin install stefancordery-skills --marketplace scordsy/skills
 ```
 
-Then run a skill by name, for example `/find-events` (or `/stefancordery-skills:find-events` if another skill shares the name), or just ask Claude for what you need.
+Then run a skill by name, for example `/check-call-summary` (or `/stefancordery-skills:check-call-summary` if another skill shares the name), or just ask Claude for what you need.
 
-**Get new skills as they land.** Plugins from outside Anthropic's own marketplace don't update on their own by default. Turn it on once: `/plugin`, then **Marketplaces**, select **stefancordery**, then **Enable auto-update**. Or update by hand with `claude plugin update stefancordery-skills@stefancordery`.
+**Get new skills as they land.** Plugins from outside Anthropic's own marketplace don't update on their own by default. Turn it on once: run `/plugin`, go to **Marketplaces**, select **stefancordery** and turn auto-update on. Or update by hand with `claude plugin update stefancordery-skills@stefancordery`.
+
+## Why these exist
+
+AI makes everyday sales and marketing jobs fast: a list of target accounts, a summary of a sales call. The output looks right, so it goes straight into the CRM or the outbound sequence. Often it is quietly wrong.
+
+When I asked ChatGPT for "50 companies like our best customer" and checked 15 of them, only 1 was usable. None were made up. They were real companies, just the wrong ones: some had been taken over, some were too big or too small, some sold to a different kind of customer, and some were direct competitors of the company asking for the list.
+
+ChatGPT even told me to check the list before using it: confirm each company's headcount, confirm where it's based, check it actually sells its own software. Good advice. It just didn't do any of it. That checking is the slow, tedious part that gets skipped when you're busy, and it's the part these skills do for you.
+
+Three of the skills check work you already have: a target account list, an AI summary of a call, or a draft with facts in it. The fourth, find-events, does the research for you: a structured search for the events worth attending to meet the people you want. All four work the same way:
+
+- **It starts from what you give it**: a list, a call transcript, a draft, the people you want to meet.
+- **Every finding comes with its source**: a link and the exact words, so you can see why without taking it on trust.
+- **The part that does the work never checks it.** A separate checker tries to prove each finding wrong.
+- **No API keys and no paid tools.** It runs on Claude's own web search and page reading, so all you need is Claude. Upload it and run it.
 
 ## About
 
