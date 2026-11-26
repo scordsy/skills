@@ -62,11 +62,11 @@ Registers are read by the researchers the way a person would, a few pages per co
 
 ## Install
 
-See the [install steps](../../README.md#install). Then run `/check-account-list`, or ask Claude something like "check this list of target accounts before I buy contacts for it".
-
-**In Claude Code**, the full version: up to 50 companies a run, a researcher subagent per batch of 10 and a separate checker per batch, all in parallel.
+See the [install steps](../../README.md#install). Then ask Claude something like "check this list of target accounts before I buy contacts for it", or run `/check-account-list`.
 
 **In a Claude.ai or Claude Desktop chat**, turn on web search and **Create and edit files**, and use a normal chat, not an incognito one: the skill opens its own files, and the quote check is a script. A chat that can run subagents runs the same full version as Claude Code: on 19 November 2026 Claude.ai did, on my account. A chat that can't takes up to 15 companies and researches them in the chat. For the re-check it builds one block for you to paste into a fresh chat, because research that checks itself marks its own homework. If you skip that, the report says at the top that nothing was re-checked. That second way has not been run end to end yet.
+
+**In Claude Code**, the full version: up to 50 companies a run, a researcher subagent per batch of 10 and a separate checker per batch, all in parallel.
 
 ## What a run costs
 

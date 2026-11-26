@@ -66,11 +66,11 @@ Two kinds of claim are listed and not traced, and go to you to confirm: anything
 
 ## Install
 
-See the [install steps](../../README.md#install). Then run `/check-claims`, or ask Claude something like "check the facts in this draft before I publish it".
-
-**In Claude Code**, the full version: up to 40 claims a run, a researcher subagent per batch of 10 and a separate checker per batch, all in parallel. A longer draft is run in parts, and the skill says which sentences each part covered.
+See the [install steps](../../README.md#install). Then ask Claude something like "check the facts in this draft before I publish it", or run `/check-claims`.
 
 **In a Claude.ai or Claude Desktop chat**, turn on web search and **Create and edit files**, and use a normal chat, not an incognito one: the skill opens its own files, and the quote check is a script. A chat that can run subagents runs the same full version as Claude Code. A chat that can't takes up to 15 claims and traces them in the chat. For the re-check it builds one block for you to paste into a fresh chat, because a chat that already believes its research would look in the same place. If you skip that, the report says at the top that no verdict was re-checked.
+
+**In Claude Code**, the full version: up to 40 claims a run, a researcher subagent per batch of 10 and a separate checker per batch, all in parallel. A longer draft is run in parts, and the skill says which sentences each part covered.
 
 It uses no API keys, no paid tools, no logins and no connectors: only the assistant's own web search and page reading.
 
