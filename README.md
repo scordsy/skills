@@ -37,19 +37,19 @@ The skills work in Claude.ai in your browser and in the Claude Desktop app, and 
 
 ### Claude.ai and Claude Desktop
 
-You upload each skill yourself, once. Asking Claude in a chat to install it doesn't work: a chat can't add a skill to your account.
+Each skill is a zip you upload to your account once. Claude can fetch the zip for you in a chat, and you do the upload yourself.
 
-1. Download the skill's zip from the [latest release](https://github.com/scordsy/skills/releases/latest), for example `find-events.zip`.
-2. Make sure **Create and edit files** is on, under **Settings**, then **Capabilities**. In the older Settings layout it is called **Code execution and file creation**. The skills open their own files and run small scripts, so they need it.
-3. Go to **Customize**, then **Skills**, then **+**, **Create skill**, **Upload a skill**, and choose the zip.
-4. For find-events, check-account-list and check-claims, turn on web search in the chat where you use it.
+1. **Turn on Create and edit files**, under **Settings**, then **Capabilities**. In the older Settings layout it is called **Code execution and file creation**. The skills open their own files and run small scripts, so they need it.
+2. **Get the zip.** The quick way: paste this page's link, github.com/scordsy/skills, into a chat and say which skill you want. Claude fetches the zip and shows you where to upload it. Or download it yourself: [check-account-list.zip](https://github.com/scordsy/skills/releases/latest/download/check-account-list.zip), [check-call-summary.zip](https://github.com/scordsy/skills/releases/latest/download/check-call-summary.zip), [check-claims.zip](https://github.com/scordsy/skills/releases/latest/download/check-claims.zip) or [find-events.zip](https://github.com/scordsy/skills/releases/latest/download/find-events.zip), all from the [latest release](https://github.com/scordsy/skills/releases/latest).
+3. **Upload the zip.** Go to **Customize**, then **Skills**, then **+**, **Create skill**, **Upload a skill**, and choose the zip. If a chat offers to save the skill to your account for you, upload the zip instead. That shortcut keeps only the skill's main file and leaves out the scripts it runs.
+4. **Turn on web search** in the chat where you use find-events, check-account-list or check-claims.
 5. **Use a normal chat, not an incognito one.** An incognito chat can't open a skill's files, so the skill tells you it can't run there and stops. The one exception is the block find-events, check-account-list and check-claims may ask you to paste into a fresh chat for their check. It carries its own instructions, so an incognito chat is fine for that, and best, because it can't see the chat that did the research.
 
-Then ask Claude for what you need, in your own words: "which events should I go to next year to meet HR directors?"
+Then ask Claude for what you need, in your own words: "check this call summary against the transcript before I put it in the CRM".
 
 On a Team or Enterprise plan, your organisation's owner controls **Create and edit files** and can turn off uploading your own skills. If you can't see **Upload a skill**, ask them.
 
-Some Claude.ai and Claude Desktop chats can run subagents, as Claude Code does, and a skill then runs its full version. A chat that can't gets a version without them, and the skill says what is different. Each skill's own page says which version its tests covered.
+Some Claude.ai and Claude Desktop chats can run subagents, separate helpers that each take one part of the job, as Claude Code does. A skill then runs its full version. A chat that can't gets a version without them, and the skill says what is different. Each skill's own page says which version its tests covered.
 
 New skills and fixes come out as new releases, each with fresh zips.
 
