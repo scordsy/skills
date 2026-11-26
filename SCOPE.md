@@ -6,7 +6,7 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 
 - Small skills that do one job you can check.
 - Skills that run on the assistant's own tools. No API keys, no paid services, no accounts to create.
-- Claude Code first. Claude.ai and Claude Desktop too: a chat that can launch subagents runs the full version, and one that cannot runs a version that works honestly without them, with the difference stated. A chat that cannot open the skill's files, such as an incognito chat, gets a clear stop, never a quiet run from the summary.
+- Claude.ai and Claude Desktop first, because the readers are sales and marketing people using the Claude app. Claude Code too. A chat that can launch subagents runs the full version, as Claude Code does, and one that cannot runs a version that works honestly without them, with the difference stated. A chat that cannot open the skill's files, such as an incognito chat, gets a clear stop, never a quiet run from the summary.
 
 ## find-events
 
