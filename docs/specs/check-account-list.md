@@ -53,7 +53,7 @@ Problem types, counted in the report: **wrong-website**, **closed**, **bought**,
 
 Any country. Every company gets the same six checks. How much can be proven depends on the free official register for the company's country; `references/registers.md` lists what each one shows. Where no free primary source gives a fact, it is `unverified` and the company goes to check by hand. Registers are read by the researcher the way a person would, never in bulk; the script only loads register pages a record cites, to check the quotes ([ADR 0013](../adr/0013-any-country-registers-read-by-hand.md)).
 
-This replaced a first build that had the script read Companies House pages and claimed full checks for UK companies only. Stefan's call on 4 November 2026: the skill should work in any country, and no one should be blocked by a register because of it.
+This replaced a first build that had the script read Companies House pages and claimed full checks for UK companies only. My call on 4 November 2026: the skill should work in any country, and no one should be blocked by a register because of it.
 
 ## Sources
 

@@ -49,6 +49,8 @@ RUN_FILES = {
     "check-claims": {"draft-lines.md", "claims.md", "check.md", "marked.md"},
 }
 TEXT_SUFFIXES = {".md", ".py", ".json", ".yml", ".yaml", ".txt", ""}
+# Read for email addresses only: their quotes and captions are kept exactly as found.
+EMAIL_ONLY_SUFFIXES = {".csv", ".html", ".vtt"}
 
 
 def tracked_files() -> list[Path]:
@@ -166,7 +168,7 @@ def check_text(problems: list[str]) -> None:
         if not (ROOT / name).is_file():
             problems.append(f"check_repo.py: KEPT_VERBATIM names {name}, which does not exist")
     for path in tracked_files():
-        if path.suffix not in TEXT_SUFFIXES:
+        if path.suffix not in TEXT_SUFFIXES | EMAIL_ONLY_SUFFIXES:
             continue
         try:
             text = path.read_text(encoding="utf-8")
@@ -177,7 +179,7 @@ def check_text(problems: list[str]) -> None:
         for number, line in enumerate(text.splitlines(), start=1):
             if EMAIL.search(line):
                 problems.append(f"{rel}:{number}: email address")
-            if rel.as_posix() in KEPT_VERBATIM:
+            if rel.as_posix() in KEPT_VERBATIM or path.suffix in EMAIL_ONLY_SUFFIXES:
                 continue
             if quoted_ok:
                 line = QUOTED.sub('""', line)
