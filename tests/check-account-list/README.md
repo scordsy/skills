@@ -95,4 +95,6 @@ In the profile interview it asked for the list and its first question in the sam
 
 **25 November 2026, release 0.4.1: not rerun, on Stefan's call.** 0.4.1 changes only the wording of check-claims' description, in the skill, the plugin and the marketplace entry. No instruction, reference file or script changed in any skill, so no check set was run again and no answer key was re-confirmed.
 
+**26 November 2026, release 0.4.2: not rerun, on Stefan's call.** 0.4.2 changes only what each skill says when it stops at its first step: a skill saved without its files, for example from a chat's save shortcut, now says so and how to reinstall it. None of the instructions, reference files or scripts this check set exercises changed, so the set was not run again and no answer key was re-confirmed. The new message was tested instead, in Claude Code with only each skill's main file installed: check-call-summary and find-events both stopped and gave the reinstall steps. A complete install of check-call-summary still passed its first step.
+
 A unit test grades every passing saved run against the current key, so CI fails if the key and the evidence drift apart.
