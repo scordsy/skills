@@ -39,11 +39,11 @@ Unlike the drafts in the [test of the problem](../problem-test/README.md), these
 
 A run passes when, graded by hand against `answer-key.md`:
 
-- every planted problem carries its required problem type, and its required verdict where the key pins one;
-- both out-of-date claims have the right verdict: the present-position one differs, the past-finding one is supported;
-- the story is split into three or more claims, and its made-up part is not supported;
-- no clean claim is marked `differs`;
-- the two claims that must not be traced are listed and not traced.
+- Every planted problem carries its required problem type, and its required verdict where the key pins one.
+- Both out-of-date claims have the right verdict. The present-position one differs, and the past-finding one is supported.
+- The story is split into three or more claims, and its made-up part is not supported.
+- No clean claim is marked `differs`.
+- The two claims that must not be traced are listed and not traced.
 
 Other problem types on a planted claim are notes, not failures. So is a clean claim that comes back `could-not-open` or `no-source`.
 

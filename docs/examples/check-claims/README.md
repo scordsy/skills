@@ -40,9 +40,9 @@ One update, as the report gives it:
 
 Run on 25 November 2026 in Claude Code, on the subagent route: 7 subagents, all on one model, and 925,655 tokens. The reader took 1 minute 35 seconds. The 3 researchers ran side by side, the longest for 7 minutes 10 seconds. The 3 checkers re-checked 18 claims, the longest for 8 minutes 44 seconds, and changed 3:
 
-- a claim resting on the Harvard Business Review article went from supported to could-not-open, because the page shows only its opening paragraph and the figure is not in it;
-- the Forrester 86% gained publisher-disagrees;
-- one 6sense claim kept its verdict and changed its problem types.
+- A claim resting on the Harvard Business Review article went from supported to could-not-open, because the page shows only its opening paragraph and the figure is not in it.
+- The Forrester 86% gained publisher-disagrees.
+- One 6sense claim kept its verdict and changed its problem types.
 
 **The script confirmed 26 of 42 quotes.** The other 16 are on two sites that refused its page loader with an HTTP 403: `6sense.com` and `sec.gov`. The researchers and checkers could read both with the assistant's own page reader, so the claims were traced, but those quotes were not confirmed by code. The report says so beside each one.
 

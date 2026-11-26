@@ -50,19 +50,19 @@ The [full run is here](../../docs/examples/check-account-list/): the [list](../.
 3. **Research.** Batches of 10, each researched by its own fresh subagent. Six checks for every company: website, still trading, owner (followed up to the top company), size, fit and conflicts. Only primary sources count: the company's own site, the free official register for its country, and the buyer's or company's own announcement. Never LinkedIn, a database or a listing site.
 4. **Verify.** The script loads every page cited and confirms each quote is on it, word for word. A quote it cannot find goes back to a researcher.
 5. **Re-check.** A separate checker that never sees how the first pass reached its answers tries to prove every keep wrong, and re-checks every drop whose evidence the script could not confirm (most often a PDF of accounts).
-6. **Hand-back.** `checks.md` with the counts, a check-by-hand list and every company with its evidence; `checked.csv` with every company and its verdict; and `keepers.csv`.
+6. **Hand-back.** `checks.md` with the counts, a check-by-hand list and every company with its evidence. `checked.csv` with every company and its verdict. And `keepers.csv`, the keeps only.
 
 Each company gets one verdict: **keep** (every check passed, with evidence), **drop** (at least one problem, with evidence) or **check by hand** (the evidence is missing or contradicts itself). "Unverified" is never a reason to drop.
 
 ## Companies in any country
 
-Every company gets the same six checks. How much can be proven depends on the free official register for its country, and the skill says so company by company rather than hiding it. The UK's Companies House gives status, owners and staff numbers in filed accounts; Norway's register gives an exact headcount; many others give status only, and size then comes from a figure on the company's own site or stays unverified. [`registers.md`](references/registers.md) lists what each free register shows. So far it has been tested in depth on UK companies; the non-UK companies in the tests were checked for where they are based.
+Every company gets the same six checks. How much can be proven depends on the free official register for its country, and the skill says so company by company rather than hiding it. The UK's Companies House gives status, owners and staff numbers in filed accounts. Norway's register gives an exact headcount. Many others give status only, and size then comes from a figure on the company's own site or stays unverified. [`registers.md`](references/registers.md) lists what each free register shows. So far it has been tested in depth on UK companies. The non-UK companies in the tests were checked for where they are based.
 
 Registers are read by the researchers the way a person would, a few pages per company, never in bulk. If a register refuses or asks to slow down, the skill stops using it. Nobody should be blocked because of this skill.
 
 ## Install
 
-See the [install steps](../../README.md#install). Then ask Claude something like "check this list of target accounts before I buy contacts for it", or run `/check-account-list`.
+See the [install steps](../../README.md#install). In Claude.ai or Claude Desktop, the zip to upload is [check-account-list.zip](https://github.com/scordsy/skills/releases/latest/download/check-account-list.zip). Then ask Claude something like "check this list of target accounts before I buy contacts for it", or run `/check-account-list`.
 
 **In a Claude.ai or Claude Desktop chat**, turn on web search and **Create and edit files**, and use a normal chat, not an incognito one: the skill opens its own files, and the quote check is a script. A chat that can run subagents runs the same full version as Claude Code: on 19 November 2026 Claude.ai did, on my account. A chat that can't takes up to 15 companies and researches them in the chat. For the re-check it builds one block for you to paste into a fresh chat, because research that checks itself marks its own homework. If you skip that, the report says at the top that nothing was re-checked. That second way has not been run end to end yet.
 
@@ -95,7 +95,7 @@ The profile interview showed two slips, both fixed in 0.3.2. It asked for the li
 
 ## Read it with care
 
-- **Facts go stale.** Companies are bought and close every week. The report is dated; check again before you act on an old one.
+- **Facts go stale.** Companies are bought and close every week. The report is dated. Check again before you act on an old one.
 - **The researchers and the checker are AI too.** The script confirms every quote is real and on the page cited. Whether a company sells to small businesses, or whether an investor took control, is still a judgement, written down with its reason and evidence so you can disagree.
 - **Size is a staff figure from filed accounts or the company's own site.** For a company in a group, the legal company can report nobody while a subsidiary employs everyone. The record says whose figure it is.
 - **It searches the names you give it.** Company names, and your best customers' and competitors' names, go to web search and to public registers, and the script loads each company's website and each page cited. Nothing else leaves the assistant you already use. Do not use it on a list you are not allowed to research.
