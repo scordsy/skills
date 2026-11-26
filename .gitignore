@@ -7,3 +7,5 @@ __pycache__/
 /check-call-summary/
 # Local test runs of check-account-list write here.
 /check-account-list/
+# Local test runs of check-claims write here.
+/check-claims/

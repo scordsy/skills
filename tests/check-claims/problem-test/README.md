@@ -39,9 +39,9 @@ So 25 of the 50 claims that could be judged had something a careful editor would
 4. **First pass.** Seven separate researchers, none of which wrote a draft, each took a batch of 7 to 11 claims. Each found the first publisher, opened its page, copied the exact words and the web address, and gave a verdict and any problem types. They were given the spec's definitions word for word, and a free-text field for an error that fits none of the nine types.
 5. **Re-check.** Five separate checkers re-checked all 38 claims the first pass called supported. A checker saw the claim and the verdict, never the first pass's publisher, evidence or reasons, and was told to treat each claim as wrong until a first publisher's page said otherwise.
 6. **Quotes.** A script loaded every web address cited and looked for the quoted words on the page, ignoring case, spacing and punctuation.
-7. **Lead check.** The session running the test read every differs record, and both passes' records wherever they disagreed, and made the call. It read the records and the quotes the script had confirmed on the pages. It did not open the pages again itself.
+7. **Lead check.** The Claude session running the test (the lead, below) read every differs record, and both passes' records wherever they disagreed, and made the call. It read the records and the quotes the script had confirmed on the pages. It did not open the pages again itself.
 
-8. **By hand.** Stefan then tried the six pages behind the 14 could-not-open claims in an ordinary browser. Three opened: Wyzowl's page, and on later tries the archive copies of the Payscale case study and of ITSMA's post. He copied Wyzowl's two sentences and the whole text of the other two, and the lead gave the six verdicts. The other three turned him away too: see [the eight that could not be opened](#the-eight-that-could-not-be-opened).
+8. **By hand.** I then tried the six pages behind the 14 could-not-open claims in an ordinary browser. Three opened: Wyzowl's page, and on later tries the archive copies of the Payscale case study and of ITSMA's post. I copied Wyzowl's two sentences and the whole text of the other two, and the lead gave the six verdicts. The other three turned me away too: see [the eight that could not be opened](#the-eight-that-could-not-be-opened).
 
 Researchers and checkers ran on the same model as the writer. They used the assistant's built-in web search and page reader, and `curl`. No other search or scraping tool, no logins, no sign-up forms. The whole run used 70 web searches.
 
@@ -61,7 +61,7 @@ So the writer had no web search and knew it. That matters twice. It wrote from m
 - **The re-check ran alongside the first pass**, batch by batch, to keep the run short. No checker saw a first-pass record.
 - **A script confirmed the quotes.** This stands in for the spec's stage 4. It is not in the repo.
 - **The lead read every differs.** The spec re-checks only supported claims. Here a wrong differs would inflate the number this test exists to produce.
-- **An archived copy of a first publisher's page was allowed as evidence.** The spec leaves archive copies out of v1. It made no difference: the archive refused every request.
+- **An archived copy of a first publisher's page was allowed as evidence.** The spec leaves archive copies out. It made no difference: the archive refused every request.
 - **One claim about a named person was traced, not set aside.** A4-08 says a company learned that T-Mobile's then chief executive, John Legere, was a Batman fan. The reader listed it as a fact about the company's campaign. Under the spec's settled rule the part about his taste belongs on the confirm list. It came out no-source. Set aside instead, the result would be 57 claims and 3 no-source.
 - **A problem type on a could-not-open claim was dropped.** One researcher marked an unread page out-of-date on the strength of a later release. A type needs a page that was read.
 - **The full records are in [`records.json`](records.json)**, with both passes, every quote, every search and every note. Quotes are copied exactly from web pages, and some carry characters this repo's style check refuses. The table below shows a quote where it passes and points to the file where it does not.
@@ -114,7 +114,7 @@ Three of the five unseen types could hardly have appeared. No draft gave a web a
 - If both calls went the checker's way, the result would be 38 supported, 7 differs, 4 no-source and 9 could-not-open.
 - The checkers also added out-of-date to two supported claims the first pass had passed clean (A1-06 and E2-01), and dropped a second-hand the first pass had put on its own evidence, not on the draft (E2-04).
 
-Every supported claim rests on a quote the script found on its page, with three exceptions among the supported claims. A1-01 rests on a filing at sec.gov, which refuses scripts, read twice through the page reader. E1-03 and E1-04 rest on words Stefan copied from Wyzowl's page by hand. Those two were not re-checked by a second checker. Nor were the three Payscale claims, which differ on words he copied from the RollWorks case study, or A4-02, which rests on ITSMA's post as he copied it.
+Every supported claim rests on a quote the script found on its page, with three exceptions among the supported claims. A1-01 rests on a filing at sec.gov, which refuses scripts, read twice through the page reader. E1-03 and E1-04 rest on words I copied from Wyzowl's page by hand. Those two were not re-checked by a second checker. Nor were the three Payscale claims, which differ on words he copied from the RollWorks case study, or A4-02, which rests on ITSMA's post as he copied it.
 
 ## What went wrong, claim by claim
 
@@ -155,7 +155,7 @@ The searches tried, with the full list for each claim in `records.json`:
 
 ### The eight that could not be opened
 
-The tools left 14 claims unread. Stefan tried all six pages in a browser the same day, and settled 6 claims.
+The tools left 14 claims unread. I tried all six pages in a browser the same day, and settled 6 claims.
 
 | First publisher | Claims | What stood in the way of the tools | In a browser |
 |---|---|---|---|
@@ -166,7 +166,7 @@ The tools left 14 claims unread. Stefan tried all six pages in a browser the sam
 | RollWorks, on Payscale | A4-05, A4-06, A4-07 | The page has gone from the live site | **Opened** from the archive on a later try. All three differ |
 | ITSMA | A4-02 | The old site fails its secure connection | **Opened** from the archive on a later try. Supported, and out of date |
 
-The web archive answered every request in this run with "429 Too Many Requests", from the first researcher to the last checker, and at first gave Stefan's browser the same answer. The likeliest cause is the run itself: seven researchers and five checkers asked the archive many times from one connection. That is a guess. Two archive pages opened for him later.
+The web archive answered every request in this run with "429 Too Many Requests", from the first researcher to the last checker, and at first gave my browser the same answer. The likeliest cause is the run itself: seven researchers and five checkers asked the archive many times from one connection. That is a guess. Two archive pages opened for him later.
 
 The four McKinsey claims name the 2025 edition. McKinsey has since published a 2026 edition at the same address, so those four are likely out of date as well as unread. That is a lead, not a verdict.
 
@@ -189,13 +189,13 @@ Each of these was written down by a researcher or checker in the free-text field
 
 ## Proposals
 
-Stefan accepted all of these on 25 November 2026. The spec carries them, and [ADR 0020](../../../docs/adr/0020-check-claims-promises-current-traceable-facts.md) says why. They are kept here as proposed. Two names changed on the way into the spec: the widened overstated is `strength-changed`, and the widened dead-link is `page-gone`.
+I accepted all of these on 25 November 2026. The spec carries them, and [ADR 0020](../../../docs/adr/0020-check-claims-promises-current-traceable-facts.md) says why. They are kept here as proposed. Two names changed on the way into the spec: the widened overstated is `strength-changed`, and the widened dead-link is `page-gone`.
 
 ### A replacement for the unmeasured paragraph in "Why it exists"
 
 To replace the paragraph that begins "None of these measures how often":
 
-> On 25 November 2026 Claude, with web search switched off for the test, was given six prompts a marketer or seller might type: four B2B articles and two sales emails. Separate checkers, and then a person with a browser, traced 58 claims from the six drafts to their first publishers. 40 were supported, 9 of them out of date. 6 differed, 4 had no findable first publisher, and 8 sat on pages nobody could open. Of the 46 claims whose first publisher could be read, none misstated a figure. The faults were age and credit: in 7 claims the publisher had since given a different figure, such as a 74% the government has replaced with 69%, and 3 claims credited one vendor's case study to its rival. No draft gave a web address for anything. Four of the six drafts told the user to check the figures, which the writer had not been able to do. The test is at [tests/check-claims/problem-test](../../tests/check-claims/problem-test/README.md).
+> On 25 November 2026 Claude, with web search switched off for the test, was given six prompts a marketer or seller might type: four B2B articles and two sales emails. Separate checkers, and then a person with a browser, traced 58 claims from the six drafts to their first publishers. 40 were supported, 9 of them out of date. 6 differed, 4 had no findable first publisher, and 8 sat on pages nobody could open. Of the 46 claims whose first publisher could be read, none misstated a figure. The faults were age and credit: in 7 claims the publisher had since given a different figure, such as a 74% the government has replaced with 69%, and 3 claims credited one vendor's case study to its rival. No draft gave a web address for anything. Four of the six drafts told the user to check the figures, which the writer had not been able to do. The test is at [tests/check-claims/problem-test](README.md).
 
 The three public cases above that paragraph can stay. This test does not support a pitch that AI drafts are full of wrong numbers. With this writer they were not. It supports a different one: the facts are as old as the model's memory, nothing is linked, and a careful reader cannot tell the 25 clean claims from the 33 others without doing this work.
 
@@ -212,8 +212,8 @@ The three public cases above that paragraph can stay. This test does not support
 ### Other things the test raised for the spec
 
 - **Split a story into its parts at stage 2.** "GumGum made a Batman comic starring the chief executive and won the account" is four claims. Listed as two, it forced one verdict onto a claim that was half supported.
-- **could-not-open will be large.** 24% with the tools alone, and still 14% after a person tried every page. The spec leaves archive copies out of v1, and the archive refused this run anyway. The hand-back needs to make this list short work for a person: the address, what the draft says, and what to look for.
-- **A comparison between two claims is a thing to check.** Out of scope for v1, and worth a line under "Not in v1" so the report does not imply it was done.
+- **could-not-open will be large.** 24% with the tools alone, and still 14% after a person tried every page. The spec leaves archive copies out, and the archive refused this run anyway. The hand-back needs to make this list short work for a person: the address, what the draft says, and what to look for.
+- **A comparison between two claims is a thing to check.** Out of scope for the first version, and worth a line under "Not in this version" so the report does not imply it was done.
 - **The cap of 40 claims a run looks reachable.** 58 first-pass checks and 38 re-checks took 70 web searches, because researchers went straight to a named publisher's site. An article of 700 to 800 words held 9 to 17 claims.
 
 ## Limits

@@ -111,6 +111,7 @@ The runs, the key and the full account are in [`tests/check-claims/check-set/`](
 ## Read it with care
 
 - **Your claims go out as web searches.** Checking a claim means searching for it, so the facts in an unpublished draft are sent to web search, and the script loads each page cited. The skill says so before it starts. Nothing else leaves the assistant you already use, and its files stay in your folder. Do not use it on a draft under embargo.
+- **Its script tells websites it is a web browser,** because many publishers' sites turn away anything else. It waits at least 2 seconds between requests to one site. A page that still refuses is marked as not confirmed by code, never got round.
 - **Expect some pages to stay closed.** In my test, with one writer on one day and web search off, the tools could not read the pages behind 14 of 58 claims. They sat with the publishers B2B writing quotes most, behind bot checks and sign-up forms. I tried every one of those pages in a browser and was still turned away from the pages behind 8. The skill does not go round a page that refuses it. It tells you the address and what to look for, so each is one visit.
 - **A claim it could not open is unknown, not wrong.** The same goes for a claim with no source found.
 - **Facts go stale.** The report is dated. A figure that is current today can be replaced next month.

@@ -6,7 +6,7 @@
 
 `check-account-list` needs facts a company's own website rarely gives: whether it is still trading, who owns it, whether it has changed its name, and how many people it employs. Official company registers hold them, but every country's register is different, many charge, and the ones with free APIs need a key, which this repo does not use ([ADR 0004](0004-no-api-keys.md)).
 
-An early build had the script read the UK register's public web pages directly. That made the skill UK-first, and it had the script making a few hundred register requests per run. Companies House says its search services are "not intended to be a source for bulk downloads", and that heavy users "may be denied access to these services without notice". Stefan's call: the skill should work for any country, and no one should be blocked because of it.
+An early build had the script read the UK register's public web pages directly. That made the skill UK-first, and it had the script making a few hundred register requests per run. Companies House says its search services are "not intended to be a source for bulk downloads", and that heavy users "may be denied access to these services without notice". My call: the skill should work for any country, and no one should be blocked because of it.
 
 ## Decision
 

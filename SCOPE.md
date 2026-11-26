@@ -14,7 +14,7 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 
 **Out, on purpose:**
 
-- **Re-checking an old list.** Event dates go stale, so this is the strongest candidate for a later version. Not in v1.
+- **Re-checking an old list.** Event dates go stale, so this is the strongest candidate for a later version.
 - **Calendar export.** The shortlist is markdown with a link on every line. An `.ics` file adds a format to maintain for little gain.
 - **Booking or registering.** The skill hands back what to check. Spending money stays with the person.
 - **Contact lookups.** It finds rooms, not attendee lists.
@@ -28,7 +28,7 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 **Out, on purpose:**
 
 - **Writing summaries.** Other tools do that, and a skill that writes and checks the same summary is marking its own homework. See [ADR 0010](docs/adr/0010-it-checks-and-never-writes.md).
-- **Reading from a call recorder through a connector.** The strongest candidate for the next version, proposed in [ADR 0012](docs/adr/0012-it-reads-from-a-connected-call-recorder.md). Not in v1 because it has not been run on a real call.
+- **Reading from a call recorder through a connector.** The strongest candidate for the next version, proposed in [ADR 0012](docs/adr/0012-it-reads-from-a-connected-call-recorder.md). Left out because it has not been run on a real call.
 - **Writing to a recorder or a CRM, or reading a CRM.**
 - **PDF.** It cannot be read reliably with the standard library. Export another format, or paste.
 - **Audio.** It works from the transcript. It cannot hear who spoke, which is why labels are flagged, never fixed.
@@ -47,4 +47,19 @@ What these skills do, and what they deliberately leave out. Issues and pull requ
 - **Paid registers, register APIs that need a key or payment, and bulk reads.** Registers are read the way a person would, a few pages per company, and the script loads only the register pages a record cites, to check the quotes. Where a country's free register does not give a fact, it is marked unverified. See [ADR 0013](docs/adr/0013-any-country-registers-read-by-hand.md).
 - **Paid data sources, enrichment tools and API keys.**
 - **Reading or writing a CRM.**
+- **Agents other than Claude.** Not tested, so not claimed.
+
+## check-claims
+
+**In:** one draft at a time, such as an article, a report, the text of a deck or a sales email, pasted or as `.txt`, `.md` or `.docx`. Up to 40 claims a run (15 on the chat route), with a longer draft run in parts. A report, and the draft with a mark beside every claim.
+
+**Out, on purpose:**
+
+- **Writing or rewriting drafts.** It marks a draft and never changes its prose.
+- **Claims about the user's own company, or about a named private person.** Listed for the user to confirm, not traced, because no public page settles them.
+- **Comparisons between claims.** Each claim gets its own verdict. Whether two figures can fairly sit side by side is the user's to judge, and the report says so.
+- **Images, charts, tables and PDF drafts.**
+- **Reading a draft from a CMS or a sequencer.**
+- **Web archive copies of pages that have gone.** A page that has gone is reported as page-gone.
+- **Drafts in other languages.** Not tested, so not claimed.
 - **Agents other than Claude.** Not tested, so not claimed.

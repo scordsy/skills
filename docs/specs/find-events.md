@@ -132,7 +132,7 @@ On the chat route, the same three as one document in the chat.
 
 Every fact on the shortlist comes from `records.md`. Nothing checks the hand-back, so it adds nothing the records do not say.
 
-## Not in v1
+## Not in this version
 
 Re-checking an old list later, calendar export, booking or registering, and agents other than Claude.
 

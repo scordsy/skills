@@ -5,7 +5,7 @@ The steps for a release, in order. Written after 0.4.2, so each step comes from 
 ## 1. Decide whether the check sets run again
 
 - **A change a check set exercises** (a stage's instructions, its reference files or its script): run that set again, after re-reading the sources behind its answer key. Each set's README says how.
-- **A change no check set reaches** (how a skill starts, its description, the docs): don't rerun, if Stefan agrees. Record it in each set's README, as for 0.3.2 and 0.4.2, and test the changed behaviour directly instead (step 2).
+- **A change no check set reaches** (how a skill starts, its description, the docs): the set need not run again. Record that, and why, in each set's README, as for 0.3.2 and 0.4.2, and test the changed behaviour directly instead (step 2).
 - **Say the size first.** The check-account-list and check-claims sets each use close to a million tokens a run. Each set's README gives its last figures.
 
 ## 2. Test the change itself

@@ -99,6 +99,7 @@ The profile interview showed two slips, both fixed in 0.3.2. It asked for the li
 - **The researchers and the checker are AI too.** The script confirms every quote is real and on the page cited. Whether a company sells to small businesses, or whether an investor took control, is still a judgement, written down with its reason and evidence so you can disagree.
 - **Size is a staff figure from filed accounts or the company's own site.** For a company in a group, the legal company can report nobody while a subsidiary employs everyone. The record says whose figure it is.
 - **It searches the names you give it.** Company names, and your best customers' and competitors' names, go to web search and to public registers, and the script loads each company's website and each page cited. Nothing else leaves the assistant you already use. Do not use it on a list you are not allowed to research.
+- **Its script tells websites it is a web browser,** because many company sites turn away anything else. It waits at least 2 seconds between requests to one site, and 5 for a register. It loads a register page only when a record cites it, and stops using a register that refuses it.
 
 ## Related
 
@@ -108,7 +109,7 @@ Its sibling is [list-decay](https://github.com/scordsy/list-decay), which finds 
 
 ## Where it came from
 
-My own test on 4 November 2026: free ChatGPT and Claude each asked for 50 companies like Breathe HR, for the made-up seller above. A separate check of 15 companies from each list found 1 usable as given from ChatGPT's, and 3 or 6 from Claude's. None of the 45 was made up. They were real companies that were the wrong size, bought, based elsewhere, selling to the wrong buyer, or the seller's own competitors.
+My own test on 4 November 2026: free ChatGPT once, and free Claude twice, with and without the same context, each asked for 50 companies like Breathe HR, for the made-up seller above. A separate check of 15 companies from each of the three lists found 1 usable as given from ChatGPT's, 3 from Claude's with the context and 6 from Claude's without it. None of the 45 was made up. They were real companies that were the wrong size, bought, based elsewhere, selling to the wrong buyer, or the seller's own competitors.
 
 ## About
 

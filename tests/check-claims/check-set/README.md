@@ -71,7 +71,7 @@ Pages change. Read every page in `answer-key.md` again, change the key if a fact
 
 ## Results
 
-Both runs were the skill as written, in Claude Code on 25 November 2026, with every reader, researcher and checker a fresh subagent. The run's own logs show all 20 on one model, `claude-fable-5-2`, and show that none of them opened the answer key. Tokens are all subagents together. Time is the reader, plus the longest researcher, plus the longest checker, because researchers run side by side and so do checkers.
+Both runs were the skill as written, with the two brief lines and the marked-draft helper described below, in Claude Code on 25 November 2026, with every reader, researcher and checker a fresh subagent. The run's own logs show all 20 on one model, `claude-fable-5-2`, and show that none of them opened the answer key. Tokens are all subagents together. Time is the reader, plus the longest researcher, plus the longest checker, because researchers run side by side and so do checkers.
 
 | Run | Draft | Result | Claims | Planted caught | Clean marked differs | Re-checked, changed | Quotes found by the script | Tokens | Time |
 |---|---|---|---|---|---|---|---|---|---|
@@ -120,7 +120,7 @@ Notes on the article, not failures:
 - **Sites that refused a researcher or checker**, each recorded in its record: Parliament's bill pages (a bot check), and `rollworks.com`, which sends the case study's address to another site's library.
 - **No sign-up form stopped anything.** The one form in the set had an open file behind it.
 
-Two lines went into every brief that are not part of the skill, because of where these runs happened: never use the browser extension, and a note that this machine's shell only reaches a site once the command names it, so a blocked request is not a site refusing. Without the second, a blocked request would have been written down as a page that would not open.
+Two lines went into every brief that are not part of the skill, because of where these runs happened: never use the browser extension, and a note that the test machine's network only lets a command reach a site it names, so a blocked request is not a site refusing. Without the second, a blocked request would have been written down as a page that would not open.
 
 ### How the marked drafts were made
 
@@ -128,11 +128,11 @@ The skill's instructions have the assistant write `marked.md` by hand. In these 
 
 ### Release 0.4.1
 
-**25 November 2026, release 0.4.1: not rerun, on Stefan's call.** 0.4.1 changes only the wording of check-claims' description, in the skill, the plugin and the marketplace entry. No instruction, reference file or script changed in any skill, so no check set was run again and no answer key was re-confirmed.
+**25 November 2026, release 0.4.1: not rerun, on my call.** 0.4.1 changes only the wording of check-claims' description, in the skill, the plugin and the marketplace entry. No instruction, reference file or script changed in any skill, so no check set was run again and no answer key was re-confirmed.
 
 ### Release 0.4.2
 
-**26 November 2026, release 0.4.2: not rerun, on Stefan's call.** 0.4.2 changes only what each skill says when it stops at its first step: a skill saved without its files, for example from a chat's save shortcut, now says so and how to reinstall it. None of the instructions, reference files or scripts this check set exercises changed, so the set was not run again and no answer key was re-confirmed. The new message was tested instead, in Claude Code with only each skill's main file installed: check-call-summary and find-events both stopped and gave the reinstall steps. A complete install of check-call-summary still passed its first step.
+**26 November 2026, release 0.4.2: not rerun, on my call.** 0.4.2 changes only what each skill says when it stops at its first step: a skill saved without its files, for example from a chat's save shortcut, now says so and how to reinstall it. None of the instructions, reference files or scripts this check set exercises changed, so the set was not run again and no answer key was re-confirmed. The new message was tested instead, in Claude Code with only each skill's main file installed: check-call-summary and find-events both stopped and gave the reinstall steps. A complete install of check-call-summary still passed its first step.
 
 ### Not covered
 

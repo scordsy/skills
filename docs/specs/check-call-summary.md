@@ -130,7 +130,7 @@ On either route, a folder `check-call-summary/<YYYY-MM-DD>-<short-name>/` in the
 
 On the chat route, the report and the corrected draft as one document in the chat, as well as the files.
 
-## Not in v1
+## Not in this version
 
 Writing summaries, reading from a call recorder through a connector (proposed for a later version in [ADR 0012](../adr/0012-it-reads-from-a-connected-call-recorder.md)), reading from or writing to a CRM, audio, checking many calls in one go, and transcripts in languages other than English.
 

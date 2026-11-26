@@ -1,12 +1,12 @@
 # 12. Reading a call from a connected call recorder
 
-**Status:** proposed, 4 November 2026. Not in v1. Accept it only once the conditions below are met and it has been run on a real call through at least one connector.
+**Status:** proposed, 4 November 2026. Not in this version. Accept it only once the conditions below are met and it has been run on a real call through at least one connector.
 
 ## Context
 
 Version 1 works from an exported file or a paste. Many call recorders now have Claude connectors, among them Fireflies, Otter, Fathom, Granola, tl;dv, Grain, Read.ai and Zoom, and several return both the transcript and the recorder's own AI summary. That is exactly the pair the skill checks, with nothing to export or paste. The user connects their own account in Claude, so the skill would never hold a key, and [ADR 0004](0004-no-api-keys.md) is not the obstacle [ADR 0010](0010-it-checks-and-never-writes.md) assumed.
 
-A connector version was drafted and reviewed on 4 November 2026, then taken out of v1 because it had never been run on a real call and the review found risks the skill cannot yet rule out.
+A connector version was drafted and reviewed on 4 November 2026, then taken out of the first version because it had never been run on a real call and the review found risks the skill cannot yet rule out.
 
 ## Proposed decision
 
