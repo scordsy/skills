@@ -15,20 +15,20 @@ python3 scripts/package_skill.py <skill>       # the Claude.ai zip, into dist/
 claude plugin validate .                      # the official manifest check (needs Claude Code)
 ```
 
-Run all four before every commit. CI runs the first three. The validator gives one expected warning: this `CLAUDE.md` sits at the plugin root because the repo is the plugin. It is for working on the repo and is not shipped as context, which is what the warning says. Since November 2026 its plugin directory checks also warn that the plugin has no icon. That does not change the result.
+Run all four before every commit. CI runs the first three. The validator gives one expected warning: this `CLAUDE.md` sits at the plugin root because the repo is the plugin. It is for working on the repo and is not shipped as context, which is what the warning says.
 
 ## Layout
 
 | Path | Holds |
 |---|---|
-| `.claude-plugin/` | `plugin.json` and the repo's own `marketplace.json` |
+| `.claude-plugin/` | `plugin.json`, the repo's own `marketplace.json`, and `icon.png`, the plugin's icon |
 | `skills/<name>/SKILL.md` | The skill. Claude Code finds every skill folder on its own |
 | `skills/<name>/references/` | Files the skill reads at each stage |
 | `skills/<name>/scripts/` | Standard-library Python the skill runs |
 | `skills/<name>/README.md` | For people browsing GitHub. Never read by the skill, left out of the zip |
 | `docs/specs/<name>.md` | The agreed design. Reviews check the skill against it |
 | `docs/examples/<name>/` | A real run, published as the skill's README example |
-| `docs/assets/` | Images the READMEs show, such as the banner at the top of `README.md`, and `banner.html`, the page the banner is rendered from |
+| `docs/assets/` | Images the READMEs show, such as the banner at the top of `README.md`, and `banner.html` and `icon.html`, the pages the banner and the plugin icon are rendered from |
 | `docs/adr/` | One short record per decision a reader would question |
 | `tests/` | Script tests, plus each skill's check set |
 | `scripts/` | Repo tooling: checks and packaging |

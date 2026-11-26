@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Skills plugin icon</title>
+<style>
+/* No fonts needed. Render at 1024 by 1024 to .claude-plugin/icon.png. */
+:root{--bg:#161616;--lime:#98e024;--orange:#fd971f;--cyan:#58d1eb;--pink:#f4005f}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1024px;height:1024px;background:var(--bg)}
+.icon{position:relative;width:1024px;height:1024px;overflow:hidden;background-color:var(--bg);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' shape-rendering='crispEdges'%3E%3Crect x='15' y='15' width='3' height='3' fill='%232a2a2a'/%3E%3C/svg%3E");
+  background-size:32px 32px}
+.mark{position:absolute;left:0;right:0;top:0;bottom:96px;display:flex;align-items:center;justify-content:center}
+.stripe{position:absolute;left:0;bottom:0;width:1024px;height:96px;display:flex}
+.stripe div{flex:1}
+</style></head>
+<body>
+<section class="icon">
+  <div class="mark"><svg width="620" height="620" viewBox="0 0 620 620" style="overflow:visible"><polyline points="95,335 245,485 530,145" fill="none" stroke="#98e024" stroke-width="120" stroke-linecap="square" stroke-linejoin="miter"/></svg></div>
+  <div class="stripe"><div style="background:var(--lime)"></div><div style="background:var(--orange)"></div><div style="background:var(--cyan)"></div><div style="background:var(--pink)"></div></div>
+</section>
+<script>window.READY=true;</script>
+</body></html>
