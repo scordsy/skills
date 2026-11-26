@@ -178,7 +178,7 @@ The first publisher's own page or document is the only evidence. Search results,
 
 ## Where it runs
 
-- **First, on every route**, the skill runs its script with no arguments. If it cannot, it says it cannot run in this chat and stops ([ADR 0017](../adr/0017-a-skill-stops-when-it-cannot-open-its-files.md)).
+- **First, on every route**, the skill runs its script with no arguments. If the script does not run, the skill lists its own folder, stops and tells the user why. If it can run code and the folder holds no `scripts/`, the skill was saved without its files, for example from a chat's offer to save it, and the user removes it and uploads the zip from the latest release under Customize, then Skills. Otherwise this chat cannot open the skill's files or run its script, and the user needs a normal chat (not an incognito one) with Create and edit files on ([ADR 0017](../adr/0017-a-skill-stops-when-it-cannot-open-its-files.md)).
 - **The route follows what the chat can do**, not the app ([ADR 0019](../adr/0019-the-route-follows-what-the-chat-can-do.md)).
 - **The subagent route**: a fresh reader, a fresh researcher per batch in parallel, and a fresh checker per batch that sees only the stripped claims.
 - **The chat route**: up to 15 claims. The reader and the research run in the chat. The check is handed to a fresh chat as one block to paste, because the checker has to go and find the source, and a chat that already believes the research would look in the same place ([ADR 0002](../adr/0002-the-checker-never-sees-the-research.md)). If the user declines, the report says at the top that no verdict was re-checked.
