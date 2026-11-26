@@ -39,6 +39,7 @@ Run all four before every commit. CI runs the first three. The validator gives o
 - **No API keys and no paid services**, in any skill. See [ADR 0004](docs/adr/0004-no-api-keys.md).
 - **Frontmatter is `name`, `description` and `license` only.** Claude.ai rejects most other keys. Descriptions stay under 200 characters until an upload proves the real limit.
 - **Every skill gets a line in the top-level `README.md`** linking to its folder.
+- **Releasing.** Follow [`docs/releasing.md`](docs/releasing.md), step by step.
 - **Version.** Bump `version` in `plugin.json` for every release, and tag the release `v` plus that version. Installed copies only update when it changes, and the release workflow refuses a tag that does not match.
 - **Before a release,** run each skill's check set again and record the result in its README: [`tests/find-events/`](tests/find-events/README.md) (re-confirm its records against the organisers' pages first), [`tests/check-call-summary/`](tests/check-call-summary/README.md) and its [second set](tests/check-call-summary/check-set-2/README.md), [`tests/check-account-list/`](tests/check-account-list/README.md) (re-confirm its answer key against Companies House and the companies' own sites first), and [`tests/check-claims/check-set/`](tests/check-claims/check-set/README.md) (read every page in its answer key again first).
 - **Writing.** UK English. No em-dashes, en-dashes or curly quotes. No "about" or "around" before a number: state it, or say where it comes from. Plain words over jargon.
