@@ -16,6 +16,8 @@ The paste-in check that find-events and check-account-list hand to a fresh chat 
 
 check-claims, added on 25 November 2026, follows the same rule: it runs its script with no arguments, as check-call-summary does, and stops if the script does not run.
 
+On 26 November 2026 a test found a second way to fail. In a Claude.ai or Claude Desktop chat, Claude may offer to save a skill to the user's account. That saves `SKILL.md` alone, with no `references/` or `scripts/`. The first check fails, as it should, but the stop message sent the user to turn on **Create and edit files**, which cannot help, because the files were never installed. So when the first check fails, every skill now lists its own folder before it stops. If a tool works and the folder holds no `references/` (or `scripts/` for the two skills whose first check runs a script), the message says the skill was saved without its files, and tells the user to remove it and upload the skill's zip from the latest release, under **Customize**, then **Skills**. Anything else gets the message above. The case rests on what the listing shows, because a failed open alone cannot tell the two apart: a wrong path fails the same way as a missing file.
+
 ## Why
 
 A skill that quietly runs from its summary looks like a working run and is not one: the questions, limits and checker instructions it drops are the ones the method depends on. Stopping costs the user one switch of chat. Asking for a real open, rather than a statement that the files are there, matters because the incognito chat listed the skill's files from their names in `SKILL.md` without opening any.

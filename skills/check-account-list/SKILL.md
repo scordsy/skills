@@ -25,7 +25,9 @@ Read each reference file when its stage begins, not before, apart from the first
 
 ## Before you start
 
-- **Check you can open this skill's files.** Every stage runs on them, not on this page. Open `references/profile.md` now with a tool that reads files. Stage 1 needs it next. Knowing its name from this page is not the same as opening it. If you have no tool that opens files, or it will not open, stop here and tell the user, in one message, that this chat cannot open the skill's files, so the skill cannot run in it, and that it needs a normal chat (not an incognito one) with **Create and edit files** turned on, under **Settings**, then **Capabilities**. Run nothing from this page alone.
+- **Check you can open this skill's files.** Every stage runs on them, not on this page. Open `references/profile.md` now with a tool that reads files. Stage 1 needs it next. Knowing its name from this page is not the same as opening it. If it will not open, list the folder this file is in, then stop here and tell the user, in one message, the one of these that fits. Run nothing from this page alone.
+  - **The skill was saved without its files.** You can open files, and the folder holds no `references/` folder. Tell the user the skill was saved without its files, for example when a chat offered to save it to their account, so it cannot run in any chat. They should remove it under **Customize**, then **Skills**, and upload `check-account-list.zip` from the latest release in its place: https://github.com/scordsy/skills/releases/latest
+  - **Anything else, such as no tool that opens files.** Tell the user this chat cannot open the skill's files, so the skill cannot run in it, and that it needs a normal chat (not an incognito one) with **Create and edit files** turned on, under **Settings**, then **Capabilities**.
 - **Find today's date.** "Bought in the last five years" is worked out from it.
 - **Any country.** The checks are the same everywhere. How much can be proven depends on each country's free company register, listed in `references/registers.md`.
 - **Work out which route you are on.** It depends on what you can do, not on which app you are in.
