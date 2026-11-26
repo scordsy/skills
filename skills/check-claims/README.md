@@ -66,7 +66,7 @@ Two kinds of claim are listed and not traced, and go to you to confirm: anything
 
 ## Install
 
-See the [install steps](../../README.md#install). Then ask Claude something like "check the facts in this draft before I publish it", or run `/check-claims`.
+See the [install steps](../../README.md#install). In Claude.ai or Claude Desktop, the zip to upload is [check-claims.zip](https://github.com/scordsy/skills/releases/latest/download/check-claims.zip). Then ask Claude something like "check the facts in this draft before I publish it", or run `/check-claims`.
 
 **In a Claude.ai or Claude Desktop chat**, turn on web search and **Create and edit files**, and use a normal chat, not an incognito one: the skill opens its own files, and the quote check is a script. A chat that can run subagents runs the same full version as Claude Code. A chat that can't takes up to 15 claims and traces them in the chat. For the re-check it builds one block for you to paste into a fresh chat, because a chat that already believes its research would look in the same place. If you skip that, the report says at the top that no verdict was re-checked.
 

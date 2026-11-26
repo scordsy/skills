@@ -31,7 +31,7 @@ The [full run is here](../../docs/examples/find-events/): the [brief](../../docs
 
 ## Install
 
-See the [install steps](../../README.md#install). Then ask Claude something like "which events should I go to next year to meet HR directors?", or run `/find-events`.
+See the [install steps](../../README.md#install). In Claude.ai or Claude Desktop, the zip to upload is [find-events.zip](https://github.com/scordsy/skills/releases/latest/download/find-events.zip). Then ask Claude something like "which events should I go to next year to meet HR directors?", or run `/find-events`.
 
 **In a Claude.ai or Claude Desktop chat** it depends on the chat. Use a normal chat with **Create and edit files** on, not an incognito one, which can't open the skill's files. A chat that can run subagents runs the same full version as Claude Code: on 19 November 2026 Claude.ai did, on my account. A chat that can't runs the lanes one after another, and for the check gives you a block to paste into a new chat, and you paste the answer back. That one paste is what keeps the check honest. Turn on web search in both chats. That second way has not yet been run end to end in a chat that could open the skill's files.
 
