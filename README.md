@@ -18,11 +18,11 @@
 
 In Claude.ai or the Claude Desktop app:
 
-1. **Turn on Create and edit files**, under **Settings**, then **Capabilities**.
-2. **Add the skill.** Paste this page's link into a chat and ask for the skill you want. Claude fetches the zip and shows you where to upload it, under **Customize**, then **Skills**.
+1. **Download the skill's zip**: [check-account-list.zip](https://github.com/scordsy/skills/releases/latest/download/check-account-list.zip), [check-call-summary.zip](https://github.com/scordsy/skills/releases/latest/download/check-call-summary.zip), [check-claims.zip](https://github.com/scordsy/skills/releases/latest/download/check-claims.zip) or [find-events.zip](https://github.com/scordsy/skills/releases/latest/download/find-events.zip). Or paste this page's link into a chat and ask Claude to fetch the one you want.
+2. **Upload it.** Turn on **Create and edit files**, under **Settings**, then **Capabilities**. Then go to **Customize**, then **Skills**, and upload the zip. If a chat offers to save the skill for you, upload the zip instead. That shortcut leaves out the scripts the skill runs.
 3. **Ask for what you need**, in your own words, in a normal chat: "check this call summary against the transcript before I put it in the CRM".
 
-The [full steps](#claudeai-and-claude-desktop) cover downloading a zip yourself and turning on web search. In Claude Code it takes [two commands](#claude-code).
+The [full steps](#claudeai-and-claude-desktop) cover web search and what to do if you can't see the upload button. In Claude Code it takes [two commands](#claude-code).
 
 ## Install
 
@@ -30,10 +30,10 @@ The skills work in Claude.ai in your browser and in the Claude Desktop app, and 
 
 ### Claude.ai and Claude Desktop
 
-Each skill is a zip you upload to your account once. Claude can fetch the zip for you in a chat, and you do the upload yourself.
+Each skill is a zip you upload to your account once. You do the upload yourself, because a chat's own way of saving a skill leaves out its scripts.
 
 1. **Turn on Create and edit files**, under **Settings**, then **Capabilities**. In the older Settings layout it is called **Code execution and file creation**. The skills open their own files and run small scripts, so they need it.
-2. **Get the zip.** The quick way: paste this page's link, github.com/scordsy/skills, into a chat and say which skill you want. Claude fetches the zip and shows you where to upload it. Or download it yourself: [check-account-list.zip](https://github.com/scordsy/skills/releases/latest/download/check-account-list.zip), [check-call-summary.zip](https://github.com/scordsy/skills/releases/latest/download/check-call-summary.zip), [check-claims.zip](https://github.com/scordsy/skills/releases/latest/download/check-claims.zip) or [find-events.zip](https://github.com/scordsy/skills/releases/latest/download/find-events.zip), all from the [latest release](https://github.com/scordsy/skills/releases/latest).
+2. **Get the zip.** Download it: [check-account-list.zip](https://github.com/scordsy/skills/releases/latest/download/check-account-list.zip), [check-call-summary.zip](https://github.com/scordsy/skills/releases/latest/download/check-call-summary.zip), [check-claims.zip](https://github.com/scordsy/skills/releases/latest/download/check-claims.zip) or [find-events.zip](https://github.com/scordsy/skills/releases/latest/download/find-events.zip), all from the [latest release](https://github.com/scordsy/skills/releases/latest). Or paste this page's link, github.com/scordsy/skills, into a chat and say which skill you want. Claude fetches the zip and shows you where to upload it. If Claude can't download it, use the links here.
 3. **Upload the zip.** Go to **Customize**, then **Skills**, then **+**, **Create skill**, **Upload a skill**, and choose the zip. If a chat offers to save the skill to your account for you, upload the zip instead. That shortcut keeps only the skill's main file and leaves out the scripts it runs.
 4. **Turn on web search** in the chat where you use find-events, check-account-list or check-claims.
 5. **Use a normal chat, not an incognito one.** An incognito chat can't open a skill's files, so the skill tells you it can't run there and stops. The one exception is the block find-events, check-account-list and check-claims may ask you to paste into a fresh chat for their check. It carries its own instructions, so an incognito chat is fine for that, and best, because it can't see the chat that did the research.
