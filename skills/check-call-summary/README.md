@@ -74,11 +74,11 @@ Reading the call straight from your call recorder through its Claude connector, 
 
 ## Install
 
-See the [install steps](../../README.md#install). Then run `/check-call-summary`, or ask Claude something like "check this call summary against the transcript before I put it in the CRM".
-
-**In Claude Code** the reader and each checker run as separate subagents, the checkers in parallel.
+See the [install steps](../../README.md#install). Then ask Claude something like "check this call summary against the transcript before I put it in the CRM", or run `/check-call-summary`.
 
 **In a Claude.ai or Claude Desktop chat** turn on **Create and edit files**, and use a normal chat, not an incognito one: the skill opens its own files and the quote check is a script, and it stops without them. A chat that can run subagents runs the same full version as Claude Code: on 19 November 2026 Claude.ai did, on my account, for both tests below. A chat that can't asks for the transcript first and writes the key facts down before it asks for the summary. The check then runs in the same chat, which is weaker than a fresh checker, and the report says so. The script still checks every quote. That second way has not yet been run end to end.
+
+**In Claude Code** the reader and each checker run as separate subagents, the checkers in parallel.
 
 ## What a run costs
 
